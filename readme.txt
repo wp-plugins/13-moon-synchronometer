@@ -71,18 +71,19 @@ The purpose is for your good, and your trust will grow to include peace on earth
 
 == Changelog ==
 
-= 1.4.1 - 14.11.2013 Silio Day 28 Self-Existing Moon 4 Kin 15 BLUE LUNAR EAGLE =
+= 1.4.1 - 14.11.2013 =
+* Cleanup: Silio Day 28 Self-Existing Moon 4 Kin 15 BLUE LUNAR EAGLE
 * Bugfix: Fixed a bad link in widget view
 * Changed: Edits to description text
 
-= 1.4.0 - 14.11.2013 Silio Day 28 Self-Existing Moon 4 Kin 15 BLUE LUNAR EAGLE =
-* Made improvements and fixed bugs
+= 1.4.0 - 14.11.2013 =
+* Made improvements and fixed bugs - Silio Day 28 Self-Existing Moon 4 Kin 15 BLUE LUNAR EAGLE
 * NEW : Added plenty of common-sense options
 * Bugfix : Slowed down the program's tendency to go inter-galactic transcending the space-time continuum
 * Additions: Screenshots of 13-Moon Synchronometer public and admin views
 
-= 1.3.9 - 13.11.2013 Limi Day 27 Self-Existing Moon 4 Kin 14 WHITE MAGNETIC WIZARD =
-* First Release of 13-Moon Synchronometer
+= 1.3.9 - 13.11.2013 =
+* First Release of 13-Moon Synchronometer - Limi Day 27 Self-Existing Moon 4 Kin 14 WHITE MAGNETIC WIZARD
 
 == Upgrade Notice ==
 
