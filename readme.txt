@@ -10,7 +10,7 @@ License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-The 13-Moon Synchronometer is a calendar of Natural Time and harmonic measurement tool synchronized with the synchronic order. Your site can easily display a harmonic Calendar. The plugin makes a widget you can drop in your sidebar or use shortcode [thirteen-moon-calendar] in a post or page.
+The 13-Moon Synchronometer is a calendar of Natural Time and harmonic measurement tool synchronized with natural order. Your site will display a harmonic Calendar, list your posts, moon, kin, and more. Makes a widget you can drop in a sidebar or use shortcode [thirteen-moon-calendar] in post or page to synchronize with Natural Time.
 
 = Contributors include =
 
@@ -38,28 +38,33 @@ Aho mitakeoasin, in lakech, ahau!
 
 = Automatic Method =
 
-1. You're reading this, so click 'install now'
+1. You're reading this, so click the 'install now' link above
 2. Activate the plugin `(in Plugins menu)`
-3. Got to Widgets, and put the 13-Moon Calendar widget into your sidebar
-4. Optional: insert the shortcode `[thirteen-moon-calendar]` into a post or page
 
 = Manual Method =
 
 1. Download the zip file from wordpress
 2. Go to Plugins, new, upload the zip file.  It will create a directory: `13-moon-synchronometer`
 3. Activate the plugin `(in Plugins menu)`
-4. Got to Widgets to put a 13-Moon Calendar widget into your sidebar
-5. Optional: insert shortcode `[thirteen-moon-calendar]` into a post or page
 
 = Once installed, how to make it work: =
 
-1. Got to Widgets, and put the 13-Moon Calendar widget into your sidebar
+1. Got to Widgets, and put a 13-Moon Calendar widget into a sidebar
 2. Optional: insert shortcode `[thirteen-moon-calendar]` into a post or page
 3. Settings are at `Dashboard -> Settings -> 13-Moon Settings`
 
 == Frequently Asked Questions ==
+
+1. What is the meaning of life?
+* Please try to keep your questions on the topic of the plugin
 
-== Screenshots ==
+== Screenshots ==
+
+1. Sidebar view 
+2. Day detail for launch day, Nov 13, 2013 Kin 14 - WHITE MAGNETIC WIZARD
+3. Use the handy 13-Moon Calendar Widget
+4. Navigate to settings
+5. Options panel
 
 == Changelog ==
 
