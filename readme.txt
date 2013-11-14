@@ -3,8 +3,8 @@ Contributors: tonyray, abmaya
 Author URI: http://anthonyfogleman.com/
 Donate link: http://anthonyfogleman.com/blog/donations/
 Tags: 13-moon, natural-time, dreamspell, tzolkin, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, Cosmic-History, sychronometer, calendar, natural-time, valum-votan, telektonon, turtle, native, maya, noosphere, psi-bank, kin, in-lakech
-Requires at least: WP 3.2, BuddyPress 1.2.9
-Tested up to: WP 3.7.1, BuddyPress 1.8.1
+Requires at least: WP 3.2
+Tested up to: WP 3.7.1
 Stable tag: 1.4.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
