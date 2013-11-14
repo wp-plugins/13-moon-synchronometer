@@ -1,0 +1,491 @@
+
+
+/* Control any element in the calendar grid ======================================== */
+
+#TB_title {
+     height: 27px;
+     font-size: 16px;
+}
+
+#cal_grid input{
+     width: 24px;
+     height: 24px;
+}
+
+/* THICKBOX - add the close icon into your core. ======================================== */
+
+.TB_overlayBG {
+	background-color: #aaf;
+	filter:alpha(opacity=60);
+	opacity:.2;
+}
+
+div.close_window{
+	margin-top: -50px;
+}
+
+#TB_closeAjaxWindow {
+	margin-top: -24px;
+	margin-bottom: -24px;
+}
+
+#TB_window a:link {
+	color: black !important;
+	padding: 0 4px !important;
+}
+
+#TB_window a:hover {
+//	background: silver;
+}
+
+/* Message Popup CSS ======================================== */
+
+button.ui-state-default {
+	width: 26px;
+     padding-right: 3px;
+     padding-left: 2px;
+}
+
+
+.ui-front {
+	z-index: 99999;
+}
+
+/* Inside popup container div ======================================== */
+
+#cal_inside_popup_wrapper div{
+	margin-left: 12px;
+}
+
+img.plasma_icons {
+     width: 22px;
+     height: 22px;
+}
+
+/* Calendar table definitions ======================================== */
+
+/* The whole thing is in a class, so we can customize any detail */
+
+#tm_synchronometer input {
+     padding: 0px;
+	text-align: center;
+	height: 20px;
+}
+
+div.tmc_ads {
+	margin-top: 13px;
+}
+
+#tm_synchronometer button.button_today {
+
+}
+
+
+#tm_synchronometer td {
+     padding-top: 2px;
+     padding-right: 2px;
+     padding-bottom: 2px;
+     padding-left: 2px;	
+	text-align: center;
+	vertical-align: middle;
+	font-size: 10px;
+}
+
+#tm_synchronometer a {
+	text-decoration: none;
+}
+
+#tm_synchronometer i.change_month {
+	font-size: x-large;
+}
+
+#tm_synchronometer td.cal_row_med_norm {
+     padding-top: 2px;
+     padding-right: 2px;
+     padding-bottom: 2px;
+     padding-left: 2px;
+     text-align: center;
+}
+
+
+/* calendar_wrapper calendar_inside_wrapper */
+
+.content {
+     float: left;
+     padding: 0px;
+     overflow: visible;
+}
+
+tr.plasma_row {
+	background-color: navy;
+}
+
+img.plasm_img {
+	border: none;
+}
+
+td.cal_row_dk_1 {
+    border: 1px solid #ccc;
+    width: 2em; /* or whatever... */
+    max-width: 2em; /* or whatever... */
+    height: 2em; /* or whatever... */
+    line-height: 2em; /* or whatever... */
+    text-align: center; /* a personal aesthetic choice... */
+    overflow: hidden; /* to prevent overflow... */
+}
+
+#calendar_wrapper table.tmc_table_tight {
+	margin: 2px 0px;
+	background-color: #FFFFCE;
+}
+
+table.tmc_table_tight {
+	margin: 2px 0px;
+	background-color: #FFFFCE;
+}
+
+table.tmc_hdr_table_tight {
+	margin: none;
+}
+
+td.cal_header_td {
+	padding: 2px 2px;
+	margin: none;
+}
+
+td.cal_cell_1 {
+	margin: none;
+}
+
+.content table tr td {
+     padding: none;
+     width: auto;
+     text-align: center;
+     border: 1px solid #CCC;
+}
+
+
+
+.content table tr td {
+     padding: none;
+     width: auto;
+     text-align: center;
+     border: 1px solid #CCC;
+}
+
+
+/* Anchor Tags for Calendar */
+
+a.cal_link:link, a.cal_link:visited {
+	font-size: 10px;
+	color: #0000FF;
+	font-weight: bold;
+	font-family: Verdana;
+	text-decoration: none;
+	text-align: center;
+}
+
+a.cal_link:hover, a.cal_link:active {
+	font-size: 10px;
+	color: White;
+	background-color: Green; /*	padding: 2px 2px 2px 2px; */
+	text-align: center;
+}
+
+/* Calendar Galactic Signatures - links to other days in the calendar */
+a.cal_gs_link_RED:link, a.cal_gs_link_RED:visited {
+	font-size: 14px;
+	color: Black;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-style: italic;
+}
+a.cal_gs_link_RED:hover, a.cal_gs_link_RED:active {
+	font-size: 14px;
+	color: #A8002A;
+	font-style: italic;
+}
+
+/* Calendar Galactic Signatures - links to other days in the calendar */
+a.cal_gs_link_WHITE:link, a.cal_gs_link_WHITE:visited {
+	font-size: 14px;
+	color: Black;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-style: italic;
+}
+a.cal_gs_link_WHITE:hover, a.cal_gs_link_WHITE:active {
+	font-size: 14px;
+	color: #AFAFAF;
+	font-style: italic;
+}
+
+/* Calendar Galactic Signatures - links to other days in the calendar */
+a.cal_gs_link_BLUE:link, a.cal_gs_link_BLUE:visited {
+	font-size: 14px;
+	color: Black;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-style: italic;
+}
+a.cal_gs_link_BLUE:hover, a.cal_gs_link_BLUE:active {
+	font-size: 14px;
+	color: Blue;
+	font-style: italic;
+}
+
+/* Calendar Galactic Signatures - links to other days in the calendar */
+a.cal_gs_link_YELLOW:link, a.cal_gs_link_YELLOW:visited {
+	font-size: 14px;
+	color: Black;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-style: italic;
+}
+a.cal_gs_link_YELLOW:hover, a.cal_gs_link_YELLOW:active {
+	font-size: 14px;
+	color: Olive;
+	font-style: italic;
+}
+
+
+/* BEGIN Calendar classes ======================================== */
+
+td.cal_hdr{
+	font-size: 20px;
+	color: Yellow;
+	text-align: center;
+	font-stretch: wider;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* HEADER - for Moon Name and Number */
+
+td.cal_row_dk_hlt /* Highlighted Day on Calendar */
+{
+	color: White;
+	background-color: #008082;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+	font-stretch: extra-expanded;
+	font-variant: small-caps;
+}
+
+td.cal_row_dk_1 /* White on dk Red */
+{
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: Maroon;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+	font-stretch: extra-expanded;
+	font-variant: small-caps;
+}
+
+td.cal_row_dk_2 /* White on dk Grey */
+{
+	font-size: 12px;
+	background-color: #474747;
+	color: White;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+	font-stretch: extra-expanded;
+	font-variant: small-caps;
+}
+
+td.cal_row_dk_3 /* White on dk Blue */
+{
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #00016A;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+	font-stretch: extra-expanded;
+	font-variant: small-caps;
+}
+
+td.cal_row_dk_4 /* White on dk Yellow */
+{
+	font-size: 12px;
+	color: White;
+	background-color: #444400;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+	font-stretch: extra-expanded;
+	font-variant: small-caps;
+}
+
+
+/* Medium darkenss for Gregorian Day */
+
+td.cal_row_med_hlt /* Highlighted Day on Calendar */
+{
+	padding: 2px;
+	color: Black;
+	text-align: center;
+	font-weight: bold;
+	white-space: nowrap;
+	background-color: rgb(174, 255, 158);
+}
+
+td.cal_row_med_1 /* White on Red */
+{
+	font-size: 10px;
+	color: #FFFFFF;
+	background-color: #CC0000;
+	vertical-align: top;
+	text-align: center;
+	white-space: nowrap;
+}
+
+td.cal_row_med_2 /* Black on White */
+{
+	font-size: 10px;
+	background-color: Silver;
+	color: #000000;
+	vertical-align: top;
+	text-align: center;
+	white-space: nowrap;
+}
+
+td.cal_row_med_3 /* White on Blue */
+{
+	font-size: 10px;
+	color: #FFFFFF;
+	background-color: #0002B9;
+	vertical-align: top;
+	text-align: center;
+	white-space: nowrap;
+}
+
+td.cal_row_med_4 /* Black on Yellow */
+{
+	font-size: 10px;
+	color: Black;
+	background-color: #FEFF73;
+	vertical-align: top;
+	text-align: center;
+	white-space: nowrap;
+}
+
+
+
+
+/* Medium ligth kin and guiding power */
+
+td.cal_row_medlt_hlt /* Highlighted Day on Calendar */
+{
+	font-size: 12px;
+	color: Black;
+	background-color: #B0F0F0;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+}
+
+td.cal_row_medlt_1 /* Black on Red */
+{
+	font-size: 12px;
+	color: Black;
+	background-color: #FF9797;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+}
+
+td.cal_row_medlt_2 /* Black on White */
+{
+	font-size: 12px;
+	background-color: #CCCCCC;
+	color: #000000;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+}
+
+td.cal_row_medlt_3 /* White on Blue */
+{
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #2F30FF;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+}
+
+td.cal_row_medlt_4 /* Black on Yellow */
+{
+	font-size: 12px;
+	color: Black;
+	background-color: #FFFF99;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+}
+
+
+/* Light for Tone and Tribe Day */
+
+td.cal_row_lt_hlt /* Highlighted Day on Calendar */
+{
+	font-size: 12px;
+	color: Black;
+	background-color: White;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+td.cal_row_lt_1 /* White on Red */
+{
+	font-size: 12px;
+	color: Black;
+	background-color: #FFB5C4;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+}
+
+td.cal_row_lt_2 /* Black on White */
+{
+	font-size: 12px;
+	background-color: #D4D4D4;
+	color: #000000;
+	vertical-align: middle;
+	white-space: nowrap;
+	text-align: center;
+}
+
+td.cal_row_lt_3 /* White on Blue */
+{
+	font-size: 12px;
+	color: Black;
+	background-color: #CECFFF;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+}
+
+td.cal_row_lt_4 /* Black on Yellow */
+{
+	font-size: 12px;
+	color: Black;
+	background-color: #FFFFCE;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+}
+
+
+/* END Calendar classes ======================================== */

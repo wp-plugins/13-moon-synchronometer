@@ -1,0 +1,261 @@
+|First line intentionally blank because it is element number zero... and we can use the element for the tribe number
+|1|1|1|1|RED|MAGNETIC|DRAGON|Attracting being|I seal the input of birth|With the magnetic tone of purpose|I am guided by my own power doubled|I am a galactic activation portal enter me| 
+|2|1|1|1|WHITE|LUNAR|WIND|Stabilizing breath|I seal the input of spirit|With the lunar tone of challenge|I am guided by the power of timelessness|| 
+|3|1|1|1|BLUE|ELECTRIC|NIGHT|Bonding intuition|I seal the input of abundance|With the electric tone of service|I am guided by the power of accomplishment|| 
+|4|1|1|1|YELLOW|SELF-EXISTING|SEED|Measuring awareness|I seal the input of flowering|With the self-existing tone of form|I am guided by the power of universal fire|| 
+|5|1|1|2|RED|OVERTONE|SERPENT|Commanding instinct|I seal the store of life force|With the overtone tone of radiance|I am guided by the power of space|| 
+|6|1|1|2|WHITE|RHYTHMIC|WORLDBRIDGER|Balancing opportunity|I seal the store of death|With the rhythmic tone of equality|I am guided by my own power doubled|| 
+|7|1|1|2|BLUE|RESONANT|HAND|Inspiring healing|I seal the store of accomplishment|With the resonant tone of attunement|I am guided by the power of self-generation|| 
+|8|1|1|2|YELLOW|GALACTIC|STAR|Modeling art|I seal the store of elegance|With the galactic tone of integrity|I am guided by the power of free will|| 
+|9|1|1|3|RED|SOLAR|MOON|Realizing flow|I seal the process of universal water|With the solar tone of intention|I am guided by the power of life force|| 
+|10|1|1|3|WHITE|PLANETARY|DOG|Producing loyalty|I seal the process of heart|With the planetary tone of manifestation|I am guided by the power of endlessness||I am a polar kin.  I extend the WHITE galactic spectrum
+|11|1|1|3|BLUE|SPECTRAL|MONKEY|Releasing illusion|I seal the process of magic|With the spectral tone of liberation|I am guided by my own power doubled|| 
+|12|1|1|3|YELLOW|CRYSTAL|HUMAN|Universalizing wisdom|I seal the process of free will|With the crystal tone of cooperation|I am guided by the power of flowering|| 
+|13|1|1|4|RED|COSMIC|SKYWALKER|Transcending wakefulness|I seal the output of space|With the cosmic tone of presence|I am guided by the power of navigation || 
+|14|1|2|4|WHITE|MAGNETIC|WIZARD|Attracting receptivity|I seal the output of timelessness|With the magnetic tone of purpose|I am guided by my own power doubled|| 
+|15|1|2|4|BLUE|LUNAR|EAGLE|Stabilizing mind|I seal the output of vision|With the lunar tone of challenge|I am guided by the power of accomplishment|| 
+|16|1|2|4|YELLOW|ELECTRIC|WARRIOR|Bonding fearlessness|I seal the output of intelligence|With the electric tone of service|I am guided by the power of universal fire|| 
+|17|1|2|5|RED|SELF-EXISTING|EARTH|Measuring synchronicity|I seal the matrix of navigation|With the self-existing tone of form|I am guided by the power of space|| 
+|18|1|2|5|WHITE|OVERTONE|MIRROR|Commanding order|I seal the matrix of endlessness|With the overtone tone of radiance|I am guided by the power of death|| 
+|19|1|2|5|BLUE|RHYTHMIC|STORM|Balancing energy|I seal the matrix of self-generation|With the rhythmic tone of equality|I am guided by my own power doubled|| 
+|20|1|2|5|YELLOW|RESONANT|SUN|Inspiring life|I seal the matrix of universal fire|With the resonant tone of attunement|I am guided by the power of free will|I am a galactic activation portal enter me| 
+|21|1|2|6|RED|GALACTIC|DRAGON|Modeling being|I seal the input of birth|With the galactic tone of integrity|I am guided by the power of life force|| 
+|22|1|2|6|WHITE|SOLAR|WIND|Realizing breath|I seal the input of spirit|With the solar tone of intention|I am guided by the power of endlessness|I am a galactic activation portal enter me| 
+|23|1|2|6|BLUE|PLANETARY|NIGHT|Producing intuition|I seal the input of abundance|With the planetary tone of manifestation|I am guided by the power of magic|| 
+|24|1|2|6|YELLOW|SPECTRAL|SEED|Releasing awareness|I seal the input of flowering|With the spectral tone of liberation|I am guided by my own power doubled|| 
+|25|1|2|7|RED|CRYSTAL|SERPENT|Universalizing instinct|I seal the store of life force|With the crystal tone of cooperation|I am guided by the power of navigation|| 
+|26|1|2|7|WHITE|COSMIC|WORLDBRIDGER|Transcending opportunity|I seal the store of death|With the cosmic tone of presence|I am guided by the power of heart|| 
+|27|1|3|7|BLUE|MAGNETIC|HAND|Attracting healing|I seal the store of accomplishment|With the magnetic tone of purpose|I am guided by my own power doubled|| 
+|28|1|3|7|YELLOW|LUNAR|STAR|Stabilizing art|I seal the store of elegance|With the lunar tone of challenge|I am guided by the power of universal fire|| 
+|29|1|3|8|RED|ELECTRIC|MOON|Bonding flow|I seal the process of universal water|With the electric tone of service|I am guided by the power of space|| 
+|30|1|3|8|WHITE|SELF-EXISTING|DOG|Measuring loyalty|I seal the process of heart|With the self-existing tone of form|I am guided by the power of death||I am a polar kin I convert the WHITE galactic spectrum
+|31|1|3|8|BLUE|OVERTONE|MONKEY|Commanding illusion|I seal the process of magic|With the overtone tone of radiance|I am guided by the power of self-generation|| 
+|32|1|3|8|YELLOW|RHYTHMIC|HUMAN|Balancing wisdom|I seal the process of free will|With the rhythmic tone of equality|I am guided by my own power doubled|| 
+|33|1|3|9|RED|RESONANT|SKYWALKER|Inspiring wakefulness|I seal the output of space|With the resonant tone of attunement|I am guided by the power of life force|| 
+|34|1|3|9|WHITE|GALACTIC|WIZARD|Modeling receptivity|I seal the output of timelessness|With the galactic tone of integrity|I am guided by the power of endlessness|| 
+|35|1|3|9|BLUE|SOLAR|EAGLE|Realizing mind|I seal the output of vision|With the solar tone of intention|I am guided by the power of magic|| 
+|36|1|3|9|YELLOW|PLANETARY|WARRIOR|Producing fearlessness|I seal the output of intelligence|With the planetary tone of manifestation|I am guided by the power of flowering|| 
+|37|1|3|10|RED|SPECTRAL|EARTH|Releasing synchronicity|I seal the matrix of navigation|With the spectral tone of liberation|I am guided by my own power doubled|| 
+|38|1|3|10|WHITE|CRYSTAL|MIRROR|Universalizing order|I seal the matrix of endlessness|With the crystal tone of cooperation|I am guided by the power of heart|| 
+|39|1|3|10|BLUE|COSMIC|STORM|Transcending energy|I seal the matrix of self-generation|With the cosmic tone of presence|I am guided by the power of abundance|I am a galactic activation portal enter me | 
+|40|1|4|10|YELLOW|MAGNETIC|SUN|Attracting life|I seal the matrix of universal fire|With the magnetic tone of purpose|I am guided by my own power doubled|| 
+|41|1|4|11|RED|LUNAR|DRAGON|Stabilizing being|I seal the input of birth|With the lunar tone of challenge|I am guided by the power of space|| 
+|42|1|4|11|WHITE|ELECTRIC|WIND|Bonding breath|I seal the input of spirit|With the electric tone of service|I am guided by the power of death|| 
+|43|1|4|11|BLUE|SELF-EXISTING|NIGHT|Measuring intuition|I seal the input of abundance|With the self-existing tone of form|I am guided by the power of self-generation|I am a galactic activation portal enter me| 
+|44|1|4|11|YELLOW|OVERTONE|SEED|Commanding awareness|I seal the input of flowering|With the overtone tone of radiance|I am guided by the power of free will|| 
+|45|1|4|12|RED|RHYTHMIC|SERPENT|Balancing instinct|I seal the store of life force|With the rhythmic tone of equality|I am guided by my own power doubled|| 
+|46|1|4|12|WHITE|RESONANT|WORLDBRIDGER|Inspiring opportunity|I seal the store of death|With the resonant tone of attunement|I am guided by the power of endlessness|| 
+|47|1|4|12|BLUE|GALACTIC|HAND|Modeling healing|I seal the store of accomplishment|With the galactic tone of integrity|I am guided by the power of magic|| 
+|48|1|4|12|YELLOW|SOLAR|STAR|Realizing art|I seal the store of elegance|With the solar tone of intention|I am guided by the power of flowering|| 
+|49|1|4|13|RED|PLANETARY|MOON|Producing flow|I seal the process of universal water|With the planetary tone of manifestation|I am guided by the power of navigation|| 
+|50|1|4|13|WHITE|SPECTRAL|DOG|Releasing loyalty|I seal the process of heart|With the spectral tone of liberation|I am guided by my own power doubled|I am a galactic activation portal enter me|I am a polar kin I transport the WHITE galactic spectrum 
+|51|1|4|13|BLUE|CRYSTAL|MONKEY|Universalizing illusion|I seal the process of magic|With the crystal tone of cooperation|I am guided by the power of abundance|I am a galactic activation portal enter me| 
+|52|1|4|13|YELLOW|COSMIC|HUMAN|Transcending wisdom|I seal the process of free will|With the cosmic tone of presence|I am guided by the power of intelligence|| 
+|53|2|5|14|RED|MAGNETIC|SKYWALKER|Attracting wakefulness|I seal the output of space|With the magnetic tone of purpose|I am guided by my own power doubled|| 
+|54|2|5|14|WHITE|LUNAR|WIZARD|Stabilizing receptivity|I seal the output of timelessness|With the lunar tone of challenge|I am guided by the power of death|| 
+|55|2|5|14|BLUE|ELECTRIC|EAGLE|Bonding mind|I seal the output of vision|With the electric tone of service|I am guided by the power of self-generation||I am a polar kin I establish the BLUE galactic spectrum
+|56|2|5|14|YELLOW|SELF-EXISTING|WARRIOR|Measuring fearlessness|I seal the output of intelligence|With the self-existing tone of form|I am guided by the power of free will|| 
+|57|2|5|15|RED|OVERTONE|EARTH|Commanding synchronicity|I seal the matrix of navigation|With the overtone tone of radiance|I am guided by the power of life force|| 
+|58|2|5|15|WHITE|RHYTHMIC|MIRROR|Balancing order|I seal the matrix of endlessness|With the rhythmic tone of equality|I am guided by my own power doubled|I am a galactic activation portal enter me| 
+|59|2|5|15|BLUE|RESONANT|STORM|Inspiring energy|I seal the matrix of self-generation|With the resonant tone of attunement|I am guided by the power of magic|| 
+|60|2|5|15|YELLOW|GALACTIC|SUN|Modeling life|I seal the matrix of universal fire|With the galactic tone of integrity|I am guided by the power of flowering|| 
+|61|2|5|16|RED|SOLAR|DRAGON|Realizing being|I seal the input of birth|With the solar tone of intention|I am guided by the power of navigation|| 
+|62|2|5|16|WHITE|PLANETARY|WIND|Producing breath|I seal the input of spirit|With the planetary tone of manifestation|I am guided by the power of heart|| 
+|63|2|5|16|BLUE|SPECTRAL|NIGHT|Releasing intuition|I seal the input of abundance|With the spectral tone of liberation|I am guided by my own power doubled|| 
+|64|2|5|16|YELLOW|CRYSTAL|SEED|Universalizing awareness|I seal the input of flowering|With the crystal tone of cooperation|I am guided by the power of intelligence|I am a galactic activation portal enter me| 
+|65|2|5|17|RED|COSMIC|SERPENT|Transcending instinct|I seal the store of life force|With the cosmic tone of presence|I am guided by the power of universal water|| 
+|66|2|6|17|WHITE|MAGNETIC|WORLDBRIDGER|Attracting opportunity|I seal the store of death|With the magnetic tone of purpose|I am guided by my own power doubled|| 
+|67|2|6|17|BLUE|LUNAR|HAND|Stabilizing healing|I seal the store of accomplishment|With the lunar tone of challenge|I am guided by the power of self-generation|| 
+|68|2|6|17|YELLOW|ELECTRIC|STAR|Bonding art|I seal the store of elegance|With the electric tone of service|I am guided by the power of free will|| 
+|69|2|6|18|RED|SELF-EXISTING|MOON|Measuring flow|I seal the process of universal water|With the self-existing tone of form|I am guided by the power of life force|I am a galactic activation portal enter me| 
+|70|2|6|18|WHITE|OVERTONE|DOG|Commanding loyalty|I seal the process of heart|With the overtone tone of radiance|I am guided by the power of endlessness|| 
+|71|2|6|18|BLUE|RHYTHMIC|MONKEY|Balancing illusion|I seal the process of magic|With the rhythmic tone of equality|I am guided by my own power doubled|| 
+|72|2|6|18|YELLOW|RESONANT|HUMAN|Inspiring wisdom|I seal the process of free will|With the resonant tone of attunement|I am guided by the power of flowering|I am a galactic activation portal enter me| 
+|73|2|6|19|RED|GALACTIC|SKYWALKER|Modeling wakefulness|I seal the output of space|With the galactic tone of integrity|I am guided by the power of navigation|| 
+|74|2|6|19|WHITE|SOLAR|WIZARD|Realizing receptivity|I seal the output of timelessness|With the solar tone of intention|I am guided by the power of heart|| 
+|75|2|6|19|BLUE|PLANETARY|EAGLE|Producing mind|I seal the output of vision|With the planetary tone of manifestation|I am guided by the power of abundance||I am a polar kin I extend the BLUE galactic spectrum
+|76|2|6|19|YELLOW|SPECTRAL|WARRIOR|Releasing fearlessness|I seal the output of intelligence|With the spectral tone of liberation|I am guided by my own power doubled|| 
+|77|2|6|20|RED|CRYSTAL|EARTH|Universalizing synchronicity|I seal the matrix of navigation|With the crystal tone of cooperation|I am guided by the power of universal water|I am a galactic activation portal enter me| 
+|78|2|6|20|WHITE|COSMIC|MIRROR|Transcending order|I seal the matrix of endlessness|With the cosmic tone of presence|I am guided by the power of spirit|| 
+|79|2|7|20|BLUE|MAGNETIC|STORM|Attracting energy|I seal the matrix of self-generation|With the magnetic tone of purpose|I am guided by my own power doubled|| 
+|80|2|7|20|YELLOW|LUNAR|SUN|Stabilizing life|I seal the matrix of universal fire|With the lunar tone of challenge|I am guided by the power of free will|| 
+|81|2|7|21|RED|ELECTRIC|DRAGON|Bonding being|I seal the input of birth|With the electric tone of service|I am guided by the power of life force|| 
+|82|2|7|21|WHITE|SELF-EXISTING|WIND|Measuring breath|I seal the input of spirit|With the self-existing tone of form|I am guided by the power of endlessness|| 
+|83|2|7|21|BLUE|OVERTONE|NIGHT|Commanding intuition|I seal the input of abundance|With the overtone tone of radiance|I am guided by the power of magic|| 
+|84|2|7|21|YELLOW|RHYTHMIC|SEED|Balancing awareness|I seal the input of flowering|With the rhythmic tone of equality|I am guided by my own power doubled|| 
+|85|2|7|22|RED|RESONANT|SERPENT|Inspiring instinct|I seal the store of life force|With the resonant tone of attunement|I am guided by the power of navigation|I am a galactic activation portal enter me| 
+|86|2|7|22|WHITE|GALACTIC|WORLDBRIDGER|Modeling opportunity|I seal the store of death|With the galactic tone of integrity|I am guided by the power of heart|| 
+|87|2|7|22|BLUE|SOLAR|HAND|Realizing healing|I seal the store of accomplishment|With the solar tone of intention|I am guided by the power of abundance|| 
+|88|2|7|22|YELLOW|PLANETARY|STAR|Producing art|I seal the store of elegance|With the planetary tone of manifestation|I am guided by the power of intelligence|I am a galactic activation portal enter me| 
+|89|2|7|23|RED|SPECTRAL|MOON|Releasing flow|I seal the process of universal water|With the spectral tone of liberation|I am guided by my own power doubled|| 
+|90|2|7|23|WHITE|CRYSTAL|DOG|Universalizing Loyalty|I seal the process of heart|With the crystal tone of cooperation|I am guided by the power of endlessness|| 
+|91|2|7|23|BLUE|COSMIC|MONKEY|Transcending illusion|I seal the process of magic|With the cosmic tone of presence|I am guided by the power of vision|| 
+|92|2|8|23|YELLOW|MAGNETIC|HUMAN|Attracting wisdom|I seal the process of free will|With the magnetic tone of purpose|I am guided by my own power doubled|| 
+|93|2|8|24|RED|LUNAR|SKYWALKER|Stabilizing wakefulness|I seal the output of space|With the lunar tone of challenge|I am guided by the power of life force|I am a galactic activation portal enter me| 
+|94|2|8|24|WHITE|ELECTRIC|WIZARD|Bonding receptivity|I seal the output of timelessness|With the electric tone of service|I am guided by the power of endlessness|| 
+|95|2|8|24|BLUE|SELF-EXISTING|EAGLE|Measuring mind|I seal the output of vision|With the self-existing tone of form|I am guided by the power of magic||I am a polar kin I convert the BLUE galactic spectrum
+|96|2|8|24|YELLOW|OVERTONE|WARRIOR|Commanding fearlessness|I seal the output of intelligence|With the overtone tone of radiance|I am guided by the power of flowering|I am a galactic activation portal enter me| 
+|97|2|8|25|RED|RHYTHMIC|EARTH|Balancing synchronicity|I seal the matrix of navigation|With the rhythmic tone of equality|I am guided by my own power doubled|| 
+|98|2|8|25|WHITE|RESONANT|MIRROR|Inspiring order|I seal the matrix of endlessness|With the resonant tone of attunement|I am guided by the power of heart|| 
+|99|2|8|25|BLUE|GALACTIC|STORM|Modeling energy|I seal the matrix of self-generation|With the galactic tone of integrity|I am guided by the power of abundance|| 
+|100|2|8|25|YELLOW|SOLAR|SUN|Realizing life|I seal the matrix of universal fire|With the solar tone of intention|I am guided by the power of intelligence|| 
+|101|2|8|26|RED|PLANETARY|DRAGON|Producing being|I seal the input of birth|With the planetary tone of manifestation|I am guided by the power of universal water|| 
+|102|2|8|26|WHITE|SPECTRAL|WIND|Releasing breath|I seal the input of spirit|With the spectral tone of liberation|I am guided by my own power doubled|| 
+|103|2|8|26|BLUE|CRYSTAL|NIGHT|Universalizing intuition|I seal the input of abundance|With the crystal tone of cooperation|I am guided by the power of vision|| 
+|104|2|8|26|YELLOW|COSMIC|SEED|Transcending awareness|I seal the input of flowering|With the cosmic tone of presence|I am guided by the power of elegance|| 
+|105|3|9|27|RED|MAGNETIC|SERPENT|Attracting instinct|I seal the store of life force|With the magnetic tone of purpose|I am guided by my own power doubled|| 
+|106|3|9|27|WHITE|LUNAR|WORLDBRIDGER|Stabilizing opportunity|I seal the store of death|With the lunar tone of challenge|I am guided by the power of magic|I am a galactic activation portal enter me| 
+|107|3|9|27|BLUE|ELECTRIC|HAND|Bonding healing|I seal the store of accomplishment|With the electric tone of service|I am guided by the power of magic|I am a galactic activation portal enter me| 
+|108|3|9|27|YELLOW|SELF-EXISTING|STAR|Measuring art|I seal the store of elegance|With the self-existing tone of form|I am guided by the power of flowering|I am a galactic activation portal enter me| 
+|109|3|9|28|RED|OVERTONE|MOON|Commanding flow|I seal the process of universal water|With the overtone tone of radiance|I am guided by the power of navigation|I am a galactic activation portal enter me| 
+|110|3|9|28|WHITE|RHYTHMIC|DOG|Balancing loyalty|I seal the process of heart|With the rhythmic tone of equality|I am guided by my own power doubled|I am a galactic activation portal enter me| 
+|111|3|9|28|BLUE|RESONANT|MONKEY|Inspiring illusion|I seal the process of magic|With the resonant tone of attunement|I am guided by the power of abundance|I am a galactic activation portal enter me| 
+|112|3|9|28|YELLOW|GALACTIC|HUMAN|Modeling wisdom|I seal the process of free will|With the galactic tone of integrity|I am guided by the power of intelligence|I am a galactic activation portal enter me| 
+|113|3|9|29|RED|SOLAR|SKYWALKER|Realizing wakefulness|I seal the output of space|With the solar tone of intention|I am guided by the power of universal water|I am a galactic activation portal enter me| 
+|114|3|9|29|WHITE|PLANETARY|WIZARD|Producing receptivity|I seal the output of timelessness|With the planetary tone of manifestation|I am guided by the power of spirit|I am a galactic activation portal enter me| 
+|115|3|9|29|BLUE|SPECTRAL|EAGLE|Releasing mind|I seal the output of vision|With the spectral tone of liberation|I am guided by my own power doubled|I am a galactic activation portal enter me|I am a polar kin I transport the BLUE galactic spectrum
+|116|3|9|29|YELLOW|CRYSTAL|WARRIOR|Universalizing fearlessness|I seal the output of intelligence|With the crystal tone of cooperation|I am guided by the power of elegance|| 
+|117|3|9|30|RED|COSMIC|EARTH|Transcending synchronicity|I seal the matrix of navigation|With the cosmic tone of presence|I am guided by the power of birth|| 
+|118|3|10|30|WHITE|MAGNETIC|MIRROR|Attracting order|I seal the matrix of endlessness|With the magnetic tone of purpose|I am guided by my own power doubled|| 
+|119|3|10|30|BLUE|LUNAR|STORM|Stabilizing energy|I seal the matrix of self-generation|With the lunar tone of challenge|I am guided by the power of magic|| 
+|120|3|10|30|YELLOW|ELECTRIC|SUN|Bonding life|I seal the matrix of universal fire|With the electric tone of service|I am guided by the power of flowering||I am a polar kin I establish the YELLOW galactic spectrum
+|121|3|10|31|RED|SELF-EXISTING|DRAGON|Measuring being|I seal the input of birth|With the self-existing tone of form|I am guided by the power of navigation|| 
+|122|3|10|31|WHITE|OVERTONE|WIND|Commanding breath|I seal the input of spirit|With the overtone tone of radiance|I am guided by the power of heart|| 
+|123|3|10|31|BLUE|RHYTHMIC|NIGHT|Balancing intuition|I seal the input of abundance|With the rhythmic tone of equality|I am guided by my own power doubled|| 
+|124|3|10|31|YELLOW|RESONANT|SEED|Inspiring awareness|I seal the input of flowering|With the resonant tone of attunement|I am guided by the power of intelligence|| 
+|125|3|10|32|RED|GALACTIC|SERPENT|Modeling instinct|I seal the store of life force|With the galactic tone of integrity|I am guided by the power of universal water|| 
+|126|3|10|32|WHITE|SOLAR|WORLDBRIDGER|Realizing opportunity|I seal the store of death|With the solar tone on intention|I am guided by the power of spirit|| 
+|127|3|10|32|BLUE|PLANETARY|HAND|Producing healing|I seal the store of accomplishment|With the planetary tone of manifestation|I am guided by the power of vision|| 
+|128|3|10|32|YELLOW|SPECTRAL|STAR|Releasing art|I seal the store of elegance|With the spectral tone of liberation|I am guided by my own power doubled|| 
+|129|3|10|33|RED|CRYSTAL|MOON|Universalizing flow|I seal the process of universal water|With the crystal tone of cooperation|I am guided by the power of birth|| 
+|130|3|10|33|WHITE|COSMIC|DOG|Transcending loyalty|I seal the process of heart|With the cosmic tone of presence|I am guided by the power of timelessness|| 
+|131|3|11|33|BLUE|MAGNETIC|MONKEY|Attracting illusion|I seal the process of magic|With the magnetic tone of purpose|I am guided by my own power doubled|| 
+|132|3|11|33|YELLOW|LUNAR|HUMAN|Stabilizing wisdom|I seal the process of free will|With the lunar tone of challenge|I am guided by the power of flowering|| 
+|133|3|11|34|RED|ELECTRIC|SKYWALKER|Bonding wakefulness|I seal the output of space|With the electric tone of service|I am guided by the power of navigation|| 
+|134|3|11|34|WHITE|SELF-EXISTING|WIZARD|Measuring receptivity|I seal the output of timelessness|With the self-existing tone of form|I am guided by the power of heart|| 
+|135|3|11|34|BLUE|OVERTONE|EAGLE|Commanding mind|I seal the output of vision|With the overtone tone of radiance|I am guided by the power of abundance|| 
+|136|3|11|34|YELLOW|RHYTHMIC|WARRIOR|Balancing fearlessness|I seal the output of intelligence|With the rhythmic tone of equality|I am guided by my own power doubled|| 
+|137|3|11|35|RED|RESONANT|EARTH|Inspiring synchronicity|I seal the matrix of navigation|With the resonant tone of attunement|I am guided by the power of universal water|| 
+|138|3|11|35|WHITE|GALACTIC|MIRROR|Modeling order|I seal the matrix of endlessness|With the galactic tone of integrity|I am guided by the power of spirit|| 
+|139|3|11|35|BLUE|SOLAR|STORM|Realizing energy|I seal the matrix of self-generation|With the solar tone of intention|I am guided by the power of vision|| 
+|140|3|11|35|YELLOW|PLANETARY|SUN|Producing life|I seal the matrix of universal fire|With the planetary tone of manifestation|I am guided by the power of elegance||I am a polar kin I extend the YELLOW galactic spectrum 
+|141|3|11|36|RED|SPECTRAL|DRAGON|Releasing being|I seal the input of birth|With the spectral tone of liberation|I am guided by my own power doubled|| 
+|142|3|11|36|WHITE|CRYSTAL|WIND|Universalizing breath|I seal the input of spirit|With the crystal tone of cooperation|I am guided by the power of timelessness|| 
+|143|3|11|36|BLUE|COSMIC|NIGHT|Transcending intuition|I seal the input of abundance|With the cosmic tone of presence|I am guided by the power of accomplishment|| 
+|144|3|12|36|YELLOW|MAGNETIC|SEED|Attracting awareness|I seal the input of flowering|With the magnetic tone of purpose|I am guided by my own power doubled|| 
+|145|3|12|37|RED|LUNAR|SERPENT|Stabilizing instinct|I seal the store of life force|With the lunar tone of challenge|I am guided by the power of navigation|| 
+|146|3|12|37|WHITE|ELECTRIC|WORLDBRIDGER|Bonding opportunity|I seal the store of death|With the electric tone of service|I am guided by the power of heart|I am a galactic activation portal enter me| 
+|147|3|12|37|BLUE|SELF-EXISTING|HAND|Measuring healing|I seal the store of accomplishment|With the self-existing tone of form|I am guided by the power of abundance|I am a galactic activation portal enter me| 
+|148|3|12|37|YELLOW|OVERTONE|STAR|Commanding art|I seal the store of elegance|With the overtone tone of radiance|I am guided by the power of intelligence|I am a galactic activation portal enter me| 
+|149|3|12|38|RED|RHYTHMIC|MOON|Balancing flow|I seal the process of universal water|With the rhythmic tone of equality|I am guided by my own power doubled|I am a galactic activation portal enter me| 
+|150|3|12|38|WHITE|RESONANT|DOG|Inspiring loyalty|I seal the process of heart|With the resonant tone of attunement|I am guided by the power of spirit|I am a galactic activation portal enter me| 
+|151|3|12|38|BLUE|GALACTIC|MONKEY|Modeling illusion|I seal the process of magic|With the galactic tone of integrity|I am guided by the power of vision|I am a galactic activation portal enter me| 
+|152|3|12|38|YELLOW|SOLAR|HUMAN|Realizing wisdom|I seal the process of free will|With the solar tone of intention|I am guided by the power of elegance|I am a galactic activation portal enter me| 
+|153|3|12|39|RED|PLANETARY|SKYWALKER|Producing wakefulness|I seal the output of space|With the planetary tone of manifestation|I am guided by the power of birth|I am a galactic activation portal enter me| 
+|154|3|12|39|WHITE|SPECTRAL|WIZARD|Releasing receptivity|I seal the output of timelessness|With the spectral tone of liberation|I am guided by my own power doubled|I am a galactic activation portal enter me| 
+|155|3|12|39|BLUE|CRYSTAL|EAGLE|Universalizing mind|I seal the output of vision|With the crystal tone of cooperation|I am guided by the power of accomplishment|I am a galactic activation portal enter me| 
+|156|3|12|39|YELLOW|COSMIC|WARRIOR|Transcending fearlessness|I seal the output of intelligence|With the cosmic tone of presence|I am guided by the power of universal fire|| 
+|157|4|13|40|RED|MAGNETIC|EARTH|Attracting synchronicity|I seal the matrix of navigation|With the magnetic tone of purpose|I am guided by my own power doubled|| 
+|158|4|13|40|WHITE|LUNAR|MIRROR|Stabilizing order|I seal the matrix of endlessness|With the lunar tone of challenge|I am guided by the power of heart|| 
+|159|4|13|40|BLUE|ELECTRIC|STORM|Bonding energy|I seal the matrix of self-generation|With the electric tone of service|I am guided by the power of abundance|| 
+|160|4|13|40|YELLOW|SELF-EXISTING|SUN|Measuring life|I seal the matrix of universal fire|With the self-existing tone of form|I am guided by the power of intelligence||I am a polar kin I convert the YELLOW galactic spectrum 
+|161|4|13|41|RED|OVERTONE|DRAGON|Commanding being|I seal the input of birth|With the overtone tone of radiance|I am guided by the power of universal water|| 
+|162|4|13|41|WHITE|RHYTHMIC|WIND|Balancing breath|I seal the input of spirit|With the rhythmic tone of equality|I am guided by my own power doubled|| 
+|163|4|13|41|BLUE|RESONANT|NIGHT|Inspiring intuition|I seal the input of abundance|With the resonant tone of attunement|I am guided by the power of vision|| 
+|164|4|13|41|YELLOW|GALACTIC|SEED|Modeling awareness|I seal the input of flowering|With the galactic tone of integrity|I am guided by the power of elegance|| 
+|165|4|13|42|RED|SOLAR|SERPENT|Realizing instinct|I seal the store of life force|With the solar tone of intention|I am guided by the power of birth|I am a galactic activation portal enter me| 
+|166|4|13|42|WHITE|PLANETARY|WORLDBRIDGER|Producing opportunity|I seal the store of death|With the planetary tone of manifestation|I am guided by the power of timelessness|| 
+|167|4|13|42|BLUE|SPECTRAL|HAND|Releasing healing|I seal the store of accomplishment|With the spectral tone of liberation|I am guided by my own power doubled|| 
+|168|4|13|42|YELLOW|CRYSTAL|STAR|Universalizing art|I seal the store of elegance|With the crystal tone of cooperation|I am guided by the power of universal fire|I am a galactic activation portal enter me| 
+|169|4|13|43|RED|COSMIC|MOON|Transcending flow|I seal the process of universal water|With the cosmic tone of presence|I am guided by the power of space|| 
+|170|4|14|43|WHITE|MAGNETIC|DOG|Attracting loyalty|I seal the process of heart|With the magnetic tone of purpose|I am guided by my own power doubled|| 
+|171|4|14|43|BLUE|LUNAR|MONKEY|Stabilizing illusion|I seal the process of magic|With the lunar tone of challenge|I am guided by the power of abundance|| 
+|172|4|14|43|YELLOW|ELECTRIC|HUMAN|Bonding wisdom|I seal the process of free will|With the electric tone of service|I am guided by the power of intelligence|| 
+|173|4|14|44|RED|SELF-EXISTING|SKYWALKER|Measuring wakefulness|I seal the output of space|With the self-existing tone of form|I am guided by the power of universal water|I am a galactic activation portal enter me| 
+|174|4|14|44|WHITE|OVERTONE|WIZARD|Commanding receptivity|I seal the output of timelessness|With the overtone tone of radiance|I am guided by the power of spirit|| 
+|175|4|14|44|BLUE|RHYTHMIC|EAGLE|Balancing mind|I seal the output of vision|With the rhythmic tone of equality|I am guided by my own power doubled|| 
+|176|4|14|44|YELLOW|RESONANT|WARRIOR|Inspiring fearlessness|I seal the output of intelligence|With the resonant tone of attunement|I am guided by the power of elegance|I am a galactic activation portal enter me| 
+|177|4|14|45|RED|GALACTIC|EARTH|Modeling synchronicity|I seal the matrix of navigation|With the galactic tone of integrity|I am guided by the power of birth|| 
+|178|4|14|45|WHITE|SOLAR|MIRROR|Realizing order|I seal the matrix of endlessness|With the solar tone of intention|I am guided by the power of timelessness|| 
+|179|4|14|45|BLUE|PLANETARY|STORM|Producing energy|I seal the matrix of self-generation|With the planetary tone of manifestation|I am guided by the power of accomplishment|| 
+|180|4|14|45|YELLOW|SPECTRAL|SUN|Releasing life|I seal the matrix of universal fire|With the spectral tone of liberation|I am guided by my own power doubled||I am a polar kin I transport the YELLOW galactic spectrum 
+|181|4|14|46|RED|CRYSTAL|DRAGON|Universalizing being|I seal the input of birth|With the crystal tone of cooperation|I am guided by the power of space|| 
+|182|4|14|46|WHITE|COSMIC|WIND|Transcending breath|I seal the input of spirit|With the cosmic tone of presence|I am guided by the power of death|| 
+|183|4|15|46|BLUE|MAGNETIC|NIGHT|Attracting intuition|I seal the input of abundance|With the magnetic tone of purpose|I am guided by my own power doubled|| 
+|184|4|15|46|YELLOW|LUNAR|SEED|Stabilizing awareness|I seal the input of flowering|With the lunar tone of challenge|I am guided by the power of intelligence|I am a galactic activation portal enter me| 
+|185|4|15|47|RED|ELECTRIC|SERPENT|Bonding instinct|I seal the store of life force|With the electric tone of service|I am guided by the power of universal water||I am a polar kin I establish the RED galactic spectrum
+|186|4|15|47|WHITE|SELF-EXISTING|WORLDBRIDGER|Measuring opportunity|I seal the store of death|With the self-existing tone of form|I am guided by the power of spirit|| 
+|187|4|15|47|BLUE|OVERTONE|HAND|Commanding healing|I seal the store of accomplishment|With the overtone tone of radiance|I am guided by the power of vision|| 
+|188|4|15|47|YELLOW|RHYTHMIC|STAR|Balancing art|I seal the store of elegance|With the rhythmic tone of equality|I am guided by my own power doubled|| 
+|189|4|15|48|RED|RESONANT|MOON|Inspiring flow|I seal the process of universal water|With the resonant tone of attunement|I am guided by the power of birth|I am a galactic activation portal enter me| 
+|190|4|15|48|WHITE|GALACTIC|DOG|Modeling loyalty|I seal the process of heart|With the galactic tone of integrity|I am guided by the power of timelessness|| 
+|191|4|15|48|BLUE|SOLAR|MONKEY|Realizing illusion|I seal the process of magic|With the solar tone of intention|I am guided by the power of accomplishment|| 
+|192|4|15|48|YELLOW|PLANETARY|HUMAN|Producing wisdom|I seal the process of free will|With the planetary tone of manifestation|I am guided by the power of universal fire|I am a galactic activation portal enter me| 
+|193|4|15|49|RED|SPECTRAL|SKYWALKER|Releasing wakefulness|I seal the output of space|With the spectral tone of liberation|I am guided by my own power doubled|| 
+|194|4|15|49|WHITE|CRYSTAL|WIZARD|Universalizing receptivity|I seal the output of timelessness|With the crystal tone of cooperation|I am guided by the power of death|| 
+|195|4|15|49|BLUE|COSMIC|EAGLE|Transcending mind|I seal the output of vision|With the cosmic tone of presence|I am guided by the power of self-generation|| 
+|196|4|16|49|YELLOW|MAGNETIC|WARRIOR|Attracting fearlessness|I seal the output of intelligence|With the magnetic tone of purpose|I am guided by my own power doubled|| 
+|197|4|16|50|RED|LUNAR|EARTH|Stabilizing synchronicity|I seal the matrix of navigation|With the lunar tone of challenge|I am guided by the power of universal water|I am a galactic activation portal enter me| 
+|198|4|16|50|WHITE|ELECTRIC|MIRROR|Bonding order|I seal the matrix of endlessness|With the electric tone of service|I am guided by the power of spirit|| 
+|199|4|16|50|BLUE|SELF-EXISTING|STORM|Measuring energy|I seal the matrix of self-generation|With the self-existing tone of form|I am guided by the power of vision|| 
+|200|4|16|50|YELLOW|OVERTONE|SUN|Commanding life|I seal the matrix of universal fire|With the overtone tone of radiance|I am guided by the power of elegance|| 
+|201|4|16|51|RED|RHYTHMIC|DRAGON|Balancing being|I seal the input of birth|With the rhythmic tone of equality|I am guided by my own power doubled|| 
+|202|4|16|51|WHITE|RESONANT|WIND|Inspiring breath|I seal the input of spirit|With the resonant tone of attunement|I am guided by the power of timelessness|| 
+|203|4|16|51|BLUE|GALACTIC|NIGHT|Modeling intuition|I seal the input of abundance|With the galactic tone of integrity|I am guided by the power of accomplishment|I am a galactic activation portal enter me| 
+|204|4|16|51|YELLOW|SOLAR|SEED|Realizing awareness|I seal the input of flowering|With the solar tone of intention|I am guided by the power of universal fire|| 
+|205|4|16|52|RED|PLANETARY|SERPENT|Producing instinct|I seal the store of life force|With the planetary tone of manifestation|I am guided by the power of space||I am a polar kin I extend the RED galactic spectrum
+|206|4|16|52|WHITE|SPECTRAL|WORLDBRIDGER|Releasing opportunity|I seal the store of death|With the spectral tone of liberation|I am guided by my own power doubled|| 
+|207|4|16|52|BLUE|CRYSTAL|HAND|Universalizing healing|I seal the store of accomplishment|With the crystal tone of cooperation|I am guided by the power of self-generation|| 
+|208|4|16|52|YELLOW|COSMIC|STAR|Transcending art|I seal the store of elegance|With the cosmic tone of presence|I am guided by the power of free will|| 
+|209|5|17|53|RED|MAGNETIC|MOON|Attracting flow|I seal the process of universal water|With the magnetic tone of purpose|I am guided by my own power doubled|| 
+|210|5|17|53|WHITE|LUNAR|DOG|Stabilizing loyalty|I seal the process of heart|With the lunar tone of challenge|I am guided by the power of spirit|I am a galactic activation portal enter me| 
+|211|5|17|53|BLUE|ELECTRIC|MONKEY|Bonding illusion|I seal the process of magic|With the electric tone of service|I am guided by the power of vision|I am a galactic activation portal enter me| 
+|212|5|17|53|YELLOW|SELF-EXISTING|HUMAN|Measuring wisdom|I seal the process of free will|With the self-existing tone of form|I am guided by the power of elegance|| 
+|213|5|17|54|RED|OVERTONE|SKYWALKER|Commanding wakefulness|I seal the output of space|With the overtone tone of radiance|I am guided by the power of birth|| 
+|214|5|17|54|WHITE|RHYTHMIC|WIZARD|Balancing receptivity|I seal the output of timelessness|With the rhythmic tone of equality|I am guided by my own power doubled|| 
+|215|5|17|54|BLUE|RESONANT|EAGLE|Inspiring mind|I seal the output of vision|With the resonant tone of attunement|I am guided by the power of accomplishment|| 
+|216|5|17|54|YELLOW|GALACTIC|WARRIOR|Modeling fearlessness|I seal the output of intelligence|With the galactic tone of integrity|I am guided by the power of universal fire|| 
+|217|5|17|55|RED|SOLAR|EARTH|Realizing synchronicity|I seal the matrix of navigation|With the solar tone of intention|I am guided by the power of space|| 
+|218|5|17|55|WHITE|PLANETARY|MIRROR|Producing order|I seal the matrix of endlessness|With the planetary tone of manifestation|I am guided by the power of death|I am a galactic activation portal enter me| 
+|219|5|17|55|BLUE|SPECTRAL|STORM|Releasing energy|I seal the matrix of self-generation|With the spectral tone of liberation|I am guided by my own power doubled|| 
+|220|5|17|55|YELLOW|CRYSTAL|SUN|Universalizing life|I seal the matrix of universal fire|With the crystal tone of cooperation|I am guided by the power of free will|| 
+|221|5|17|56|RED|COSMIC|DRAGON|Transcending being|I seal the input of birth|With the cosmic tone of presence|I am guided by the power of life force|| 
+|222|5|18|56|WHITE|MAGNETIC|WIND|Attracting breath|I seal the input of spirit|With the magnetic tone of purpose|I am guided by my own power doubled|I am a galactic activation portal enter me| 
+|223|5|18|56|BLUE|LUNAR|NIGHT|Stabilizing intuition|I seal the input of abundance|With the lunar tone of challenge|I am guided by the power of vision|| 
+|224|5|18|56|YELLOW|ELECTRIC|SEED|Bonding awareness|I seal the input of flowering|With the electric tone of service|I am guided by the power of elegance|| 
+|225|5|18|57|RED|SELF-EXISTING|SERPENT|Measuring instinct|I seal the store of life force|With the self-existing tone of form|I am guided by the power of birth||I am a polar kin I convert the RED galactic spectrum
+|226|5|18|57|WHITE|OVERTONE|WORLDBRIDGER|Commanding opportunity|I seal the store of death|With the overtone tone of radiance|I am guided by the power of timelessness|| 
+|227|5|18|57|BLUE|RHYTHMIC|HAND|Balancing healing|I seal the store of accomplishment|With the rhythmic tone of equality|I am guided by my own power doubled|| 
+|228|5|18|57|YELLOW|RESONANT|STAR|Inspiring art|I seal the store of elegance|With the resonant tone of attunement|I am guided by the power of universal fire|| 
+|229|5|18|58|RED|GALACTIC|MOON|Modeling flow|I seal the process of universal water|With the galactic tone of integrity|I am guided by the power of space|| 
+|230|5|18|58|WHITE|SOLAR|DOG|Realizing loyalty|I seal the process of heart|With the solar tone of intention|I am guided by the power of death|| 
+|231|5|18|58|BLUE|PLANETARY|MONKEY|Producing illusion|I seal the process of magic|With the planetary tone of manifestation|I am guided by the power of self-generation|| 
+|232|5|18|58|YELLOW|SPECTRAL|HUMAN|Releasing wisdom|I seal the process of free will|With the spectral tone of liberation|I am guided by my own power doubled|| 
+|233|5|18|59|RED|CRYSTAL|SKYWALKER|Universalizing wakefulness|I seal the output of space|With the crystal tone of cooperation|I am guided by the power of life force|| 
+|234|5|18|59|WHITE|COSMIC|WIZARD|Transcending receptivity|I seal the output of timelessness|With the cosmic tone of presence|I am guided by the power of endlessness|| 
+|235|5|19|59|BLUE|MAGNETIC|EAGLE|Attracting mind|I seal the output of vision|With the magnetic tone of purpose|I am guided by my own power doubled|| 
+|236|5|19|59|YELLOW|LUNAR|WARRIOR|Stabilizing fearlessness|I seal the output of intelligence|With the lunar tone of challenge|I am guided by the power of elegance|| 
+|237|5|19|60|RED|ELECTRIC|EARTH|Bonding synchronicity|I seal the matrix of navigation|With the electric tone of service|I am guided by the power of birth|| 
+|238|5|19|60|WHITE|SELF-EXISTING|MIRROR|Measuring order|I seal the matrix of endlessness|With the self-existing tone of form|I am guided by the power of timelessness|| 
+|239|5|19|60|BLUE|OVERTONE|STORM|Commanding energy|I seal the matrix of self-generation|With the overtone tone of radiance|I am guided by the power of accomplishment|I am a galactic activation portal enter me| 
+|240|5|19|60|YELLOW|RHYTHMIC|SUN|Balancing life|I seal the matrix of universal fire|With the rhythmic tone of equality|I am guided by my own power doubled|| 
+|241|5|19|61|RED|RESONANT|DRAGON|Inspiring being|I seal the input of birth|With the resonant tone of attunement|I am guided by the power of space|I am a galactic activation portal enter me| 
+|242|5|19|61|WHITE|GALACTIC|WIND|Modeling breath|I seal the input of spirit|With the galactic tone of integrity|I am guided by the power of death|| 
+|243|5|19|61|BLUE|SOLAR|NIGHT|Realizing intuition|I seal the input of abundance|With the solar tone of intention|I am guided by the power of self-generation|| 
+|244|5|19|61|YELLOW|PLANETARY|SEED|Producing awareness|I seal the input of flowering|With the planetary tone of manifestation|I am guided by the power of free will|| 
+|245|5|19|62|RED|SPECTRAL|SERPENT|Releasing instinct|I seal the store of life force|With the spectral tone of liberation|I am guided by my own power doubled||I am a polar kin I transport the RED galactic spectrum
+|246|5|19|62|WHITE|CRYSTAL|WORLDBRIDGER|Universalizing opportunity|I seal the store of death|With the crystal tone of cooperation|I am guided by the power of endlessness|| 
+|247|5|19|62|BLUE|COSMIC|HAND|Transcending healing|I seal the store of accomplishment|With the cosmic tone of presence|I am guided by the power of magic|| 
+|248|5|20|62|YELLOW|MAGNETIC|STAR|Attracting art|I seal the store of elegance|With the magnetic tone of purpose|I am guided by my own power doubled|| 
+|249|5|20|63|RED|LUNAR|MOON|Stabilizing flow|I seal the process of universal water|With the lunar tone of challenge|I am guided by the power of birth|| 
+|250|5|20|63|WHITE|ELECTRIC|DOG|Bonding loyalty|I seal the process of heart|With the electric tone of service|I am guided by the power of timelessness||I am a polar kin I establish the WHITE galactic spectrum
+|251|5|20|63|BLUE|SELF-EXISTING|MONKEY|Measuring illusion|I seal the process of magic|With the self-existing tone of form|I am guided by the power of accomplishment|| 
+|252|5|20|63|YELLOW|OVERTONE|HUMAN|Commanding wisdom|I seal the process of free will|With the overtone tone of radiance|I am guided by the power of universal fire|| 
+|253|5|20|64|RED|RHYTHMIC|SKYWALKER|Balancing wakefulness|I seal the output of space|With the rhythmic tone of equality|I am guided by my own power doubled|| 
+|254|5|20|64|WHITE|RESONANT|WIZARD|Inspiring receptivity|I seal the output of timelessness|With the resonant tone of attunement|I am guided by the power of death|| 
+|255|5|20|64|BLUE|GALACTIC|EAGLE|Modeling mind|I seal the output of vision|With the galactic tone of integrity|I am guided by the power of self-generation|| 
+|256|5|20|64|YELLOW|SOLAR|WARRIOR|Realizing fearlessness|I seal the output of intelligence|With the solar tone of intention|I am guided by the power of free will|| 
+|257|5|20|65|RED|PLANETARY|EARTH|Producing synchronicity|I seal the matrix of navigation|With the planetary tone of manifestation|I am guided by the power of life force|| 
+|258|5|20|65|WHITE|SPECTRAL|MIRROR|Releasing order|I seal the matrix of endlessness|With the spectral tone of liberation|I am guided by my own power doubled|| 
+|259|5|20|65|BLUE|CRYSTAL|STORM|Universalizing energy|I seal the matrix of self-generation|With the crystal tone of cooperation|I am guided by the power of magic|| 
+|260|5|20|65|YELLOW|COSMIC|SUN|Transcending life|I seal the matrix of universal fire|With the cosmic tone of presence|I am guided by the power of flowering|I am a galactic activation portal enter me| 
