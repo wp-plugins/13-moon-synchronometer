@@ -143,12 +143,22 @@ foreach ($array_moons_dates[$this_moon_num] as $moon_date_item){
 
      // returns an array: $thisday_posts_array
      $thisday_posts_array = get_this_day_wp_posts($this_mysql_date);
+
+// Set max number of posts to show per day
+	$show_num_posts = get_option('show_num_posts');
+	if ($show_num_posts == ""){$show_num_posts = 5;}
      
      // Do we have a listing of POSTS?
      // Loop through posts
 	$rurl_enc_posts_del =  "";
      if (count($thisday_posts_array) > 0) {
+		$countr = 0;
           foreach ($thisday_posts_array as $thisday_post_item){
+
+			if ($countr >= $show_num_posts){
+				break;
+			}
+
           	$this_id 			= $thisday_post_item->ID;
           	$this_title 		= $thisday_post_item->post_title;
           	$this_date 		= $thisday_post_item->post_date;
@@ -156,6 +166,8 @@ foreach ($array_moons_dates[$this_moon_num] as $moon_date_item){
           	$this_p_auth_nm 	= $thisday_post_item->guid;
 			$posts_del		= "$this_url|$this_title|";
           	$rurl_enc_posts_del .= rawurlencode("$posts_del");
+
+			$countr++;
           }
      }
 

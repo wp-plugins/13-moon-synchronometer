@@ -123,19 +123,16 @@ foreach ($lines as $kin_line){
 
     	$popup_content .= "</div>\n\n";
 
-// if ($show_famous_events != "NO"){$show_famous_events = "YES";}
+	if ($_GET[show_famous_events] == "YES"){
 
 // Link to SSP -- need to get options before we can display this
-//	$show_famous_events = get_option('show_famous_events');
-//	if ($show_famous_events != "NO"){
-//     	$ssp_link = "<a href=\"http://spacestationplaza.com/13-moon-dreamspell-calendar/$Color-$Tone-$Tribe\" target=\"_blank\">";
-//         	$popup_content .= "<br clear=\"both\">\n";
-//         	$popup_content .= "<div style=\"float: left; text-align: left; margin-top: 13px;\">";
-//         	$popup_content .= $ssp_link."Famous Events on Kin $this_day_kin_num</a>";
-//         	$popup_content .= "</div>\n\n";
-//	}
-
-//    	$popup_content .= "<br clear=\"both\">\n\n";
+     	$ssp_link = "<a href=\"http://spacestationplaza.com/13-moon-dreamspell-calendar/$Color-$Tone-$Tribe\" target=\"_blank\">";
+         	$popup_content .= "<br clear=\"both\">\n";
+         	$popup_content .= "<div style=\"float: left; text-align: left; margin-top: 13px;\">";
+         	$popup_content .= $ssp_link."Famous Events on Kin $this_day_kin_num</a>";
+         	$popup_content .= "</div>\n\n";
+	}
+    	$popup_content .= "<br clear=\"both\">\n\n";
 
 
 echo "$popup_content";

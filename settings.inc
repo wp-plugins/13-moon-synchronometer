@@ -65,21 +65,21 @@ echo "</table>\n";
 	   <th scope="row" style="width: 400px;"><b>Decoder Table Background Color:</b>
 <br> (default: eee) A hex value is either 3 or 6 characters.  For instance FF0000 is the same as F00 or another way to say red.  Each digit can be 0-8 or A-F.  000 is black.  FFF is white.  Each place stands for RED, GREEN, and BLUE.  So blue is 00F.  Grey is any value of the same number/letter.  For instance, ddd is a darker grey than eee.</th>
 	   <td valign=top>
-#<input size=8 maxlength=4 type="text" name="decode_table_background_color" value="<?php echo get_option('decode_table_background_color'); ?>" /> -- hex value
+#<input size=8 maxlength=6 type="text" name="decode_table_background_color" value="<?php echo get_option('decode_table_background_color'); ?>" /> -- hex value
 		</td>
 	   </tr>
 
 	   <tr>
 	   <th scope="row"><b>Moon Table Background Color:</b><br>(default: ddd)</th>
 	   <td valign=top>
-#<input size=8 maxlength=4 type="text" name="moon_table_background_color" value="<?php echo get_option('moon_table_background_color'); ?>" /> Any hex Value
+#<input size=8 maxlength=6 type="text" name="moon_table_background_color" value="<?php echo get_option('moon_table_background_color'); ?>" /> Any hex Value
 		</td>
 	   </tr>
 
 	   <tr>
 	   <th scope="row"><b>Plasma Table Background Color:</b><br>(default: fff - white)</th>
 	   <td valign=top>
-#<input size=8 maxlength=4 type="text" name="plasma_table_background_color" value="<?php echo get_option('plasma_table_background_color'); ?>" />Any hex Value
+#<input size=8 maxlength=6 type="text" name="plasma_table_background_color" value="<?php echo get_option('plasma_table_background_color'); ?>" />Any hex Value
 		</td>
 	   </tr>
 
@@ -88,28 +88,28 @@ echo "</table>\n";
 	   <tr>
 	   <th scope="row"><b>Current Day Highlight Color</b></th>
 	   <td valign=top>
-<input size=8 maxlength=4 type="text" name="curr_day_hilite_color" value="<?php echo get_option('curr_day_hilite_color'); ?>" />px (Default is 00f)
+<input size=8 maxlength=6 type="text" name="curr_day_hilite_color" value="<?php echo get_option('curr_day_hilite_color'); ?>" />px (Default is 00f)
 		</td>
 	   </tr>
 
 	   <tr>
 	   <th scope="row"><b>Day With Posts Border Highlight Color</b></th>
 	   <td valign=top>
-<input size=8 maxlength=4 type="text" name="day_with_posts_highlight_border_color" value="<?php echo get_option('day_with_posts_highlight_border_color'); ?>" />hex (Default is 00f)
+<input size=8 maxlength=6 type="text" name="day_with_posts_highlight_border_color" value="<?php echo get_option('day_with_posts_highlight_border_color'); ?>" />hex (Default is 00f)
 		</td>
 	   </tr>
 
 	   <tr>
 	   <th scope="row"><b>Day With Posts Border Size</b></th>
 	   <td valign=top>
-<input size=8 maxlength=4 type="text" name="day_with_posts_highlight_border_size" value="<?php echo get_option('day_with_posts_highlight_border_size'); ?>" />px (Default is 2)
+<input size=8 maxlength=1 type="text" name="day_with_posts_highlight_border_size" value="<?php echo get_option('day_with_posts_highlight_border_size'); ?>" />px (Default is 2)
 		</td>
 	   </tr>
 
 	   <tr>
 	   <th scope="row"><b>Maximum Number of Posts shown in Day Popup</b></th>
 	   <td valign=top>
-<input size=8 maxlength=4 type="text" name="show_num_posts" value="<?php echo get_option('show_num_posts'); ?>" />(Default is 5)
+<input size=8 maxlength=2 type="text" name="show_num_posts" value="<?php echo get_option('show_num_posts'); ?>" />(Default is 5)
 		</td>
 	   </tr>
 
@@ -153,19 +153,16 @@ We're wondering what OTHER settings or FEATURES you might like.
 <br><br>
 With the next version, we hope to have:
 <ul>
-<li>- Width of border of day button with posts or disable</li>
 <li>- Color of text on day button with posts</li>
-<li>- Highlight color of this day's plasma or disable</li>
 <li>- Position (top or bottom) of the day's posts appearing in the popup dialog</li>
-<li>- Max number of the day's posts to appear in the popup dialog</li>
 <li>- Translate: English to Dutch and Spanish - it will sense user's language and switch on its own</li>
-<li>- List users born on this kin (BuddyPress-friendly)</li>
+
 <li>- List most recent activity (BuddyPress)</li>
-<li>- <b>DONE:</b> Popups for DAY OUT OF TIME and LEAP DAY</li>
-<li>- <b>DONE:</b> Fix date won't go before 1902 and after 2037</li>
+<li>- List users born on this kin (BuddyPress-friendly)</li>
+
 </ul>
 Please rate this plugin, and share know how it looks in YOUR copy of WordPress.
-<br><br>And be sure to check out our other plugins like <a href="http://wordpress.org/plugins/cosmic-history-quotes/" target="_blank">Cosmic History Quotes</a>
+<br><br>If you like this plugin, you might also like the <a href="http://wordpress.org/plugins/cosmic-history-quotes/" target="_blank">Cosmic History Quotes WP Plugin</a>
 
 <hr>
 

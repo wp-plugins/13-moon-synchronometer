@@ -5,12 +5,12 @@ Donate link: http://anthonyfogleman.com/blog/donations/
 Tags: 13-moon, natural-time, dreamspell, tzolkin, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, Cosmic-History, sychronometer, calendar, natural-time, valum-votan, telektonon, turtle, native, maya, noosphere, psi-bank, kin, in-lakech
 Requires at least: WP 3.2
 Tested up to: WP 3.7.1, BuddyPress 1.8.1
-Stable tag: 1.3.9
+Stable tag: 1.4.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-The 13-Moon Synchronometer is a calendar of Natural Time. A harmonic measurement tool synchronized with the cycles of synchronic order. Your WordPress website can now easily display the 13-Moon Calendar. It makes a widget you can drop in your sidebar or use shortcode [thirteen-moon-calendar] in a post or page.
+The 13-Moon Synchronometer is a calendar of Natural Time and harmonic measurement tool synchronized with the synchronic order. Your site can easily display a harmonic Calendar. The plugin makes a widget you can drop in your sidebar or use shortcode [thirteen-moon-calendar] in a post or page.
 
 = Contributors include =
 
@@ -48,13 +48,13 @@ Aho mitakeoasin, in lakech, ahau!
 1. Download the zip file from wordpress
 2. Go to Plugins, new, upload the zip file.  It will create a directory: `13-moon-synchronometer`
 3. Activate the plugin `(in Plugins menu)`
-4. Got to Widgets, and put the 13-Moon Calendar widget into your sidebar
-5. Optional: insert the shortcode `[thirteen-moon-calendar]` into a post or page
+4. Got to Widgets to put a 13-Moon Calendar widget into your sidebar
+5. Optional: insert shortcode `[thirteen-moon-calendar]` into a post or page
 
 = Once installed, how to make it work: =
 
 1. Got to Widgets, and put the 13-Moon Calendar widget into your sidebar
-2. Optional: insert the shortcode `[thirteen-moon-calendar]` into a post or page
+2. Optional: insert shortcode `[thirteen-moon-calendar]` into a post or page
 3. Settings are at `Dashboard -> Settings -> 13-Moon Settings`
 
 == Frequently Asked Questions ==
@@ -63,7 +63,15 @@ Aho mitakeoasin, in lakech, ahau!
 
 == Changelog ==
 
-= 1.3.9 =
-* First Release of 13-Moon Synchronometer
+= 1.4.0 - 14.11.2013 =
+* Made improvements and fixed bugs
+* NEW : Added plenty of common-sense options
+* Bugfix : Slowed down the program's tendency to go inter-galactic transcending the space-time continuum
+
+= 1.3.9 - 13.11.2013 =
+* First Release of 13-Moon Synchronometer
 
 == Upgrade Notice ==
+
+= 1.4.0 =
+Made lots of improvements on the synchronometer's first day online
