@@ -25,7 +25,7 @@ class tmc_plugin_widget extends WP_Widget {
      <label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Widget Title', 'wp_widget_plugin'); ?></label>
      <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
      </p>
-There's <a href="options-general.php?page=cosmic-history-quotes/settings.inc">More Settings to customize tmc</a>
+More <a href="options-general.php?page=13-moon-synchronometer/settings.inc">Customize 13-moon Settings</a>
 
      <?php
      }

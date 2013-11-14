@@ -2,10 +2,10 @@
 Contributors: tonyray, abmaya
 Author URI: http://anthonyfogleman.com/
 Donate link: http://anthonyfogleman.com/blog/donations/
-Tags: 13-moon, natural-time, dreamspell, tzolkin, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, Cosmic-History, sychronometer, calendar, natural-time, valum-votan, telektonon, turtle, native, maya, noosphere, psi-bank, kin, in-lakech
+Tags: 13-moon, natural-time, dreamspell, tzolkin, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, Cosmic-History, sychronometer, calendar, natural-time, valum-votan, telektonon, turtle, native, maya, noosphere, psi-bank, kin, in-lakech, decode, date
 Requires at least: WP 3.2
 Tested up to: WP 3.7.1
-Stable tag: 1.4.0
+Stable tag: 1.4.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -69,14 +69,19 @@ The purpose is for your good, and your trust will grow to include peace on earth
 4. Navigate to settings
 5. Options panel
 
-== Changelog ==
+== Changelog ==
 
-= 1.4.0 - 14.11.2013 =
+= 1.4.1 - 14.11.2013 Silio Day 28 Self-Existing Moon 4 Kin 15 BLUE LUNAR EAGLE =
+* Bugfix: Fixed a bad link in widget view
+* Changed: Edits to description text
+
+= 1.4.0 - 14.11.2013 Silio Day 28 Self-Existing Moon 4 Kin 15 BLUE LUNAR EAGLE =
 * Made improvements and fixed bugs
 * NEW : Added plenty of common-sense options
 * Bugfix : Slowed down the program's tendency to go inter-galactic transcending the space-time continuum
+* Additions: Screenshots of 13-Moon Synchronometer public and admin views
 
-= 1.3.9 - 13.11.2013 =
+= 1.3.9 - 13.11.2013 Limi Day 27 Self-Existing Moon 4 Kin 14 WHITE MAGNETIC WIZARD =
 * First Release of 13-Moon Synchronometer
 
 == Upgrade Notice ==
