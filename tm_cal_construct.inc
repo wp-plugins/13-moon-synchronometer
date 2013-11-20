@@ -162,11 +162,11 @@ function start_new_calendar() {
      if ($permit_credits === "YES"){
          	echo "<div class=tmc_ads>";
          	echo "<div id=\"morestuff\">";
-         	echo "<a target=\"_BLANK\" href=\"http://lawoftime.org/\" title=\"Foundation for the Law of Time\">FLT</a>";
+         	echo "<a class=tmc_ads target=\"_BLANK\" href=\"http://lawoftime.org/\" title=\"Foundation for the Law of Time\">FLT</a>";
          	echo " ";
-         	echo "<a target=\"_BLANK\" href=\"http://spacestationplaza.com/\" title=\"Space Station Plaza\">SSP</a>";
+         	echo "<a class=tmc_ads target=\"_BLANK\" href=\"http://spacestationplaza.com/\" title=\"Space Station Plaza\">SSP</a>";
          	echo " ";
-         	echo "<a target=\"_BLANK\" href=\"http://www.u-ching.com/\" title=\"uChing Network\">uCHING</a>";
+         	echo "<a class=tmc_ads target=\"_BLANK\" href=\"http://www.u-ching.com/\" title=\"uChing Network\">uCHING</a>";
          	echo "</div>";
          	echo "</div>";
 

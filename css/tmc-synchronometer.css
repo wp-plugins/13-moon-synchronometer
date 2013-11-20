@@ -27,7 +27,7 @@
 	font-size: x-small;
 }
 
-#morestuff a:link, a:visited, a:hover, a:active {
+a.tmc_ads:link, a.tmc_ads:visited, a.tmc_ads:hover, a.tmc_ads:active {
      display: inline;
      background: none;
      text-decoration: none;
@@ -38,9 +38,6 @@
      padding-left: 4px;
      float: right;
 }
-
-}
-
 
 
 /* THICKBOX - add the close icon into your core. ======================================== */
