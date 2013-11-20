@@ -8,9 +8,40 @@
 }
 
 #cal_grid input{
-     width: 24px;
-     height: 24px;
+     width: 18px;
+     height: 18px;
 }
+
+#tm_synchronometer select {
+	font-size: 10px;
+	font-size: x-small;
+}
+
+
+#tm_synchronometer input[type="text"] {
+     padding: 0px;
+     text-align: center;
+     height: 20px;
+     width: 30px;
+	font-size: 10px;
+	font-size: x-small;
+}
+
+#morestuff a:link, a:visited, a:hover, a:active {
+     display: inline;
+     background: none;
+     text-decoration: none;
+     font-size: 10px;
+     font-weight: bold;
+
+     line-height: 14px;
+     padding-left: 4px;
+     float: right;
+}
+
+}
+
+
 
 /* THICKBOX - add the close icon into your core. ======================================== */
 
@@ -59,7 +90,7 @@ button.ui-state-default {
 
 img.plasma_icons {
      width: 22px;
-     height: 22px;
+	height: auto;
 }
 
 /* Calendar table definitions ======================================== */
@@ -83,7 +114,7 @@ div.tmc_ads {
 
 #tm_synchronometer td {
      padding-top: 2px;
-     padding-right: 2px;
+
      padding-bottom: 2px;
      padding-left: 2px;	
 	text-align: center;

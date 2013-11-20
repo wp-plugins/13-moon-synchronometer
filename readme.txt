@@ -5,7 +5,7 @@ Donate link: http://anthonyfogleman.com/blog/donations/
 Tags: 13-moon, natural-time, dreamspell, tzolkin, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, Cosmic-History, sychronometer, calendar, natural-time, valum-votan, telektonon, turtle, native, maya, noosphere, psi-bank, kin, in-lakech, decode, date
 Requires at least: WP 3.2
 Tested up to: WP 3.7.1
-Stable tag: 1.4.1
+Stable tag: 1.4.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -71,6 +71,10 @@ The purpose is for your good, and your trust will grow to include peace on earth
 
 == Changelog ==
 
+= 1.4.2 - 20.11.2013 =
+* Fixed style sheet to look good in iPhone and sidebars 160 pixels wide or wider.
+* Arranged credits to take less space
+
 = 1.4.1 - 14.11.2013 =
 * Cleanup: Silio Day 28 Self-Existing Moon 4 Kin 15 BLUE LUNAR EAGLE
 * Bugfix: Fixed a bad link in widget view
@@ -86,6 +90,9 @@ The purpose is for your good, and your trust will grow to include peace on earth
 * First Release of 13-Moon Synchronometer - Limi Day 27 Self-Existing Moon 4 Kin 14 WHITE MAGNETIC WIZARD
 
 == Upgrade Notice ==
+
+= 1.4.2 =
+Fixed style to make it look really good in iPhones and sidebars as small as 160 pixels.
 
 = 1.4.0 =
 Made lots of improvements on the synchronometer's first day online
