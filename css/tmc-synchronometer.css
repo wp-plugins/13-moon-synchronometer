@@ -92,6 +92,10 @@ img.plasma_icons {
 	height: auto;
 }
 
+.tb-close-icon {
+     margin-top: 5px;
+}
+
 /* Calendar table definitions ======================================== */
 
 /* The whole thing is in a class, so we can customize any detail */

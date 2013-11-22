@@ -78,7 +78,7 @@ foreach ($lines as $kin_line){
 	$popup_content .= "</div>\n";
 
 // Show Kin Number and Text
-	$popup_content .= "<div style=\"float: left; text-align: left; margin-top: 13px; margin-left: 13px;\">";
+	$popup_content .= "<div style=\"float: left; text-align: left; margin-top: 37px; margin-left: 13px;\">";
 	$popup_content .= "<h3>Kin $this_day_kin_num</h3>";
 	$popup_content .= "$Color<br>$Tone<br>$Tribe\n";
 	$popup_content .= "</div>\n";
@@ -98,7 +98,7 @@ foreach ($lines as $kin_line){
 
 // Portal Info
 	if ($Portals != ""){
-	    	$popup_content .= "<div style=\"float: left; text-align: center; margin-top: 13px; width: 150px;\">";
+	    	$popup_content .= "<div style=\"float: left; text-align: center; margin-top: 0px; width: 150px;\">";
 	    	$popup_content .= "<div style=\"float: left;\">";
      	$popup_content .= "<img src=\"$portals_img_dir/portals_trans.gif\" border=0 width=30 height=60 alt=\"Galactic Portal Day\">";
 	    	$popup_content .= "</div>\n\n";

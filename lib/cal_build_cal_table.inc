@@ -139,8 +139,8 @@ foreach ($array_moons_dates[$this_moon_num] as $moon_date_item){
 // or this
 // font-weight: bold;
 
-// Make a title for the button
-	$button_title = "title=\"$this_moon_name $day_of_mo_num kin $this_day_kin_num $this_nice_translated_date\"";
+// Make a title for the button // $this_moon_name $day_of_mo_num kin $this_day_kin_num 
+	$button_title = "title=\"$this_nice_translated_date\"";
 
 // Do we have any posts on this day?
 
