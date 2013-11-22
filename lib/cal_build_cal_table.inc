@@ -65,7 +65,10 @@ foreach ($array_moons_dates[$this_moon_num] as $moon_date_item){
 	// Adjust back one kin for leap day -- we're going to skip right over it.
  	        	$day_count++;
 	// This is leap day, we make a special Linke to a Popup for it
-			$leap_day_info = "<a href=\"$ajax_info?height=250&width=400&date=$prior_mysql_date_ckld&purl=".plugins_url()."\" title=\"$prior_mysql_date_ckld is Leap Day\" class=\"thickbox\">LEAP</a><br>";
+//			$leap_day_info = "<a href=\"$ajax_info?height=250&width=400&date=$prior_mysql_date_ckld&purl=".plugins_url()."\" title=\"$prior_mysql_date_ckld is Leap Day\" class=\"thickbox\">LEAP</a><br>";
+
+			$leap_day_info = "<a href=\"$ajax_info?&date=$prior_mysql_date_ckld&purl=".plugins_url()."\" title=\"$prior_mysql_date_ckld is Leap Day\" class=\"thickbox\">LEAP</a><br>";
+
      	}
      } // End if it's leap day
 
@@ -175,8 +178,8 @@ foreach ($array_moons_dates[$this_moon_num] as $moon_date_item){
 
 // We're going to build a variable that is the URL that's passed to the ajax jquery program (currently ThickBox, which doesn't allow a POST)
 	$ajax_link = $ajax_info;
-	$ajax_link .= "?height=250";
-	$ajax_link .= "&width=400";
+	$ajax_link .= "?height=300";
+	$ajax_link .= "&width=280";
 	$ajax_link .= "&date=$this_mysql_date";
 	$ajax_link .= "&purl=".plugins_url();
 	$ajax_link .= "&show_famous_events=".get_option('show_famous_events');

@@ -36,9 +36,11 @@ a.tmc_ads:link, a.tmc_ads:visited, a.tmc_ads:hover, a.tmc_ads:active {
 
      line-height: 14px;
      padding-left: 4px;
-     float: right;
 }
 
+#morestuff {
+	float: right;
+}
 
 /* THICKBOX - add the close icon into your core. ======================================== */
 

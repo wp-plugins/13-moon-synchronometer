@@ -86,7 +86,7 @@ foreach ($lines as $kin_line){
 	$popup_content .= "</div>\n";
 
 // Show affirmation for this Kin
-    	$popup_content .= "<div style=\"text-align: center; margin-top: 13px; margin-left: 13px; min-width: 380px;\">";
+    	$popup_content .= "<div style=\"text-align: center; margin-top: 13px; margin-left: 13px; float: left;\">";
 	$popup_content .= "I $Tone_Power in order to $Tribe_Action<br>";
      $popup_content .= "$Action_Essence<br>";
      $popup_content .= "$Timecell<br>";
