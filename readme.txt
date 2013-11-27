@@ -5,13 +5,15 @@ Donate link: http://anthonyfogleman.com/blog/donations/
 Tags: 13-moon, natural-time, dreamspell, tzolkin, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, Cosmic-History, sychronometer, calendar, natural-time, valum-votan, telektonon, turtle, native, maya, noosphere, psi-bank, kin, in-lakech, decode, date
 Requires at least: WP 3.2
 Tested up to: WP 3.7.1
-Stable tag: 1.4.2
+Stable tag: 1.5.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 The 13-Moon Synchronometer is a calendar of Natural Time and harmonic measurement tool synchronized with natural order. Your site will display a harmonic Calendar, list your posts, moon, kin, and more. Makes a widget you can drop in a sidebar or use shortcode [thirteen-moon-calendar] in post or page to synchronize with Natural Time.
-
+
+This plugin is part of a growing series of Dreamspell plugins, designed to work on their own and together, changing together each day and when a different day is decoded. Check out the other plugins by [__tonyray and abmaya__](http://profiles.wordpress.org/tonyray/).
+
 = Contributors include =
 
 * [__Lawoftime.org__](http://Lawoftime.org/)
@@ -71,6 +73,11 @@ The purpose is for your good, and your trust will grow to include peace on earth
 
 == Changelog ==
 
+= 1.5.0 - 27.11.2013 =
+* More work to reduce PHP warnings
+* Reworked the date logic to work with other plugins
+* A few style improvements
+
 = 1.4.2 - 20.11.2013 =
 * Fixed style sheet to look good in iPhone and sidebars 160 pixels wide or wider.
 * Arranged credits to take less space
@@ -89,7 +96,10 @@ The purpose is for your good, and your trust will grow to include peace on earth
 = 1.3.9 - 13.11.2013 =
 * First Release of 13-Moon Synchronometer - Limi Day 27 Self-Existing Moon 4 Kin 14 WHITE MAGNETIC WIZARD
 
-== Upgrade Notice ==
+== Upgrade Notice ==
+
+= 1.5.0 =
+Reworked the date logic to work with other plugins
 
 = 1.4.2 =
 Fixed style to make it look really good in iPhones and sidebars as small as 160 pixels.
