@@ -34,7 +34,7 @@ Translated from English (en_EN) to Spanish (es_ES) and Dutch (nl_NL).
 
 == About the Series ==
 * There are three plugins that synchronize with each day and decoding.  This plugin is the third of a series developed to expand the use of Natural Time.
-* If you like this plugin, you might also like the [__13-Moon Synchronometer__](http://wordpress.org/plugins/13-moon-synchronometer/) and the [__Cosmic History Quotes__](http://wordpress.org/plugins/cosmic-history-quotes/).  Each one synchronizes with the other.
+* If you like this plugin, you might also like the [__uChing Decoder__](http://wordpress.org/plugins/u-ching-decoder/) and the [__Cosmic History Quotes__](http://wordpress.org/plugins/cosmic-history-quotes/).  Each one synchronizes with the other.
 
 = Help Keep Our Plugins Free =
 
@@ -46,20 +46,20 @@ Blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
 
 = Automatic Method =
 
-1. You're reading this, so click the 'install now' link above
-1. Activate the plugin `(in Plugins menu)`
+1. You're reading this, so click the 'install now' link above 
+1. Activate the plugin `(in Plugins menu)` 
 
 = Manual Method =
 
-1. Download the zip file from wordpress
-1. Go to Plugins, new, upload the zip file.  It will create a directory: `13-moon-synchronometer`
-1. Activate the plugin `(in Plugins menu)`
+1. Download the zip file from wordpress 
+1. Go to Plugins, new, upload the zip file.  It will create a directory: `13-moon-synchronometer` 
+1. Activate the plugin `(in Plugins menu)` 
 
 = Once installed, how to make it work: =
 
-1. Got to Widgets, and put a 13-Moon Calendar widget into a sidebar
-1. Optional: insert shortcode `[thirteen-moon-calendar]` into a post or page
-1. Settings are at `Dashboard -> Settings -> 13-Moon Settings`
+1. Got to Widgets, and put a 13-Moon Calendar widget into a sidebar 
+1. Optional: insert shortcode `[thirteen-moon-calendar]` into a post or page 
+1. Settings are at `Dashboard -> Settings -> 13-Moon Settings` 
 
 == Frequently Asked Questions ==
 
