@@ -52,8 +52,8 @@ Blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
 = Manual Method =
 
 1. Download the zip file from wordpress 
-1. Go to Plugins, new, upload the zip file.  It will create a directory: `13-moon-synchronometer` 
-1. Activate the plugin `(in Plugins menu)` 
+1. At `Plugins->new->upload` upload zip file.  It makes `13-moon-synchronometer` dir 
+1. Activate plugin `13-moon-synchronometer` (in Plugins menu) 
 
 = Once installed, how to make it work: =
 
