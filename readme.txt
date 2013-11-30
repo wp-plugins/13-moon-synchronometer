@@ -5,7 +5,7 @@ Donate link: http://anthonyfogleman.com/blog/donations/
 Tags: 13-moon, natural-time, dreamspell, tzolkin, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, Cosmic-History, sychronometer, calendar, natural-time, valum-votan, telektonon, turtle, native, maya, noosphere, psi-bank, kin, in-lakech, decode, date
 Requires at least: WP 3.2
 Tested up to: WP 3.7.1
-Stable tag: 1.5.1
+Stable tag: 1.5.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -75,6 +75,9 @@ Blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
 5. Options panel
 
 == Changelog ==
+
+= 1.5.2 - NS1.26.5.16 - 27.11.2013 =
+* Updates to language files
 
 = 1.5.1 - NS1.26.5.16 - 27.11.2013 =
 * Full translations to Dutch and Spanish

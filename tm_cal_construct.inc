@@ -102,7 +102,7 @@ function start_new_calendar() {
 	echo "</tr>\n";
 	echo "</table>\n";
 
-	if ($this_moon_name == "Magnetic"){
+	if ($this_moon_num == "1"){
 		$doot_link = "<a href=\"$ajax_info?width=380&date=$this_mysql_date_pieces[0]-7-25&purl=".plugins_url()."\" title=\"The Day out of Time $this_mysql_date_pieces[0]\" class=\"thickbox\">Day Out of Time $this_mysql_date_pieces[0]</a><br>";
 
 // Output the Header with days of Plasmas
@@ -164,7 +164,7 @@ function start_new_calendar() {
 
 // Moon Info
 	echo "<td style=\"text-align: center; border: 0; padding: 0px 0px 0px 0;\">";
-	echo "<h4 style=\"padding: 0; margin: 0; font-size: 13px;\" >$this_moon_name $tr_txt_moon $this_moon_num</h4>$tm_date_proper";
+	echo "<h4>$this_moon_name $tr_txt_moon $this_moon_num</h4>$tm_date_proper";
 	echo "</td>";
 // Link to next month
 	echo "<td style=\"text-align:right; border: 0; padding: 0px 0px 0px 0; width: 1%; vertical-align: middle;\">";

@@ -1,261 +1,261 @@
 Yo,|tone_cr_pwr|con el fin de|seal_action||tone_action|endo|seal_cr_pwr|Sello el|timecell|de|seal_func|con el tono |tone_name|de|tone_func|Me guía|guiding_power|Soy un Portal de Activación Galáctica|Castillo:|Red Eastern Castle of Turning|White Northern Castle of Crossing|Blue Western Castle of Burning|Yellow Southern Castle of Giving|Green Central Castle of Enchantment|Onda Encantada:
-1|1|1|1|ROJO|1|MAGNÉTICO|Unifica|Atraer|Propósito|1|Dragón|Nutrir|Ser|Nacimiento|entrada| mi propio poder duplicado|1| |1|1|||||
-2|1|1|1|BLANCO|2|LUNAR|Polariza|Estabilizar|Desafío|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de atemporalidad|| |2|2|||||
-3|1|1|1|AZUL|3|ELÉCTRICO|Activa|Vincular|Servicio|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de realización|| |3|3|||||
-4|1|1|1|AMARILLO|4|AUTO-EXISTENTE|Define|Medir|Forma|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de fuego universal|| |4|4|||||
-5|1|1|2|ROJO|5|ENTONADO|Confiere Poder|Comandar|Esplendor|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de espacio|| |5|1|||||
-6|1|1|2|BLANCO|6|RÍTMICO|Organiza|Equilibrar|Igualdad|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| mi propio poder duplicado|| |1|2|||||
-7|1|1|2|AZUL|7|RESONANTE|Canaliza|Inspirar|Sintonización|7|Mano|Conocer|Sanación|Realización|almacén| el poder de auto generación|| |2|3|||||
-8|1|1|2|AMARILLO|8|GALÁCTICO|Armoniza|Modelar|Integridad|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de libre voluntad|| |3|4|||||
-9|1|1|3|ROJO|9|SOLAR|Pulsa|Realizar|Intención|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de fuerza vital|| |4|1|||||
-10|1|1|3|BLANCO|10|PLANETARIO|Perfecciona|Producir|Manifestación|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de sin fin||I am a polar kin.  I extend the WHITE galactic spectrum|5|2|||||
-11|1|1|3|AZUL|11|ESPECTRAL|Disuelve|Divulgar|Liberación|11|Mono|Jugar|Ilusión|Magia|proceso| mi propio poder duplicado|| |1|3|||||
-12|1|1|3|AMARILLO|12|CRISTAL|Dedicarse|Universalizar|Cooperación|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de florecimiento|| |2|4|||||
-13|1|1|4|ROJO|13|CÓSMICO|Perdura|Transcender|Presencia|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de navegación || |3|1|||||
-14|1|2|4|BLANCO|1|MAGNÉTICO|Unifica|Atraer|Propósito|14|Mago|Encantar|Receptividad|Atemporalidad|salida| mi propio poder duplicado|| |4|2|||||
-15|1|2|4|AZUL|2|LUNAR|Polariza|Estabilizar|Desafío|15|Águila|Crear|Mente|Visíon|salida| el poder de realización|| |5|3|||||
-16|1|2|4|AMARILLO|3|ELÉCTRICO|Activa|Vincular|Servicio|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de fuego universal|| |1|4|||||
-17|1|2|5|ROJO|4|AUTO-EXISTENTE|Define|Medir|Forma|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de espacio|| |2|1|||||
-18|1|2|5|BLANCO|5|ENTONADO|Confiere Poder|Comandar|Esplendor|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de muerte|| |3|2|||||
-19|1|2|5|AZUL|6|RÍTMICO|Organiza|Equilibrar|Igualdad|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| mi propio poder duplicado|| |4|3|||||
-20|1|2|5|AMARILLO|7|RESONANTE|Canaliza|Inspirar|Sintonización|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de libre voluntad|1| |5|4|||||
-21|1|2|6|ROJO|8|GALÁCTICO|Armoniza|Modelar|Integridad|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de fuerza vital|| |1|1|||||
-22|1|2|6|BLANCO|9|SOLAR|Pulsa|Realizar|Intención|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de sin fin|1| |2|2|||||
-23|1|2|6|AZUL|10|PLANETARIO|Perfecciona|Producir|Manifestación|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de magia|| |3|3|||||
-24|1|2|6|AMARILLO|11|ESPECTRAL|Disuelve|Divulgar|Liberación|4|Semilla|Atinar|Atención|Florecimiento|entrada| mi propio poder duplicado|| |4|4|||||
-25|1|2|7|ROJO|12|CRISTAL|Dedicarse|Universalizar|Cooperación|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de navegación|| |5|1|||||
-26|1|2|7|BLANCO|13|CÓSMICO|Perdura|Transcender|Presencia|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de corazón|| |1|2|||||
-27|1|3|7|AZUL|1|MAGNÉTICO|Unifica|Atraer|Propósito|7|Mano|Conocer|Sanación|Realización|almacén| mi propio poder duplicado|| |2|3|||||
-28|1|3|7|AMARILLO|2|LUNAR|Polariza|Estabilizar|Desafío|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de fuego universal|| |3|4|||||
-29|1|3|8|ROJO|3|ELÉCTRICO|Activa|Vincular|Servicio|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de espacio|| |4|1|||||
-30|1|3|8|BLANCO|4|AUTO-EXISTENTE|Define|Medir|Forma|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de muerte||I am a polar kin I convert the WHITE galactic spectrum|5|2|||||
-31|1|3|8|AZUL|5|ENTONADO|Confiere Poder|Comandar|Esplendor|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de auto generación|| |1|3|||||
-32|1|3|8|AMARILLO|6|RÍTMICO|Organiza|Equilibrar|Igualdad|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| mi propio poder duplicado|| |2|4|||||
-33|1|3|9|ROJO|7|RESONANTE|Canaliza|Inspirar|Sintonización|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de fuerza vital|| |3|1|||||
-34|1|3|9|BLANCO|8|GALÁCTICO|Armoniza|Modelar|Integridad|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de sin fin|| |4|2|||||
-35|1|3|9|AZUL|9|SOLAR|Pulsa|Realizar|Intención|15|Águila|Crear|Mente|Visíon|salida| el poder de magia|| |5|3|||||
-36|1|3|9|AMARILLO|10|PLANETARIO|Perfecciona|Producir|Manifestación|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de florecimiento|| |1|4|||||
-37|1|3|10|ROJO|11|ESPECTRAL|Disuelve|Divulgar|Liberación|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| mi propio poder duplicado|| |2|1|||||
-38|1|3|10|BLANCO|12|CRISTAL|Dedicarse|Universalizar|Cooperación|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de corazón|| |3|2|||||
-39|1|3|10|AZUL|13|CÓSMICO|Perdura|Transcender|Presencia|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de abundancia|1| |4|3|||||
-40|1|4|10|AMARILLO|1|MAGNÉTICO|Unifica|Atraer|Propósito|20|Sol|Iluminar|Vida|Fuego Universal|matriz| mi propio poder duplicado|| |5|4|||||
-41|1|4|11|ROJO|2|LUNAR|Polariza|Estabilizar|Desafío|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de espacio|| |1|1|||||
-42|1|4|11|BLANCO|3|ELÉCTRICO|Activa|Vincular|Servicio|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de muerte|| |2|2|||||
-43|1|4|11|AZUL|4|AUTO-EXISTENTE|Define|Medir|Forma|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de auto generación|1| |3|3|||||
-44|1|4|11|AMARILLO|5|ENTONADO|Confiere Poder|Comandar|Esplendor|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de libre voluntad|| |4|4|||||
-45|1|4|12|ROJO|6|RÍTMICO|Organiza|Equilibrar|Igualdad|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| mi propio poder duplicado|| |5|1|||||
-46|1|4|12|BLANCO|7|RESONANTE|Canaliza|Inspirar|Sintonización|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de sin fin|| |1|2|||||
-47|1|4|12|AZUL|8|GALÁCTICO|Armoniza|Modelar|Integridad|7|Mano|Conocer|Sanación|Realización|almacén| el poder de magia|| |2|3|||||
-48|1|4|12|AMARILLO|9|SOLAR|Pulsa|Realizar|Intención|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de florecimiento|| |3|4|||||
-49|1|4|13|ROJO|10|PLANETARIO|Perfecciona|Producir|Manifestación|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de navegación|| |4|1|||||
-50|1|4|13|BLANCO|11|ESPECTRAL|Disuelve|Divulgar|Liberación|10|Perro|Amar|Lealtad|Corazón|proceso| mi propio poder duplicado|1|I am a polar kin I transport the WHITE galactic spectrum |5|2|||||
-51|1|4|13|AZUL|12|CRISTAL|Dedicarse|Universalizar|Cooperación|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de abundancia|1| |1|3|||||
-52|1|4|13|AMARILLO|13|CÓSMICO|Perdura|Transcender|Presencia|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de inteligencia|| |2|4|||||
-53|2|5|14|ROJO|1|MAGNÉTICO|Unifica|Atraer|Propósito|13|Caminante|Explorar|Vigiliancia|Espacio|salida| mi propio poder duplicado|| |3|1|||||
-54|2|5|14|BLANCO|2|LUNAR|Polariza|Estabilizar|Desafío|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de muerte|| |4|2|||||
-55|2|5|14|AZUL|3|ELÉCTRICO|Activa|Vincular|Servicio|15|Águila|Crear|Mente|Visíon|salida| el poder de auto generación||I am a polar kin I establish the BLUE galactic spectrum|5|3|||||
-56|2|5|14|AMARILLO|4|AUTO-EXISTENTE|Define|Medir|Forma|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de libre voluntad|| |1|4|||||
-57|2|5|15|ROJO|5|ENTONADO|Confiere Poder|Comandar|Esplendor|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de fuerza vital|| |2|1|||||
-58|2|5|15|BLANCO|6|RÍTMICO|Organiza|Equilibrar|Igualdad|18|Espejo|Reflejar|Orden|Sin Fin|matriz| mi propio poder duplicado|1| |3|2|||||
-59|2|5|15|AZUL|7|RESONANTE|Canaliza|Inspirar|Sintonización|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de magia|| |4|3|||||
-60|2|5|15|AMARILLO|8|GALÁCTICO|Armoniza|Modelar|Integridad|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de florecimiento|| |5|4|||||
-61|2|5|16|ROJO|9|SOLAR|Pulsa|Realizar|Intención|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de navegación|| |1|1|||||
-62|2|5|16|BLANCO|10|PLANETARIO|Perfecciona|Producir|Manifestación|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de corazón|| |2|2|||||
-63|2|5|16|AZUL|11|ESPECTRAL|Disuelve|Divulgar|Liberación|3|Noche|Soñar|Intuición|Abundancia|entrada| mi propio poder duplicado|| |3|3|||||
-64|2|5|16|AMARILLO|12|CRISTAL|Dedicarse|Universalizar|Cooperación|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de inteligencia|1| |4|4|||||
-65|2|5|17|ROJO|13|CÓSMICO|Perdura|Transcender|Presencia|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de agua universal|| |5|1|||||
-66|2|6|17|BLANCO|1|MAGNÉTICO|Unifica|Atraer|Propósito|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| mi propio poder duplicado|| |1|2|||||
-67|2|6|17|AZUL|2|LUNAR|Polariza|Estabilizar|Desafío|7|Mano|Conocer|Sanación|Realización|almacén| el poder de auto generación|| |2|3|||||
-68|2|6|17|AMARILLO|3|ELÉCTRICO|Activa|Vincular|Servicio|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de libre voluntad|| |3|4|||||
-69|2|6|18|ROJO|4|AUTO-EXISTENTE|Define|Medir|Forma|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de fuerza vital|1| |4|1|||||
-70|2|6|18|BLANCO|5|ENTONADO|Confiere Poder|Comandar|Esplendor|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de sin fin|| |5|2|||||
-71|2|6|18|AZUL|6|RÍTMICO|Organiza|Equilibrar|Igualdad|11|Mono|Jugar|Ilusión|Magia|proceso| mi propio poder duplicado|| |1|3|||||
-72|2|6|18|AMARILLO|7|RESONANTE|Canaliza|Inspirar|Sintonización|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de florecimiento|1| |2|4|||||
-73|2|6|19|ROJO|8|GALÁCTICO|Armoniza|Modelar|Integridad|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de navegación|| |3|1|||||
-74|2|6|19|BLANCO|9|SOLAR|Pulsa|Realizar|Intención|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de corazón|| |4|2|||||
-75|2|6|19|AZUL|10|PLANETARIO|Perfecciona|Producir|Manifestación|15|Águila|Crear|Mente|Visíon|salida| el poder de abundancia||I am a polar kin I extend the BLUE galactic spectrum|5|3|||||
-76|2|6|19|AMARILLO|11|ESPECTRAL|Disuelve|Divulgar|Liberación|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| mi propio poder duplicado|| |1|4|||||
-77|2|6|20|ROJO|12|CRISTAL|Dedicarse|Universalizar|Cooperación|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de agua universal|1| |2|1|||||
-78|2|6|20|BLANCO|13|CÓSMICO|Perdura|Transcender|Presencia|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de espiritu|| |3|2|||||
-79|2|7|20|AZUL|1|MAGNÉTICO|Unifica|Atraer|Propósito|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| mi propio poder duplicado|| |4|3|||||
-80|2|7|20|AMARILLO|2|LUNAR|Polariza|Estabilizar|Desafío|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de libre voluntad|| |5|4|||||
-81|2|7|21|ROJO|3|ELÉCTRICO|Activa|Vincular|Servicio|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de fuerza vital|| |1|1|||||
-82|2|7|21|BLANCO|4|AUTO-EXISTENTE|Define|Medir|Forma|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de sin fin|| |2|2|||||
-83|2|7|21|AZUL|5|ENTONADO|Confiere Poder|Comandar|Esplendor|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de magia|| |3|3|||||
-84|2|7|21|AMARILLO|6|RÍTMICO|Organiza|Equilibrar|Igualdad|4|Semilla|Atinar|Atención|Florecimiento|entrada| mi propio poder duplicado|| |4|4|||||
-85|2|7|22|ROJO|7|RESONANTE|Canaliza|Inspirar|Sintonización|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de navegación|1| |5|1|||||
-86|2|7|22|BLANCO|8|GALÁCTICO|Armoniza|Modelar|Integridad|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de corazón|| |1|2|||||
-87|2|7|22|AZUL|9|SOLAR|Pulsa|Realizar|Intención|7|Mano|Conocer|Sanación|Realización|almacén| el poder de abundancia|| |2|3|||||
-88|2|7|22|AMARILLO|10|PLANETARIO|Perfecciona|Producir|Manifestación|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de inteligencia|1| |3|4|||||
-89|2|7|23|ROJO|11|ESPECTRAL|Disuelve|Divulgar|Liberación|9|Luna|Purificar|Flujo|Agua Universal|proceso| mi propio poder duplicado|| |4|1|||||
-90|2|7|23|BLANCO|12|CRISTAL|Dedicarse|Universalizar|Cooperación|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de sin fin|| |5|2|||||
-91|2|7|23|AZUL|13|CÓSMICO|Perdura|Transcender|Presencia|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de visión|| |1|3|||||
-92|2|8|23|AMARILLO|1|MAGNÉTICO|Unifica|Atraer|Propósito|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| mi propio poder duplicado|| |2|4|||||
-93|2|8|24|ROJO|2|LUNAR|Polariza|Estabilizar|Desafío|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de fuerza vital|1| |3|1|||||
-94|2|8|24|BLANCO|3|ELÉCTRICO|Activa|Vincular|Servicio|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de sin fin|| |4|2|||||
-95|2|8|24|AZUL|4|AUTO-EXISTENTE|Define|Medir|Forma|15|Águila|Crear|Mente|Visíon|salida| el poder de magia||I am a polar kin I convert the BLUE galactic spectrum|5|3|||||
-96|2|8|24|AMARILLO|5|ENTONADO|Confiere Poder|Comandar|Esplendor|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de florecimiento|1| |1|4|||||
-97|2|8|25|ROJO|6|RÍTMICO|Organiza|Equilibrar|Igualdad|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| mi propio poder duplicado|| |2|1|||||
-98|2|8|25|BLANCO|7|RESONANTE|Canaliza|Inspirar|Sintonización|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de corazón|| |3|2|||||
-99|2|8|25|AZUL|8|GALÁCTICO|Armoniza|Modelar|Integridad|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de abundancia|| |4|3|||||
-100|2|8|25|AMARILLO|9|SOLAR|Pulsa|Realizar|Intención|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de inteligencia|| |5|4|||||
-101|2|8|26|ROJO|10|PLANETARIO|Perfecciona|Producir|Manifestación|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de agua universal|| |1|1|||||
-102|2|8|26|BLANCO|11|ESPECTRAL|Disuelve|Divulgar|Liberación|2|Viento|Comunicar|Aliento|Espíritu|entrada| mi propio poder duplicado|| |2|2|||||
-103|2|8|26|AZUL|12|CRISTAL|Dedicarse|Universalizar|Cooperación|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de visión|| |3|3|||||
-104|2|8|26|AMARILLO|13|CÓSMICO|Perdura|Transcender|Presencia|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de elegance|| |4|4|||||
-105|3|9|27|ROJO|1|MAGNÉTICO|Unifica|Atraer|Propósito|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| mi propio poder duplicado|| |5|1|||||
-106|3|9|27|BLANCO|2|LUNAR|Polariza|Estabilizar|Desafío|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de magia|1| |1|2|||||
-107|3|9|27|AZUL|3|ELÉCTRICO|Activa|Vincular|Servicio|7|Mano|Conocer|Sanación|Realización|almacén| el poder de magia|1| |2|3|||||
-108|3|9|27|AMARILLO|4|AUTO-EXISTENTE|Define|Medir|Forma|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de florecimiento|1| |3|4|||||
-109|3|9|28|ROJO|5|ENTONADO|Confiere Poder|Comandar|Esplendor|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de navegación|1| |4|1|||||
-110|3|9|28|BLANCO|6|RÍTMICO|Organiza|Equilibrar|Igualdad|10|Perro|Amar|Lealtad|Corazón|proceso| mi propio poder duplicado|1| |5|2|||||
-111|3|9|28|AZUL|7|RESONANTE|Canaliza|Inspirar|Sintonización|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de abundancia|1| |1|3|||||
-112|3|9|28|AMARILLO|8|GALÁCTICO|Armoniza|Modelar|Integridad|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de inteligencia|1| |2|4|||||
-113|3|9|29|ROJO|9|SOLAR|Pulsa|Realizar|Intención|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de agua universal|1| |3|1|||||
-114|3|9|29|BLANCO|10|PLANETARIO|Perfecciona|Producir|Manifestación|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de espiritu|1| |4|2|||||
-115|3|9|29|AZUL|11|ESPECTRAL|Disuelve|Divulgar|Liberación|15|Águila|Crear|Mente|Visíon|salida| mi propio poder duplicado|1|I am a polar kin I transport the BLUE galactic spectrum|5|3|||||
-116|3|9|29|AMARILLO|12|CRISTAL|Dedicarse|Universalizar|Cooperación|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de elegance|| |1|4|||||
-117|3|9|30|ROJO|13|CÓSMICO|Perdura|Transcender|Presencia|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de birth|| |2|1|||||
-118|3|10|30|BLANCO|1|MAGNÉTICO|Unifica|Atraer|Propósito|18|Espejo|Reflejar|Orden|Sin Fin|matriz| mi propio poder duplicado|| |3|2|||||
-119|3|10|30|AZUL|2|LUNAR|Polariza|Estabilizar|Desafío|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de magia|| |4|3|||||
-120|3|10|30|AMARILLO|3|ELÉCTRICO|Activa|Vincular|Servicio|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de florecimiento||I am a polar kin I establish the YELLOW galactic spectrum|5|4|||||
-121|3|10|31|ROJO|4|AUTO-EXISTENTE|Define|Medir|Forma|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de navegación|| |1|1|||||
-122|3|10|31|BLANCO|5|ENTONADO|Confiere Poder|Comandar|Esplendor|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de corazón|| |2|2|||||
-123|3|10|31|AZUL|6|RÍTMICO|Organiza|Equilibrar|Igualdad|3|Noche|Soñar|Intuición|Abundancia|entrada| mi propio poder duplicado|| |3|3|||||
-124|3|10|31|AMARILLO|7|RESONANTE|Canaliza|Inspirar|Sintonización|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de inteligencia|| |4|4|||||
-125|3|10|32|ROJO|8|GALÁCTICO|Armoniza|Modelar|Integridad|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de agua universal|| |5|1|||||
-126|3|10|32|BLANCO|9|SOLAR|Pulsa|Realizar|Intención|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de espiritu|| |1|2|||||
-127|3|10|32|AZUL|10|PLANETARIO|Perfecciona|Producir|Manifestación|7|Mano|Conocer|Sanación|Realización|almacén| el poder de visión|| |2|3|||||
-128|3|10|32|AMARILLO|11|ESPECTRAL|Disuelve|Divulgar|Liberación|8|Estrella|Embellecer|Arte|Elegancia|almacén| mi propio poder duplicado|| |3|4|||||
-129|3|10|33|ROJO|12|CRISTAL|Dedicarse|Universalizar|Cooperación|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de birth|| |4|1|||||
-130|3|10|33|BLANCO|13|CÓSMICO|Perdura|Transcender|Presencia|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de atemporalidad|| |5|2|||||
-131|3|11|33|AZUL|1|MAGNÉTICO|Unifica|Atraer|Propósito|11|Mono|Jugar|Ilusión|Magia|proceso| mi propio poder duplicado|| |1|3|||||
-132|3|11|33|AMARILLO|2|LUNAR|Polariza|Estabilizar|Desafío|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de florecimiento|| |2|4|||||
-133|3|11|34|ROJO|3|ELÉCTRICO|Activa|Vincular|Servicio|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de navegación|| |3|1|||||
-134|3|11|34|BLANCO|4|AUTO-EXISTENTE|Define|Medir|Forma|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de corazón|| |4|2|||||
-135|3|11|34|AZUL|5|ENTONADO|Confiere Poder|Comandar|Esplendor|15|Águila|Crear|Mente|Visíon|salida| el poder de abundancia|| |5|3|||||
-136|3|11|34|AMARILLO|6|RÍTMICO|Organiza|Equilibrar|Igualdad|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| mi propio poder duplicado|| |1|4|||||
-137|3|11|35|ROJO|7|RESONANTE|Canaliza|Inspirar|Sintonización|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de agua universal|| |2|1|||||
-138|3|11|35|BLANCO|8|GALÁCTICO|Armoniza|Modelar|Integridad|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de espiritu|| |3|2|||||
-139|3|11|35|AZUL|9|SOLAR|Pulsa|Realizar|Intención|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de visión|| |4|3|||||
-140|3|11|35|AMARILLO|10|PLANETARIO|Perfecciona|Producir|Manifestación|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de elegance||I am a polar kin I extend the YELLOW galactic spectrum |5|4|||||
-141|3|11|36|ROJO|11|ESPECTRAL|Disuelve|Divulgar|Liberación|1|Dragón|Nutrir|Ser|Nacimiento|entrada| mi propio poder duplicado|| |1|1|||||
-142|3|11|36|BLANCO|12|CRISTAL|Dedicarse|Universalizar|Cooperación|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de atemporalidad|| |2|2|||||
-143|3|11|36|AZUL|13|CÓSMICO|Perdura|Transcender|Presencia|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de realización|| |3|3|||||
-144|3|12|36|AMARILLO|1|MAGNÉTICO|Unifica|Atraer|Propósito|4|Semilla|Atinar|Atención|Florecimiento|entrada| mi propio poder duplicado|| |4|4|||||
-145|3|12|37|ROJO|2|LUNAR|Polariza|Estabilizar|Desafío|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de navegación|| |5|1|||||
-146|3|12|37|BLANCO|3|ELÉCTRICO|Activa|Vincular|Servicio|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de corazón|1| |1|2|||||
-147|3|12|37|AZUL|4|AUTO-EXISTENTE|Define|Medir|Forma|7|Mano|Conocer|Sanación|Realización|almacén| el poder de abundancia|1| |2|3|||||
-148|3|12|37|AMARILLO|5|ENTONADO|Confiere Poder|Comandar|Esplendor|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de inteligencia|1| |3|4|||||
-149|3|12|38|ROJO|6|RÍTMICO|Organiza|Equilibrar|Igualdad|9|Luna|Purificar|Flujo|Agua Universal|proceso| mi propio poder duplicado|1| |4|1|||||
-150|3|12|38|BLANCO|7|RESONANTE|Canaliza|Inspirar|Sintonización|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de espiritu|1| |5|2|||||
-151|3|12|38|AZUL|8|GALÁCTICO|Armoniza|Modelar|Integridad|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de visión|1| |1|3|||||
-152|3|12|38|AMARILLO|9|SOLAR|Pulsa|Realizar|Intención|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de elegance|1| |2|4|||||
-153|3|12|39|ROJO|10|PLANETARIO|Perfecciona|Producir|Manifestación|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de birth|1| |3|1|||||
-154|3|12|39|BLANCO|11|ESPECTRAL|Disuelve|Divulgar|Liberación|14|Mago|Encantar|Receptividad|Atemporalidad|salida| mi propio poder duplicado|1| |4|2|||||
-155|3|12|39|AZUL|12|CRISTAL|Dedicarse|Universalizar|Cooperación|15|Águila|Crear|Mente|Visíon|salida| el poder de realización|1| |5|3|||||
-156|3|12|39|AMARILLO|13|CÓSMICO|Perdura|Transcender|Presencia|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de fuego universal|| |1|4|||||
-157|4|13|40|ROJO|1|MAGNÉTICO|Unifica|Atraer|Propósito|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| mi propio poder duplicado|| |2|1|||||
-158|4|13|40|BLANCO|2|LUNAR|Polariza|Estabilizar|Desafío|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de corazón|| |3|2|||||
-159|4|13|40|AZUL|3|ELÉCTRICO|Activa|Vincular|Servicio|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de abundancia|| |4|3|||||
-160|4|13|40|AMARILLO|4|AUTO-EXISTENTE|Define|Medir|Forma|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de inteligencia||I am a polar kin I convert the YELLOW galactic spectrum |5|4|||||
-161|4|13|41|ROJO|5|ENTONADO|Confiere Poder|Comandar|Esplendor|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de agua universal|| |1|1|||||
-162|4|13|41|BLANCO|6|RÍTMICO|Organiza|Equilibrar|Igualdad|2|Viento|Comunicar|Aliento|Espíritu|entrada| mi propio poder duplicado|| |2|2|||||
-163|4|13|41|AZUL|7|RESONANTE|Canaliza|Inspirar|Sintonización|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de visión|| |3|3|||||
-164|4|13|41|AMARILLO|8|GALÁCTICO|Armoniza|Modelar|Integridad|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de elegance|| |4|4|||||
-165|4|13|42|ROJO|9|SOLAR|Pulsa|Realizar|Intención|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de birth|1| |5|1|||||
-166|4|13|42|BLANCO|10|PLANETARIO|Perfecciona|Producir|Manifestación|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de atemporalidad|| |1|2|||||
-167|4|13|42|AZUL|11|ESPECTRAL|Disuelve|Divulgar|Liberación|7|Mano|Conocer|Sanación|Realización|almacén| mi propio poder duplicado|| |2|3|||||
-168|4|13|42|AMARILLO|12|CRISTAL|Dedicarse|Universalizar|Cooperación|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de fuego universal|1| |3|4|||||
-169|4|13|43|ROJO|13|CÓSMICO|Perdura|Transcender|Presencia|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de espacio|| |4|1|||||
-170|4|14|43|BLANCO|1|MAGNÉTICO|Unifica|Atraer|Propósito|10|Perro|Amar|Lealtad|Corazón|proceso| mi propio poder duplicado|| |5|2|||||
-171|4|14|43|AZUL|2|LUNAR|Polariza|Estabilizar|Desafío|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de abundancia|| |1|3|||||
-172|4|14|43|AMARILLO|3|ELÉCTRICO|Activa|Vincular|Servicio|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de inteligencia|| |2|4|||||
-173|4|14|44|ROJO|4|AUTO-EXISTENTE|Define|Medir|Forma|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de agua universal|1| |3|1|||||
-174|4|14|44|BLANCO|5|ENTONADO|Confiere Poder|Comandar|Esplendor|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de espiritu|| |4|2|||||
-175|4|14|44|AZUL|6|RÍTMICO|Organiza|Equilibrar|Igualdad|15|Águila|Crear|Mente|Visíon|salida| mi propio poder duplicado|| |5|3|||||
-176|4|14|44|AMARILLO|7|RESONANTE|Canaliza|Inspirar|Sintonización|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de elegance|1| |1|4|||||
-177|4|14|45|ROJO|8|GALÁCTICO|Armoniza|Modelar|Integridad|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de birth|| |2|1|||||
-178|4|14|45|BLANCO|9|SOLAR|Pulsa|Realizar|Intención|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de atemporalidad|| |3|2|||||
-179|4|14|45|AZUL|10|PLANETARIO|Perfecciona|Producir|Manifestación|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de realización|| |4|3|||||
-180|4|14|45|AMARILLO|11|ESPECTRAL|Disuelve|Divulgar|Liberación|20|Sol|Iluminar|Vida|Fuego Universal|matriz| mi propio poder duplicado||I am a polar kin I transport the YELLOW galactic spectrum |5|4|||||
-181|4|14|46|ROJO|12|CRISTAL|Dedicarse|Universalizar|Cooperación|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de espacio|| |1|1|||||
-182|4|14|46|BLANCO|13|CÓSMICO|Perdura|Transcender|Presencia|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de muerte|| |2|2|||||
-183|4|15|46|AZUL|1|MAGNÉTICO|Unifica|Atraer|Propósito|3|Noche|Soñar|Intuición|Abundancia|entrada| mi propio poder duplicado|| |3|3|||||
-184|4|15|46|AMARILLO|2|LUNAR|Polariza|Estabilizar|Desafío|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de inteligencia|1| |4|4|||||
-185|4|15|47|ROJO|3|ELÉCTRICO|Activa|Vincular|Servicio|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de agua universal||I am a polar kin I establish the RED galactic spectrum|5|1|||||
-186|4|15|47|BLANCO|4|AUTO-EXISTENTE|Define|Medir|Forma|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de espiritu|| |1|2|||||
-187|4|15|47|AZUL|5|ENTONADO|Confiere Poder|Comandar|Esplendor|7|Mano|Conocer|Sanación|Realización|almacén| el poder de visión|| |2|3|||||
-188|4|15|47|AMARILLO|6|RÍTMICO|Organiza|Equilibrar|Igualdad|8|Estrella|Embellecer|Arte|Elegancia|almacén| mi propio poder duplicado|| |3|4|||||
-189|4|15|48|ROJO|7|RESONANTE|Canaliza|Inspirar|Sintonización|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de birth|1| |4|1|||||
-190|4|15|48|BLANCO|8|GALÁCTICO|Armoniza|Modelar|Integridad|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de atemporalidad|| |5|2|||||
-191|4|15|48|AZUL|9|SOLAR|Pulsa|Realizar|Intención|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de realización|| |1|3|||||
-192|4|15|48|AMARILLO|10|PLANETARIO|Perfecciona|Producir|Manifestación|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de fuego universal|1| |2|4|||||
-193|4|15|49|ROJO|11|ESPECTRAL|Disuelve|Divulgar|Liberación|13|Caminante|Explorar|Vigiliancia|Espacio|salida| mi propio poder duplicado|| |3|1|||||
-194|4|15|49|BLANCO|12|CRISTAL|Dedicarse|Universalizar|Cooperación|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de muerte|| |4|2|||||
-195|4|15|49|AZUL|13|CÓSMICO|Perdura|Transcender|Presencia|15|Águila|Crear|Mente|Visíon|salida| el poder de auto generación|| |5|3|||||
-196|4|16|49|AMARILLO|1|MAGNÉTICO|Unifica|Atraer|Propósito|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| mi propio poder duplicado|| |1|4|||||
-197|4|16|50|ROJO|2|LUNAR|Polariza|Estabilizar|Desafío|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de agua universal|1| |2|1|||||
-198|4|16|50|BLANCO|3|ELÉCTRICO|Activa|Vincular|Servicio|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de espiritu|| |3|2|||||
-199|4|16|50|AZUL|4|AUTO-EXISTENTE|Define|Medir|Forma|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de visión|| |4|3|||||
-200|4|16|50|AMARILLO|5|ENTONADO|Confiere Poder|Comandar|Esplendor|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de elegance|| |5|4|||||
-201|4|16|51|ROJO|6|RÍTMICO|Organiza|Equilibrar|Igualdad|1|Dragón|Nutrir|Ser|Nacimiento|entrada| mi propio poder duplicado|| |1|1|||||
-202|4|16|51|BLANCO|7|RESONANTE|Canaliza|Inspirar|Sintonización|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de atemporalidad|| |2|2|||||
-203|4|16|51|AZUL|8|GALÁCTICO|Armoniza|Modelar|Integridad|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de realización|1| |3|3|||||
-204|4|16|51|AMARILLO|9|SOLAR|Pulsa|Realizar|Intención|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de fuego universal|| |4|4|||||
-205|4|16|52|ROJO|10|PLANETARIO|Perfecciona|Producir|Manifestación|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de espacio||I am a polar kin I extend the RED galactic spectrum|5|1|||||
-206|4|16|52|BLANCO|11|ESPECTRAL|Disuelve|Divulgar|Liberación|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| mi propio poder duplicado|| |1|2|||||
-207|4|16|52|AZUL|12|CRISTAL|Dedicarse|Universalizar|Cooperación|7|Mano|Conocer|Sanación|Realización|almacén| el poder de auto generación|| |2|3|||||
-208|4|16|52|AMARILLO|13|CÓSMICO|Perdura|Transcender|Presencia|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de libre voluntad|| |3|4|||||
-209|5|17|53|ROJO|1|MAGNÉTICO|Unifica|Atraer|Propósito|9|Luna|Purificar|Flujo|Agua Universal|proceso| mi propio poder duplicado|| |4|1|||||
-210|5|17|53|BLANCO|2|LUNAR|Polariza|Estabilizar|Desafío|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de espiritu|1| |5|2|||||
-211|5|17|53|AZUL|3|ELÉCTRICO|Activa|Vincular|Servicio|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de visión|1| |1|3|||||
-212|5|17|53|AMARILLO|4|AUTO-EXISTENTE|Define|Medir|Forma|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de elegance|| |2|4|||||
-213|5|17|54|ROJO|5|ENTONADO|Confiere Poder|Comandar|Esplendor|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de birth|| |3|1|||||
-214|5|17|54|BLANCO|6|RÍTMICO|Organiza|Equilibrar|Igualdad|14|Mago|Encantar|Receptividad|Atemporalidad|salida| mi propio poder duplicado|| |4|2|||||
-215|5|17|54|AZUL|7|RESONANTE|Canaliza|Inspirar|Sintonización|15|Águila|Crear|Mente|Visíon|salida| el poder de realización|| |5|3|||||
-216|5|17|54|AMARILLO|8|GALÁCTICO|Armoniza|Modelar|Integridad|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de fuego universal|| |1|4|||||
-217|5|17|55|ROJO|9|SOLAR|Pulsa|Realizar|Intención|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de espacio|| |2|1|||||
-218|5|17|55|BLANCO|10|PLANETARIO|Perfecciona|Producir|Manifestación|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de muerte|1| |3|2|||||
-219|5|17|55|AZUL|11|ESPECTRAL|Disuelve|Divulgar|Liberación|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| mi propio poder duplicado|| |4|3|||||
-220|5|17|55|AMARILLO|12|CRISTAL|Dedicarse|Universalizar|Cooperación|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de libre voluntad|| |5|4|||||
-221|5|17|56|ROJO|13|CÓSMICO|Perdura|Transcender|Presencia|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de fuerza vital|| |1|1|||||
-222|5|18|56|BLANCO|1|MAGNÉTICO|Unifica|Atraer|Propósito|2|Viento|Comunicar|Aliento|Espíritu|entrada| mi propio poder duplicado|1| |2|2|||||
-223|5|18|56|AZUL|2|LUNAR|Polariza|Estabilizar|Desafío|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de visión|| |3|3|||||
-224|5|18|56|AMARILLO|3|ELÉCTRICO|Activa|Vincular|Servicio|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de elegance|| |4|4|||||
-225|5|18|57|ROJO|4|AUTO-EXISTENTE|Define|Medir|Forma|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de birth||I am a polar kin I convert the RED galactic spectrum|5|1|||||
-226|5|18|57|BLANCO|5|ENTONADO|Confiere Poder|Comandar|Esplendor|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de atemporalidad|| |1|2|||||
-227|5|18|57|AZUL|6|RÍTMICO|Organiza|Equilibrar|Igualdad|7|Mano|Conocer|Sanación|Realización|almacén| mi propio poder duplicado|| |2|3|||||
-228|5|18|57|AMARILLO|7|RESONANTE|Canaliza|Inspirar|Sintonización|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de fuego universal|| |3|4|||||
-229|5|18|58|ROJO|8|GALÁCTICO|Armoniza|Modelar|Integridad|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de espacio|| |4|1|||||
-230|5|18|58|BLANCO|9|SOLAR|Pulsa|Realizar|Intención|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de muerte|| |5|2|||||
-231|5|18|58|AZUL|10|PLANETARIO|Perfecciona|Producir|Manifestación|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de auto generación|| |1|3|||||
-232|5|18|58|AMARILLO|11|ESPECTRAL|Disuelve|Divulgar|Liberación|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| mi propio poder duplicado|| |2|4|||||
-233|5|18|59|ROJO|12|CRISTAL|Dedicarse|Universalizar|Cooperación|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de fuerza vital|| |3|1|||||
-234|5|18|59|BLANCO|13|CÓSMICO|Perdura|Transcender|Presencia|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de sin fin|| |4|2|||||
-235|5|19|59|AZUL|1|MAGNÉTICO|Unifica|Atraer|Propósito|15|Águila|Crear|Mente|Visíon|salida| mi propio poder duplicado|| |5|3|||||
-236|5|19|59|AMARILLO|2|LUNAR|Polariza|Estabilizar|Desafío|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de elegance|| |1|4|||||
-237|5|19|60|ROJO|3|ELÉCTRICO|Activa|Vincular|Servicio|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de birth|| |2|1|||||
-238|5|19|60|BLANCO|4|AUTO-EXISTENTE|Define|Medir|Forma|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de atemporalidad|| |3|2|||||
-239|5|19|60|AZUL|5|ENTONADO|Confiere Poder|Comandar|Esplendor|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de realización|1| |4|3|||||
-240|5|19|60|AMARILLO|6|RÍTMICO|Organiza|Equilibrar|Igualdad|20|Sol|Iluminar|Vida|Fuego Universal|matriz| mi propio poder duplicado|| |5|4|||||
-241|5|19|61|ROJO|7|RESONANTE|Canaliza|Inspirar|Sintonización|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de espacio|1| |1|1|||||
-242|5|19|61|BLANCO|8|GALÁCTICO|Armoniza|Modelar|Integridad|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de muerte|| |2|2|||||
-243|5|19|61|AZUL|9|SOLAR|Pulsa|Realizar|Intención|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de auto generación|| |3|3|||||
-244|5|19|61|AMARILLO|10|PLANETARIO|Perfecciona|Producir|Manifestación|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de libre voluntad|| |4|4|||||
-245|5|19|62|ROJO|11|ESPECTRAL|Disuelve|Divulgar|Liberación|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| mi propio poder duplicado||I am a polar kin I transport the RED galactic spectrum|5|1|||||
-246|5|19|62|BLANCO|12|CRISTAL|Dedicarse|Universalizar|Cooperación|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de sin fin|| |1|2|||||
-247|5|19|62|AZUL|13|CÓSMICO|Perdura|Transcender|Presencia|7|Mano|Conocer|Sanación|Realización|almacén| el poder de magia|| |2|3|||||
-248|5|20|62|AMARILLO|1|MAGNÉTICO|Unifica|Atraer|Propósito|8|Estrella|Embellecer|Arte|Elegancia|almacén| mi propio poder duplicado|| |3|4|||||
-249|5|20|63|ROJO|2|LUNAR|Polariza|Estabilizar|Desafío|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de birth|| |4|1|||||
-250|5|20|63|BLANCO|3|ELÉCTRICO|Activa|Vincular|Servicio|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de atemporalidad||I am a polar kin I establish the WHITE galactic spectrum|5|2|||||
-251|5|20|63|AZUL|4|AUTO-EXISTENTE|Define|Medir|Forma|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de realización|| |1|3|||||
-252|5|20|63|AMARILLO|5|ENTONADO|Confiere Poder|Comandar|Esplendor|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de fuego universal|| |2|4|||||
-253|5|20|64|ROJO|6|RÍTMICO|Organiza|Equilibrar|Igualdad|13|Caminante|Explorar|Vigiliancia|Espacio|salida| mi propio poder duplicado|| |3|1|||||
-254|5|20|64|BLANCO|7|RESONANTE|Canaliza|Inspirar|Sintonización|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de muerte|| |4|2|||||
-255|5|20|64|AZUL|8|GALÁCTICO|Armoniza|Modelar|Integridad|15|Águila|Crear|Mente|Visíon|salida| el poder de auto generación|| |5|3|||||
-256|5|20|64|AMARILLO|9|SOLAR|Pulsa|Realizar|Intención|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de libre voluntad|| |1|4|||||
-257|5|20|65|ROJO|10|PLANETARIO|Perfecciona|Producir|Manifestación|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de fuerza vital|| |2|1|||||
-258|5|20|65|BLANCO|11|ESPECTRAL|Disuelve|Divulgar|Liberación|18|Espejo|Reflejar|Orden|Sin Fin|matriz| mi propio poder duplicado|| |3|2|||||
-259|5|20|65|AZUL|12|CRISTAL|Dedicarse|Universalizar|Cooperación|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de magia|| |4|3|||||
-260|5|20|65|AMARILLO|13|CÓSMICO|Perdura|Transcender|Presencia|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de florecimiento|1| |5|4|||||
+1|1|1|1|Rojo|1|Magnético|Unifica|Atraer|Propósito|1|Dragón|Nutrir|Ser|Nacimiento|entrada| mi propio poder duplicado|1| |1|1|2|12|||
+2|1|1|1|Blanco|2|Lunar|Polariza|Estabilizar|Desafío|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de atemporalidad|| |2|2|2|13|||
+3|1|1|1|Azul|3|Eléctrico|Activa|Vincular|Servicio|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de realización|| |3|3|2|14|||
+4|1|1|1|Amarillo|4|Auto-Existente|Define|Medir|Forma|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de fuego universal|| |4|4|2|15|||
+5|1|1|2|Rojo|5|Entonado|Confiere Poder|Comandar|Esplendor|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de espacio|| |5|1|2|16|||
+6|1|1|2|Blanco|6|Rítmico|Organiza|Equilibrar|Igualdad|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| mi propio poder duplicado|| |1|2|2|17|||
+7|1|1|2|Azul|7|Resonante|Canaliza|Inspirar|Sintonización|7|Mano|Conocer|Sanación|Realización|almacén| el poder de auto generación|| |2|3|2|18|||
+8|1|1|2|Amarillo|8|Galáctico|Armoniza|Modelar|Integridad|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de libre voluntad|| |3|4|2|19|||
+9|1|1|3|Rojo|9|Solar|Pulsa|Realizar|Intención|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de fuerza vital|| |4|1|2|20|||
+10|1|1|3|Blanco|10|Planetario|Perfecciona|Producir|Manifestación|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de sin fin||I am a polar kin.  I extend the WHITE galactic spectrum|5|2|2|21|||
+11|1|1|3|Azul|11|Espectral|Disuelve|Divulgar|Liberación|11|Mono|Jugar|Ilusión|Magia|proceso| mi propio poder duplicado|| |1|3|2|22|||
+12|1|1|3|Amarillo|12|Cristal|Dedicarse|Universalizar|Cooperación|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de florecimiento|| |2|4|2|23|||
+13|1|1|4|Rojo|13|Cósmico|Perdura|Transcender|Presencia|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de navegación || |3|1|2|24|||
+14|1|2|4|Blanco|1|Magnético|Unifica|Atraer|Propósito|14|Mago|Encantar|Receptividad|Atemporalidad|salida| mi propio poder duplicado|| |4|2|2|25|||
+15|1|2|4|Azul|2|Lunar|Polariza|Estabilizar|Desafío|15|Águila|Crear|Mente|Visíon|salida| el poder de realización|| |5|3|2|26|||
+16|1|2|4|Amarillo|3|Eléctrico|Activa|Vincular|Servicio|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de fuego universal|| |1|4|2|27|||
+17|1|2|5|Rojo|4|Auto-Existente|Define|Medir|Forma|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de espacio|| |2|1|2|28|||
+18|1|2|5|Blanco|5|Entonado|Confiere Poder|Comandar|Esplendor|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de muerte|| |3|2|2|29|||
+19|1|2|5|Azul|6|Rítmico|Organiza|Equilibrar|Igualdad|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| mi propio poder duplicado|| |4|3|2|30|||
+20|1|2|5|Amarillo|7|Resonante|Canaliza|Inspirar|Sintonización|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de libre voluntad|1| |5|4|2|31|||
+21|1|2|6|Rojo|8|Galáctico|Armoniza|Modelar|Integridad|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de fuerza vital|| |1|1|2|32|||
+22|1|2|6|Blanco|9|Solar|Pulsa|Realizar|Intención|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de sin fin|1| |2|2|2|33|||
+23|1|2|6|Azul|10|Planetario|Perfecciona|Producir|Manifestación|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de magia|| |3|3|2|34|||
+24|1|2|6|Amarillo|11|Espectral|Disuelve|Divulgar|Liberación|4|Semilla|Atinar|Atención|Florecimiento|entrada| mi propio poder duplicado|| |4|4|2|35|||
+25|1|2|7|Rojo|12|Cristal|Dedicarse|Universalizar|Cooperación|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de navegación|| |5|1|2|36|||
+26|1|2|7|Blanco|13|Cósmico|Perdura|Transcender|Presencia|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de corazón|| |1|2|2|37|||
+27|1|3|7|Azul|1|Magnético|Unifica|Atraer|Propósito|7|Mano|Conocer|Sanación|Realización|almacén| mi propio poder duplicado|| |2|3|2|38|||
+28|1|3|7|Amarillo|2|Lunar|Polariza|Estabilizar|Desafío|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de fuego universal|| |3|4|2|39|||
+29|1|3|8|Rojo|3|Eléctrico|Activa|Vincular|Servicio|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de espacio|| |4|1|2|40|||
+30|1|3|8|Blanco|4|Auto-Existente|Define|Medir|Forma|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de muerte||I am a polar kin I convert the WHITE galactic spectrum|5|2|2|41|||
+31|1|3|8|Azul|5|Entonado|Confiere Poder|Comandar|Esplendor|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de auto generación|| |1|3|2|42|||
+32|1|3|8|Amarillo|6|Rítmico|Organiza|Equilibrar|Igualdad|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| mi propio poder duplicado|| |2|4|2|43|||
+33|1|3|9|Rojo|7|Resonante|Canaliza|Inspirar|Sintonización|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de fuerza vital|| |3|1|2|44|||
+34|1|3|9|Blanco|8|Galáctico|Armoniza|Modelar|Integridad|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de sin fin|| |4|2|2|45|||
+35|1|3|9|Azul|9|Solar|Pulsa|Realizar|Intención|15|Águila|Crear|Mente|Visíon|salida| el poder de magia|| |5|3|2|46|||
+36|1|3|9|Amarillo|10|Planetario|Perfecciona|Producir|Manifestación|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de florecimiento|| |1|4|2|47|||
+37|1|3|10|Rojo|11|Espectral|Disuelve|Divulgar|Liberación|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| mi propio poder duplicado|| |2|1|2|48|||
+38|1|3|10|Blanco|12|Cristal|Dedicarse|Universalizar|Cooperación|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de corazón|| |3|2|2|49|||
+39|1|3|10|Azul|13|Cósmico|Perdura|Transcender|Presencia|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de abundancia|1| |4|3|2|50|||
+40|1|4|10|Amarillo|1|Magnético|Unifica|Atraer|Propósito|20|Sol|Iluminar|Vida|Fuego Universal|matriz| mi propio poder duplicado|| |5|4|2|51|||
+41|1|4|11|Rojo|2|Lunar|Polariza|Estabilizar|Desafío|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de espacio|| |1|1|2|52|||
+42|1|4|11|Blanco|3|Eléctrico|Activa|Vincular|Servicio|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de muerte|| |2|2|2|53|||
+43|1|4|11|Azul|4|Auto-Existente|Define|Medir|Forma|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de auto generación|1| |3|3|2|54|||
+44|1|4|11|Amarillo|5|Entonado|Confiere Poder|Comandar|Esplendor|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de libre voluntad|| |4|4|2|55|||
+45|1|4|12|Rojo|6|Rítmico|Organiza|Equilibrar|Igualdad|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| mi propio poder duplicado|| |5|1|2|56|||
+46|1|4|12|Blanco|7|Resonante|Canaliza|Inspirar|Sintonización|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de sin fin|| |1|2|2|57|||
+47|1|4|12|Azul|8|Galáctico|Armoniza|Modelar|Integridad|7|Mano|Conocer|Sanación|Realización|almacén| el poder de magia|| |2|3|2|58|||
+48|1|4|12|Amarillo|9|Solar|Pulsa|Realizar|Intención|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de florecimiento|| |3|4|2|59|||
+49|1|4|13|Rojo|10|Planetario|Perfecciona|Producir|Manifestación|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de navegación|| |4|1|2|60|||
+50|1|4|13|Blanco|11|Espectral|Disuelve|Divulgar|Liberación|10|Perro|Amar|Lealtad|Corazón|proceso| mi propio poder duplicado|1|I am a polar kin I transport the WHITE galactic spectrum |5|2|2|61|||
+51|1|4|13|Azul|12|Cristal|Dedicarse|Universalizar|Cooperación|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de abundancia|1| |1|3|2|62|||
+52|1|4|13|Amarillo|13|Cósmico|Perdura|Transcender|Presencia|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de inteligencia|| |2|4|2|63|||
+53|2|5|14|Rojo|1|Magnético|Unifica|Atraer|Propósito|13|Caminante|Explorar|Vigiliancia|Espacio|salida| mi propio poder duplicado|| |3|1|2|64|||
+54|2|5|14|Blanco|2|Lunar|Polariza|Estabilizar|Desafío|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de muerte|| |4|2|2|65|||
+55|2|5|14|Azul|3|Eléctrico|Activa|Vincular|Servicio|15|Águila|Crear|Mente|Visíon|salida| el poder de auto generación||I am a polar kin I establish the BLUE galactic spectrum|5|3|3|1|||
+56|2|5|14|Amarillo|4|Auto-Existente|Define|Medir|Forma|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de libre voluntad|| |1|4|3|2|||
+57|2|5|15|Rojo|5|Entonado|Confiere Poder|Comandar|Esplendor|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de fuerza vital|| |2|1|3|3|||
+58|2|5|15|Blanco|6|Rítmico|Organiza|Equilibrar|Igualdad|18|Espejo|Reflejar|Orden|Sin Fin|matriz| mi propio poder duplicado|1| |3|2|3|4|||
+59|2|5|15|Azul|7|Resonante|Canaliza|Inspirar|Sintonización|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de magia|| |4|3|3|5|||
+60|2|5|15|Amarillo|8|Galáctico|Armoniza|Modelar|Integridad|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de florecimiento|| |5|4|3|6|||
+61|2|5|16|Rojo|9|Solar|Pulsa|Realizar|Intención|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de navegación|| |1|1|3|7|||
+62|2|5|16|Blanco|10|Planetario|Perfecciona|Producir|Manifestación|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de corazón|| |2|2|3|8|||
+63|2|5|16|Azul|11|Espectral|Disuelve|Divulgar|Liberación|3|Noche|Soñar|Intuición|Abundancia|entrada| mi propio poder duplicado|| |3|3|3|9|||
+64|2|5|16|Amarillo|12|Cristal|Dedicarse|Universalizar|Cooperación|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de inteligencia|1| |4|4|3|10|||
+65|2|5|17|Rojo|13|Cósmico|Perdura|Transcender|Presencia|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de agua universal|| |5|1|3|11|||
+66|2|6|17|Blanco|1|Magnético|Unifica|Atraer|Propósito|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| mi propio poder duplicado|| |1|2|3|12|||
+67|2|6|17|Azul|2|Lunar|Polariza|Estabilizar|Desafío|7|Mano|Conocer|Sanación|Realización|almacén| el poder de auto generación|| |2|3|3|13|||
+68|2|6|17|Amarillo|3|Eléctrico|Activa|Vincular|Servicio|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de libre voluntad|| |3|4|3|14|||
+69|2|6|18|Rojo|4|Auto-Existente|Define|Medir|Forma|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de fuerza vital|1| |4|1|3|15|||
+70|2|6|18|Blanco|5|Entonado|Confiere Poder|Comandar|Esplendor|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de sin fin|| |5|2|3|16|||
+71|2|6|18|Azul|6|Rítmico|Organiza|Equilibrar|Igualdad|11|Mono|Jugar|Ilusión|Magia|proceso| mi propio poder duplicado|| |1|3|3|17|||
+72|2|6|18|Amarillo|7|Resonante|Canaliza|Inspirar|Sintonización|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de florecimiento|1| |2|4|3|18|||
+73|2|6|19|Rojo|8|Galáctico|Armoniza|Modelar|Integridad|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de navegación|| |3|1|3|19|||
+74|2|6|19|Blanco|9|Solar|Pulsa|Realizar|Intención|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de corazón|| |4|2|3|20|||
+75|2|6|19|Azul|10|Planetario|Perfecciona|Producir|Manifestación|15|Águila|Crear|Mente|Visíon|salida| el poder de abundancia||I am a polar kin I extend the BLUE galactic spectrum|5|3|3|21|||
+76|2|6|19|Amarillo|11|Espectral|Disuelve|Divulgar|Liberación|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| mi propio poder duplicado|| |1|4|3|22|||
+77|2|6|20|Rojo|12|Cristal|Dedicarse|Universalizar|Cooperación|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de agua universal|1| |2|1|3|23|||
+78|2|6|20|Blanco|13|Cósmico|Perdura|Transcender|Presencia|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de espiritu|| |3|2|3|24|||
+79|2|7|20|Azul|1|Magnético|Unifica|Atraer|Propósito|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| mi propio poder duplicado|| |4|3|3|25|||
+80|2|7|20|Amarillo|2|Lunar|Polariza|Estabilizar|Desafío|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de libre voluntad|| |5|4|3|26|||
+81|2|7|21|Rojo|3|Eléctrico|Activa|Vincular|Servicio|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de fuerza vital|| |1|1|3|27|||
+82|2|7|21|Blanco|4|Auto-Existente|Define|Medir|Forma|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de sin fin|| |2|2|3|28|||
+83|2|7|21|Azul|5|Entonado|Confiere Poder|Comandar|Esplendor|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de magia|| |3|3|3|29|||
+84|2|7|21|Amarillo|6|Rítmico|Organiza|Equilibrar|Igualdad|4|Semilla|Atinar|Atención|Florecimiento|entrada| mi propio poder duplicado|| |4|4|3|30|||
+85|2|7|22|Rojo|7|Resonante|Canaliza|Inspirar|Sintonización|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de navegación|1| |5|1|3|31|||
+86|2|7|22|Blanco|8|Galáctico|Armoniza|Modelar|Integridad|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de corazón|| |1|2|3|32|||
+87|2|7|22|Azul|9|Solar|Pulsa|Realizar|Intención|7|Mano|Conocer|Sanación|Realización|almacén| el poder de abundancia|| |2|3|3|33|||
+88|2|7|22|Amarillo|10|Planetario|Perfecciona|Producir|Manifestación|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de inteligencia|1| |3|4|3|34|||
+89|2|7|23|Rojo|11|Espectral|Disuelve|Divulgar|Liberación|9|Luna|Purificar|Flujo|Agua Universal|proceso| mi propio poder duplicado|| |4|1|3|35|||
+90|2|7|23|Blanco|12|Cristal|Dedicarse|Universalizar|Cooperación|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de sin fin|| |5|2|3|36|||
+91|2|7|23|Azul|13|Cósmico|Perdura|Transcender|Presencia|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de visión|| |1|3|3|37|||
+92|2|8|23|Amarillo|1|Magnético|Unifica|Atraer|Propósito|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| mi propio poder duplicado|| |2|4|3|38|||
+93|2|8|24|Rojo|2|Lunar|Polariza|Estabilizar|Desafío|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de fuerza vital|1| |3|1|3|39|||
+94|2|8|24|Blanco|3|Eléctrico|Activa|Vincular|Servicio|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de sin fin|| |4|2|3|40|||
+95|2|8|24|Azul|4|Auto-Existente|Define|Medir|Forma|15|Águila|Crear|Mente|Visíon|salida| el poder de magia||I am a polar kin I convert the BLUE galactic spectrum|5|3|3|41|||
+96|2|8|24|Amarillo|5|Entonado|Confiere Poder|Comandar|Esplendor|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de florecimiento|1| |1|4|3|42|||
+97|2|8|25|Rojo|6|Rítmico|Organiza|Equilibrar|Igualdad|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| mi propio poder duplicado|| |2|1|3|43|||
+98|2|8|25|Blanco|7|Resonante|Canaliza|Inspirar|Sintonización|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de corazón|| |3|2|3|44|||
+99|2|8|25|Azul|8|Galáctico|Armoniza|Modelar|Integridad|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de abundancia|| |4|3|3|45|||
+100|2|8|25|Amarillo|9|Solar|Pulsa|Realizar|Intención|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de inteligencia|| |5|4|3|46|||
+101|2|8|26|Rojo|10|Planetario|Perfecciona|Producir|Manifestación|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de agua universal|| |1|1|3|47|||
+102|2|8|26|Blanco|11|Espectral|Disuelve|Divulgar|Liberación|2|Viento|Comunicar|Aliento|Espíritu|entrada| mi propio poder duplicado|| |2|2|3|48|||
+103|2|8|26|Azul|12|Cristal|Dedicarse|Universalizar|Cooperación|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de visión|| |3|3|3|49|||
+104|2|8|26|Amarillo|13|Cósmico|Perdura|Transcender|Presencia|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de elegance|| |4|4|3|50|||
+105|3|9|27|Rojo|1|Magnético|Unifica|Atraer|Propósito|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| mi propio poder duplicado|| |5|1|3|51|||
+106|3|9|27|Blanco|2|Lunar|Polariza|Estabilizar|Desafío|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de magia|1| |1|2|3|52|||
+107|3|9|27|Azul|3|Eléctrico|Activa|Vincular|Servicio|7|Mano|Conocer|Sanación|Realización|almacén| el poder de magia|1| |2|3|3|53|||
+108|3|9|27|Amarillo|4|Auto-Existente|Define|Medir|Forma|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de florecimiento|1| |3|4|3|54|||
+109|3|9|28|Rojo|5|Entonado|Confiere Poder|Comandar|Esplendor|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de navegación|1| |4|1|3|55|||
+110|3|9|28|Blanco|6|Rítmico|Organiza|Equilibrar|Igualdad|10|Perro|Amar|Lealtad|Corazón|proceso| mi propio poder duplicado|1| |5|2|3|56|||
+111|3|9|28|Azul|7|Resonante|Canaliza|Inspirar|Sintonización|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de abundancia|1| |1|3|3|57|||
+112|3|9|28|Amarillo|8|Galáctico|Armoniza|Modelar|Integridad|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de inteligencia|1| |2|4|3|58|||
+113|3|9|29|Rojo|9|Solar|Pulsa|Realizar|Intención|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de agua universal|1| |3|1|3|59|||
+114|3|9|29|Blanco|10|Planetario|Perfecciona|Producir|Manifestación|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de espiritu|1| |4|2|3|60|||
+115|3|9|29|Azul|11|Espectral|Disuelve|Divulgar|Liberación|15|Águila|Crear|Mente|Visíon|salida| mi propio poder duplicado|1|I am a polar kin I transport the BLUE galactic spectrum|5|3|3|61|||
+116|3|9|29|Amarillo|12|Cristal|Dedicarse|Universalizar|Cooperación|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de elegance|| |1|4|3|62|||
+117|3|9|30|Rojo|13|Cósmico|Perdura|Transcender|Presencia|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de birth|| |2|1|3|63|||
+118|3|10|30|Blanco|1|Magnético|Unifica|Atraer|Propósito|18|Espejo|Reflejar|Orden|Sin Fin|matriz| mi propio poder duplicado|| |3|2|3|64|||
+119|3|10|30|Azul|2|Lunar|Polariza|Estabilizar|Desafío|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de magia|| |4|3|3|65|||
+120|3|10|30|Amarillo|3|Eléctrico|Activa|Vincular|Servicio|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de florecimiento||I am a polar kin I establish the YELLOW galactic spectrum|5|4|4|1|||
+121|3|10|31|Rojo|4|Auto-Existente|Define|Medir|Forma|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de navegación|| |1|1|4|2|||
+122|3|10|31|Blanco|5|Entonado|Confiere Poder|Comandar|Esplendor|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de corazón|| |2|2|4|3|||
+123|3|10|31|Azul|6|Rítmico|Organiza|Equilibrar|Igualdad|3|Noche|Soñar|Intuición|Abundancia|entrada| mi propio poder duplicado|| |3|3|4|4|||
+124|3|10|31|Amarillo|7|Resonante|Canaliza|Inspirar|Sintonización|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de inteligencia|| |4|4|4|5|||
+125|3|10|32|Rojo|8|Galáctico|Armoniza|Modelar|Integridad|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de agua universal|| |5|1|4|6|||
+126|3|10|32|Blanco|9|Solar|Pulsa|Realizar|Intención|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de espiritu|| |1|2|4|7|||
+127|3|10|32|Azul|10|Planetario|Perfecciona|Producir|Manifestación|7|Mano|Conocer|Sanación|Realización|almacén| el poder de visión|| |2|3|4|8|||
+128|3|10|32|Amarillo|11|Espectral|Disuelve|Divulgar|Liberación|8|Estrella|Embellecer|Arte|Elegancia|almacén| mi propio poder duplicado|| |3|4|4|9|||
+129|3|10|33|Rojo|12|Cristal|Dedicarse|Universalizar|Cooperación|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de birth|| |4|1|4|10|||
+130|3|10|33|Blanco|13|Cósmico|Perdura|Transcender|Presencia|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de atemporalidad|| |5|2|4|11|||
+131|3|11|33|Azul|1|Magnético|Unifica|Atraer|Propósito|11|Mono|Jugar|Ilusión|Magia|proceso| mi propio poder duplicado|| |1|3|4|12|||
+132|3|11|33|Amarillo|2|Lunar|Polariza|Estabilizar|Desafío|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de florecimiento|| |2|4|4|13|||
+133|3|11|34|Rojo|3|Eléctrico|Activa|Vincular|Servicio|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de navegación|| |3|1|4|14|||
+134|3|11|34|Blanco|4|Auto-Existente|Define|Medir|Forma|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de corazón|| |4|2|4|15|||
+135|3|11|34|Azul|5|Entonado|Confiere Poder|Comandar|Esplendor|15|Águila|Crear|Mente|Visíon|salida| el poder de abundancia|| |5|3|4|16|||
+136|3|11|34|Amarillo|6|Rítmico|Organiza|Equilibrar|Igualdad|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| mi propio poder duplicado|| |1|4|4|17|||
+137|3|11|35|Rojo|7|Resonante|Canaliza|Inspirar|Sintonización|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de agua universal|| |2|1|4|18|||
+138|3|11|35|Blanco|8|Galáctico|Armoniza|Modelar|Integridad|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de espiritu|| |3|2|4|19|||
+139|3|11|35|Azul|9|Solar|Pulsa|Realizar|Intención|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de visión|| |4|3|4|20|||
+140|3|11|35|Amarillo|10|Planetario|Perfecciona|Producir|Manifestación|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de elegance||I am a polar kin I extend the YELLOW galactic spectrum |5|4|4|21|||
+141|3|11|36|Rojo|11|Espectral|Disuelve|Divulgar|Liberación|1|Dragón|Nutrir|Ser|Nacimiento|entrada| mi propio poder duplicado|| |1|1|4|22|||
+142|3|11|36|Blanco|12|Cristal|Dedicarse|Universalizar|Cooperación|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de atemporalidad|| |2|2|4|23|||
+143|3|11|36|Azul|13|Cósmico|Perdura|Transcender|Presencia|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de realización|| |3|3|4|24|||
+144|3|12|36|Amarillo|1|Magnético|Unifica|Atraer|Propósito|4|Semilla|Atinar|Atención|Florecimiento|entrada| mi propio poder duplicado|| |4|4|4|25|||
+145|3|12|37|Rojo|2|Lunar|Polariza|Estabilizar|Desafío|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de navegación|| |5|1|4|26|||
+146|3|12|37|Blanco|3|Eléctrico|Activa|Vincular|Servicio|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de corazón|1| |1|2|4|27|||
+147|3|12|37|Azul|4|Auto-Existente|Define|Medir|Forma|7|Mano|Conocer|Sanación|Realización|almacén| el poder de abundancia|1| |2|3|4|28|||
+148|3|12|37|Amarillo|5|Entonado|Confiere Poder|Comandar|Esplendor|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de inteligencia|1| |3|4|4|29|||
+149|3|12|38|Rojo|6|Rítmico|Organiza|Equilibrar|Igualdad|9|Luna|Purificar|Flujo|Agua Universal|proceso| mi propio poder duplicado|1| |4|1|4|30|||
+150|3|12|38|Blanco|7|Resonante|Canaliza|Inspirar|Sintonización|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de espiritu|1| |5|2|4|31|||
+151|3|12|38|Azul|8|Galáctico|Armoniza|Modelar|Integridad|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de visión|1| |1|3|4|32|||
+152|3|12|38|Amarillo|9|Solar|Pulsa|Realizar|Intención|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de elegance|1| |2|4|4|33|||
+153|3|12|39|Rojo|10|Planetario|Perfecciona|Producir|Manifestación|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de birth|1| |3|1|4|34|||
+154|3|12|39|Blanco|11|Espectral|Disuelve|Divulgar|Liberación|14|Mago|Encantar|Receptividad|Atemporalidad|salida| mi propio poder duplicado|1| |4|2|4|35|||
+155|3|12|39|Azul|12|Cristal|Dedicarse|Universalizar|Cooperación|15|Águila|Crear|Mente|Visíon|salida| el poder de realización|1| |5|3|4|36|||
+156|3|12|39|Amarillo|13|Cósmico|Perdura|Transcender|Presencia|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de fuego universal|| |1|4|4|37|||
+157|4|13|40|Rojo|1|Magnético|Unifica|Atraer|Propósito|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| mi propio poder duplicado|| |2|1|4|38|||
+158|4|13|40|Blanco|2|Lunar|Polariza|Estabilizar|Desafío|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de corazón|| |3|2|4|39|||
+159|4|13|40|Azul|3|Eléctrico|Activa|Vincular|Servicio|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de abundancia|| |4|3|4|40|||
+160|4|13|40|Amarillo|4|Auto-Existente|Define|Medir|Forma|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de inteligencia||I am a polar kin I convert the YELLOW galactic spectrum |5|4|4|41|||
+161|4|13|41|Rojo|5|Entonado|Confiere Poder|Comandar|Esplendor|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de agua universal|| |1|1|4|42|||
+162|4|13|41|Blanco|6|Rítmico|Organiza|Equilibrar|Igualdad|2|Viento|Comunicar|Aliento|Espíritu|entrada| mi propio poder duplicado|| |2|2|4|43|||
+163|4|13|41|Azul|7|Resonante|Canaliza|Inspirar|Sintonización|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de visión|| |3|3|4|44|||
+164|4|13|41|Amarillo|8|Galáctico|Armoniza|Modelar|Integridad|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de elegance|| |4|4|4|45|||
+165|4|13|42|Rojo|9|Solar|Pulsa|Realizar|Intención|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de birth|1| |5|1|4|46|||
+166|4|13|42|Blanco|10|Planetario|Perfecciona|Producir|Manifestación|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de atemporalidad|| |1|2|4|47|||
+167|4|13|42|Azul|11|Espectral|Disuelve|Divulgar|Liberación|7|Mano|Conocer|Sanación|Realización|almacén| mi propio poder duplicado|| |2|3|4|48|||
+168|4|13|42|Amarillo|12|Cristal|Dedicarse|Universalizar|Cooperación|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de fuego universal|1| |3|4|4|49|||
+169|4|13|43|Rojo|13|Cósmico|Perdura|Transcender|Presencia|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de espacio|| |4|1|4|50|||
+170|4|14|43|Blanco|1|Magnético|Unifica|Atraer|Propósito|10|Perro|Amar|Lealtad|Corazón|proceso| mi propio poder duplicado|| |5|2|4|51|||
+171|4|14|43|Azul|2|Lunar|Polariza|Estabilizar|Desafío|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de abundancia|| |1|3|4|52|||
+172|4|14|43|Amarillo|3|Eléctrico|Activa|Vincular|Servicio|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de inteligencia|| |2|4|4|53|||
+173|4|14|44|Rojo|4|Auto-Existente|Define|Medir|Forma|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de agua universal|1| |3|1|4|54|||
+174|4|14|44|Blanco|5|Entonado|Confiere Poder|Comandar|Esplendor|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de espiritu|| |4|2|4|55|||
+175|4|14|44|Azul|6|Rítmico|Organiza|Equilibrar|Igualdad|15|Águila|Crear|Mente|Visíon|salida| mi propio poder duplicado|| |5|3|4|56|||
+176|4|14|44|Amarillo|7|Resonante|Canaliza|Inspirar|Sintonización|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de elegance|1| |1|4|4|57|||
+177|4|14|45|Rojo|8|Galáctico|Armoniza|Modelar|Integridad|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de birth|| |2|1|4|58|||
+178|4|14|45|Blanco|9|Solar|Pulsa|Realizar|Intención|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de atemporalidad|| |3|2|4|59|||
+179|4|14|45|Azul|10|Planetario|Perfecciona|Producir|Manifestación|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de realización|| |4|3|4|60|||
+180|4|14|45|Amarillo|11|Espectral|Disuelve|Divulgar|Liberación|20|Sol|Iluminar|Vida|Fuego Universal|matriz| mi propio poder duplicado||I am a polar kin I transport the YELLOW galactic spectrum |5|4|4|61|||
+181|4|14|46|Rojo|12|Cristal|Dedicarse|Universalizar|Cooperación|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de espacio|| |1|1|4|62|||
+182|4|14|46|Blanco|13|Cósmico|Perdura|Transcender|Presencia|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de muerte|| |2|2|4|63|||
+183|4|15|46|Azul|1|Magnético|Unifica|Atraer|Propósito|3|Noche|Soñar|Intuición|Abundancia|entrada| mi propio poder duplicado|| |3|3|4|64|||
+184|4|15|46|Amarillo|2|Lunar|Polariza|Estabilizar|Desafío|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de inteligencia|1| |4|4|4|65|||
+185|4|15|47|Rojo|3|Eléctrico|Activa|Vincular|Servicio|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de agua universal||I am a polar kin I establish the RED galactic spectrum|5|1|1|1|||
+186|4|15|47|Blanco|4|Auto-Existente|Define|Medir|Forma|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de espiritu|| |1|2|1|2|||
+187|4|15|47|Azul|5|Entonado|Confiere Poder|Comandar|Esplendor|7|Mano|Conocer|Sanación|Realización|almacén| el poder de visión|| |2|3|1|3|||
+188|4|15|47|Amarillo|6|Rítmico|Organiza|Equilibrar|Igualdad|8|Estrella|Embellecer|Arte|Elegancia|almacén| mi propio poder duplicado|| |3|4|1|4|||
+189|4|15|48|Rojo|7|Resonante|Canaliza|Inspirar|Sintonización|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de birth|1| |4|1|1|5|||
+190|4|15|48|Blanco|8|Galáctico|Armoniza|Modelar|Integridad|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de atemporalidad|| |5|2|1|6|||
+191|4|15|48|Azul|9|Solar|Pulsa|Realizar|Intención|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de realización|| |1|3|1|7|||
+192|4|15|48|Amarillo|10|Planetario|Perfecciona|Producir|Manifestación|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de fuego universal|1| |2|4|1|8|||
+193|4|15|49|Rojo|11|Espectral|Disuelve|Divulgar|Liberación|13|Caminante|Explorar|Vigiliancia|Espacio|salida| mi propio poder duplicado|| |3|1|1|9|||
+194|4|15|49|Blanco|12|Cristal|Dedicarse|Universalizar|Cooperación|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de muerte|| |4|2|1|10|||
+195|4|15|49|Azul|13|Cósmico|Perdura|Transcender|Presencia|15|Águila|Crear|Mente|Visíon|salida| el poder de auto generación|| |5|3|1|11|||
+196|4|16|49|Amarillo|1|Magnético|Unifica|Atraer|Propósito|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| mi propio poder duplicado|| |1|4|1|12|||
+197|4|16|50|Rojo|2|Lunar|Polariza|Estabilizar|Desafío|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de agua universal|1| |2|1|1|13|||
+198|4|16|50|Blanco|3|Eléctrico|Activa|Vincular|Servicio|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de espiritu|| |3|2|1|14|||
+199|4|16|50|Azul|4|Auto-Existente|Define|Medir|Forma|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de visión|| |4|3|1|15|||
+200|4|16|50|Amarillo|5|Entonado|Confiere Poder|Comandar|Esplendor|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de elegance|| |5|4|1|16|||
+201|4|16|51|Rojo|6|Rítmico|Organiza|Equilibrar|Igualdad|1|Dragón|Nutrir|Ser|Nacimiento|entrada| mi propio poder duplicado|| |1|1|1|17|||
+202|4|16|51|Blanco|7|Resonante|Canaliza|Inspirar|Sintonización|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de atemporalidad|| |2|2|1|18|||
+203|4|16|51|Azul|8|Galáctico|Armoniza|Modelar|Integridad|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de realización|1| |3|3|1|19|||
+204|4|16|51|Amarillo|9|Solar|Pulsa|Realizar|Intención|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de fuego universal|| |4|4|1|20|||
+205|4|16|52|Rojo|10|Planetario|Perfecciona|Producir|Manifestación|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de espacio||I am a polar kin I extend the RED galactic spectrum|5|1|1|21|||
+206|4|16|52|Blanco|11|Espectral|Disuelve|Divulgar|Liberación|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| mi propio poder duplicado|| |1|2|1|22|||
+207|4|16|52|Azul|12|Cristal|Dedicarse|Universalizar|Cooperación|7|Mano|Conocer|Sanación|Realización|almacén| el poder de auto generación|| |2|3|1|23|||
+208|4|16|52|Amarillo|13|Cósmico|Perdura|Transcender|Presencia|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de libre voluntad|| |3|4|1|24|||
+209|5|17|53|Rojo|1|Magnético|Unifica|Atraer|Propósito|9|Luna|Purificar|Flujo|Agua Universal|proceso| mi propio poder duplicado|| |4|1|1|25|||
+210|5|17|53|Blanco|2|Lunar|Polariza|Estabilizar|Desafío|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de espiritu|1| |5|2|1|26|||
+211|5|17|53|Azul|3|Eléctrico|Activa|Vincular|Servicio|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de visión|1| |1|3|1|27|||
+212|5|17|53|Amarillo|4|Auto-Existente|Define|Medir|Forma|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de elegance|| |2|4|1|28|||
+213|5|17|54|Rojo|5|Entonado|Confiere Poder|Comandar|Esplendor|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de birth|| |3|1|1|29|||
+214|5|17|54|Blanco|6|Rítmico|Organiza|Equilibrar|Igualdad|14|Mago|Encantar|Receptividad|Atemporalidad|salida| mi propio poder duplicado|| |4|2|1|30|||
+215|5|17|54|Azul|7|Resonante|Canaliza|Inspirar|Sintonización|15|Águila|Crear|Mente|Visíon|salida| el poder de realización|| |5|3|1|31|||
+216|5|17|54|Amarillo|8|Galáctico|Armoniza|Modelar|Integridad|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de fuego universal|| |1|4|1|32|||
+217|5|17|55|Rojo|9|Solar|Pulsa|Realizar|Intención|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de espacio|| |2|1|1|33|||
+218|5|17|55|Blanco|10|Planetario|Perfecciona|Producir|Manifestación|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de muerte|1| |3|2|1|34|||
+219|5|17|55|Azul|11|Espectral|Disuelve|Divulgar|Liberación|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| mi propio poder duplicado|| |4|3|1|35|||
+220|5|17|55|Amarillo|12|Cristal|Dedicarse|Universalizar|Cooperación|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de libre voluntad|| |5|4|1|36|||
+221|5|17|56|Rojo|13|Cósmico|Perdura|Transcender|Presencia|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de fuerza vital|| |1|1|1|37|||
+222|5|18|56|Blanco|1|Magnético|Unifica|Atraer|Propósito|2|Viento|Comunicar|Aliento|Espíritu|entrada| mi propio poder duplicado|1| |2|2|1|38|||
+223|5|18|56|Azul|2|Lunar|Polariza|Estabilizar|Desafío|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de visión|| |3|3|1|39|||
+224|5|18|56|Amarillo|3|Eléctrico|Activa|Vincular|Servicio|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de elegance|| |4|4|1|40|||
+225|5|18|57|Rojo|4|Auto-Existente|Define|Medir|Forma|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| el poder de birth||I am a polar kin I convert the RED galactic spectrum|5|1|1|41|||
+226|5|18|57|Blanco|5|Entonado|Confiere Poder|Comandar|Esplendor|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de atemporalidad|| |1|2|1|42|||
+227|5|18|57|Azul|6|Rítmico|Organiza|Equilibrar|Igualdad|7|Mano|Conocer|Sanación|Realización|almacén| mi propio poder duplicado|| |2|3|1|43|||
+228|5|18|57|Amarillo|7|Resonante|Canaliza|Inspirar|Sintonización|8|Estrella|Embellecer|Arte|Elegancia|almacén| el poder de fuego universal|| |3|4|1|44|||
+229|5|18|58|Rojo|8|Galáctico|Armoniza|Modelar|Integridad|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de espacio|| |4|1|1|45|||
+230|5|18|58|Blanco|9|Solar|Pulsa|Realizar|Intención|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de muerte|| |5|2|1|46|||
+231|5|18|58|Azul|10|Planetario|Perfecciona|Producir|Manifestación|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de auto generación|| |1|3|1|47|||
+232|5|18|58|Amarillo|11|Espectral|Disuelve|Divulgar|Liberación|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| mi propio poder duplicado|| |2|4|1|48|||
+233|5|18|59|Rojo|12|Cristal|Dedicarse|Universalizar|Cooperación|13|Caminante|Explorar|Vigiliancia|Espacio|salida| el poder de fuerza vital|| |3|1|1|49|||
+234|5|18|59|Blanco|13|Cósmico|Perdura|Transcender|Presencia|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de sin fin|| |4|2|1|50|||
+235|5|19|59|Azul|1|Magnético|Unifica|Atraer|Propósito|15|Águila|Crear|Mente|Visíon|salida| mi propio poder duplicado|| |5|3|1|51|||
+236|5|19|59|Amarillo|2|Lunar|Polariza|Estabilizar|Desafío|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de elegance|| |1|4|1|52|||
+237|5|19|60|Rojo|3|Eléctrico|Activa|Vincular|Servicio|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de birth|| |2|1|1|53|||
+238|5|19|60|Blanco|4|Auto-Existente|Define|Medir|Forma|18|Espejo|Reflejar|Orden|Sin Fin|matriz| el poder de atemporalidad|| |3|2|1|54|||
+239|5|19|60|Azul|5|Entonado|Confiere Poder|Comandar|Esplendor|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de realización|1| |4|3|1|55|||
+240|5|19|60|Amarillo|6|Rítmico|Organiza|Equilibrar|Igualdad|20|Sol|Iluminar|Vida|Fuego Universal|matriz| mi propio poder duplicado|| |5|4|1|56|||
+241|5|19|61|Rojo|7|Resonante|Canaliza|Inspirar|Sintonización|1|Dragón|Nutrir|Ser|Nacimiento|entrada| el poder de espacio|1| |1|1|1|57|||
+242|5|19|61|Blanco|8|Galáctico|Armoniza|Modelar|Integridad|2|Viento|Comunicar|Aliento|Espíritu|entrada| el poder de muerte|| |2|2|1|58|||
+243|5|19|61|Azul|9|Solar|Pulsa|Realizar|Intención|3|Noche|Soñar|Intuición|Abundancia|entrada| el poder de auto generación|| |3|3|1|59|||
+244|5|19|61|Amarillo|10|Planetario|Perfecciona|Producir|Manifestación|4|Semilla|Atinar|Atención|Florecimiento|entrada| el poder de libre voluntad|| |4|4|1|60|||
+245|5|19|62|Rojo|11|Espectral|Disuelve|Divulgar|Liberación|5|Serpiente|Sobrevivir|Instinto|Fuerza Vital|almacén| mi propio poder duplicado||I am a polar kin I transport the RED galactic spectrum|5|1|1|61|||
+246|5|19|62|Blanco|12|Cristal|Dedicarse|Universalizar|Cooperación|6|Enlazador|Igualar|Oportunidad|Muerte|almacén| el poder de sin fin|| |1|2|1|62|||
+247|5|19|62|Azul|13|Cósmico|Perdura|Transcender|Presencia|7|Mano|Conocer|Sanación|Realización|almacén| el poder de magia|| |2|3|1|63|||
+248|5|20|62|Amarillo|1|Magnético|Unifica|Atraer|Propósito|8|Estrella|Embellecer|Arte|Elegancia|almacén| mi propio poder duplicado|| |3|4|1|64|||
+249|5|20|63|Rojo|2|Lunar|Polariza|Estabilizar|Desafío|9|Luna|Purificar|Flujo|Agua Universal|proceso| el poder de birth|| |4|1|1|65|||
+250|5|20|63|Blanco|3|Eléctrico|Activa|Vincular|Servicio|10|Perro|Amar|Lealtad|Corazón|proceso| el poder de atemporalidad||I am a polar kin I establish the WHITE galactic spectrum|5|2|2|1|||
+251|5|20|63|Azul|4|Auto-Existente|Define|Medir|Forma|11|Mono|Jugar|Ilusión|Magia|proceso| el poder de realización|| |1|3|2|2|||
+252|5|20|63|Amarillo|5|Entonado|Confiere Poder|Comandar|Esplendor|12|Humano|Influenciar|Sabiduría|Libre Voluntad|proceso| el poder de fuego universal|| |2|4|2|3|||
+253|5|20|64|Rojo|6|Rítmico|Organiza|Equilibrar|Igualdad|13|Caminante|Explorar|Vigiliancia|Espacio|salida| mi propio poder duplicado|| |3|1|2|4|||
+254|5|20|64|Blanco|7|Resonante|Canaliza|Inspirar|Sintonización|14|Mago|Encantar|Receptividad|Atemporalidad|salida| el poder de muerte|| |4|2|2|5|||
+255|5|20|64|Azul|8|Galáctico|Armoniza|Modelar|Integridad|15|Águila|Crear|Mente|Visíon|salida| el poder de auto generación|| |5|3|2|6|||
+256|5|20|64|Amarillo|9|Solar|Pulsa|Realizar|Intención|16|Guerrero|Cuestionar|Intrepidez|Inteligencia|salida| el poder de libre voluntad|| |1|4|2|7|||
+257|5|20|65|Rojo|10|Planetario|Perfecciona|Producir|Manifestación|17|Tierra|Evolucionar|Sincronicidad|Navegación|matriz| el poder de fuerza vital|| |2|1|2|8|||
+258|5|20|65|Blanco|11|Espectral|Disuelve|Divulgar|Liberación|18|Espejo|Reflejar|Orden|Sin Fin|matriz| mi propio poder duplicado|| |3|2|2|9|||
+259|5|20|65|Azul|12|Cristal|Dedicarse|Universalizar|Cooperación|19|Tormenta|Catalizar|Energía|Auto Generación|matriz| el poder de magia|| |4|3|2|10|||
+260|5|20|65|Amarillo|13|Cósmico|Perdura|Transcender|Presencia|20|Sol|Iluminar|Vida|Fuego Universal|matriz| el poder de florecimiento|1| |5|4|2|11|||
