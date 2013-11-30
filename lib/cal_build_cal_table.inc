@@ -3,16 +3,13 @@
 // Set defaults on what appears on first load
 // Build the calendar
 
-// Change Locale, as needed
-// TRANSLATE by switching languages automatically
-// What language are you using?
-	$chq_locale = get_locale();
-     if ($chq_locale == "es_ES"){setlocale(LC_ALL, 'es_ES');}
-     if ($chq_locale == "es_ES"){setlocale(LC_ALL, 'es_ES');}
-     else {
-		$chq_locale = "en_EN";
-		setlocale(LC_ALL, 'en_EN');
-	}
+// Change Locale, as needed // What language are you using?
+$ucd_locale = get_locale();
+
+// Setlocale
+if ($ucd_locale == "es_ES"){setlocale(LC_ALL, 'es_ES');}
+elseif ($ucd_locale == "nl_NL"){setlocale(LC_ALL, 'nl_NL');}
+else {$ucd_locale = "en_EN"; setlocale(LC_ALL, 'en_EN');}
 
 // Decode the requested Gregorian date: returns: $hilite_kin_num
 $hilite_kin_num = tmc_date_mysql_to_kin($mysql_date, $dcode_bcad);
@@ -117,14 +114,18 @@ foreach ($array_moons_dates[$this_moon_num] as $moon_date_item){
 	if ($this_day_kin_num > 260){$this_day_kin_num = $this_day_kin_num - 260;} // Do it once
 	if ($this_day_kin_num > 260){$this_day_kin_num = $this_day_kin_num - 260;} // Do it again
 
-
+$cal_class = "norm";
+$style_for_hilite_day = "";
 // CREATE THE CELL FOR TODAY ====================================
 // This is the day requested... highlight it, and get info from db
 	if ($this_day_kin_num === $hilite_kin_num){
 		$cal_class = "hlt";
 
 		$color_for_hilite_day = get_option('curr_day_hilite_color');
-		$style_for_hilite_day = " style=\"backround-color: #".$color_for_hilite_day.";\"";
+		$style_for_hilite_day = " style=\"background-color: #".$color_for_hilite_day.";\"";
+
+		$this_date_tm_day = $day_count;
+
 		
 		$button_class = "button_today";
 		$hightlight_plasma_today = $day_count;
@@ -174,7 +175,22 @@ foreach ($array_moons_dates[$this_moon_num] as $moon_date_item){
           }
      }
 
-// Get wordpress settings into a var
+
+     // Use 2 functions to get the correct 13moon date
+     $tmc_yrs_since_array = tmc_ns_yr_nums($this_day_year, $this_day_mon, $this_day_day); // returns array of two items: x x
+     $tmc_ns_first_cycle = $tmc_yrs_since_array[0];
+     $tmc_ns_second_cycle = $tmc_yrs_since_array[1];
+     
+     // $tmc_ns_first_cycle
+     if ($tmc_ns_first_cycle == "-0"){
+     	$tmc_ns_first_cycle = str_replace("-", "", "$tmc_ns_first_cycle");
+     }
+     
+     // Create the proper 13-moon date display
+     $this_tm_date_proper = "NS".$tmc_ns_first_cycle.".".$tmc_ns_second_cycle.".".$this_moon_num.".".$day_count;
+
+
+
 
 // We're going to build a variable that is the URL that's passed to the ajax jquery program (currently ThickBox, which doesn't allow a POST)
 	$ajax_link = $ajax_info;
@@ -182,8 +198,10 @@ foreach ($array_moons_dates[$this_moon_num] as $moon_date_item){
 	$ajax_link .= "&width=280";
 	$ajax_link .= "&date=$this_mysql_date";
 	$ajax_link .= "&purl=".plugins_url();
+	$ajax_link .= "&ucd_locale=$ucd_locale";
 	$ajax_link .= "&show_famous_events=".get_option('show_famous_events');
 	$ajax_link .= "&rurl_enc_posts_del=$rurl_enc_posts_del";
+	$ajax_link .= "&tm_date_proper=$this_tm_date_proper";
 
 // Get user settings
      $day_with_posts_highlight_border_color = get_option('day_with_posts_highlight_border_color');

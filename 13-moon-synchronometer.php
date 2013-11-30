@@ -3,7 +3,7 @@
 Plugin Name: 13-Moon Synchronometer
 Plugin URI: http://anthonyfogleman.com/blog/13-moon-synchronometer-wp-plugin/
 Description: The 13-Moon Synchronometer is a calendar of Natural Time and harmonic measurement tool synchronized with natural order. Your site will display a harmonic Calendar, list your posts, moon, kin, and more. Makes a widget you can drop in a sidebar or use shortcode [thirteen-moon-calendar] in post or page to synchronize with Natural Time.
-Version: 1.5.0
+Version: 1.5.1
 Author: Anthony R. Fogleman
 Author URI: http://anthonyfogleman.com
 License: GPLv2

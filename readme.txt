@@ -5,7 +5,7 @@ Donate link: http://anthonyfogleman.com/blog/donations/
 Tags: 13-moon, natural-time, dreamspell, tzolkin, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, Cosmic-History, sychronometer, calendar, natural-time, valum-votan, telektonon, turtle, native, maya, noosphere, psi-bank, kin, in-lakech, decode, date
 Requires at least: WP 3.2
 Tested up to: WP 3.7.1
-Stable tag: 1.5.0
+Stable tag: 1.5.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 The 13-Moon Synchronometer is a calendar of Natural Time and harmonic measurement tool synchronized with natural order. Your site will display a harmonic Calendar, list your posts, moon, kin, and more. Makes a widget you can drop in a sidebar or use shortcode [thirteen-moon-calendar] in post or page to synchronize with Natural Time.
 
 This plugin is part of a growing series of Dreamspell plugins, designed to work on their own and together, changing together each day and when a different day is decoded. Check out the other plugins by [__tonyray and abmaya__](http://profiles.wordpress.org/tonyray/).
+
+Translated from English (en_EN) to Spanish (es_ES) and Dutch (nl_NL).
 
 = Contributors include =
 
@@ -26,43 +28,44 @@ This plugin is part of a growing series of Dreamspell plugins, designed to work 
 
 == Translation credits ==
 
-* Currently in English only, but time will tell.
+* Juryt Abma 243 - Dutch
+* Araygua Simran pal Kaur 224 - Spanish
+* Anka TonyRay 139 - English
+
+== About the Series ==
+* There are three plugins that synchronize with each day and decoding.  This plugin is the third of a series developed to expand the use of Natural Time.
+* If you like this plugin, you might also like the [__13-Moon Synchronometer__](http://wordpress.org/plugins/13-moon-synchronometer/) and the [__Cosmic History Quotes__](http://wordpress.org/plugins/cosmic-history-quotes/).  Each one synchronizes with the other.
 
-= Help Keep My Plugins Free =
+= Help Keep Our Plugins Free =
 
-If you find this plugin useful, please consider [__making a small donation__](http://anthonyfogleman.com/blog/donations/) to help contribute to my time invested and to further development of this and other interesting plugins and support the development of Natural Time tools to help us connect with each other in peaceful ways.  Thanks for your kind support! - [__Anthony Fogleman__](http://profiles.wordpress.org/tonyray/)
+If you find this plugin useful, please [__make a donation__](http://anthonyfogleman.com/blog/donations/) to help contribute to further development of this and other interesting plugins for development of Natural Time and connections in peaceful ways.  Thanks! - [__Anthony Fogleman__](http://profiles.wordpress.org/tonyray/)
 
-I send my blessing to you and our relations with:
-
-Aho mitakeoasin, in lakech, ahau!
+Blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
 
 == Installation ==
 
 = Automatic Method =
 
 1. You're reading this, so click the 'install now' link above
-2. Activate the plugin `(in Plugins menu)`
+1. Activate the plugin `(in Plugins menu)`
 
 = Manual Method =
 
 1. Download the zip file from wordpress
-2. Go to Plugins, new, upload the zip file.  It will create a directory: `13-moon-synchronometer`
-3. Activate the plugin `(in Plugins menu)`
+1. Go to Plugins, new, upload the zip file.  It will create a directory: `13-moon-synchronometer`
+1. Activate the plugin `(in Plugins menu)`
 
 = Once installed, how to make it work: =
 
 1. Got to Widgets, and put a 13-Moon Calendar widget into a sidebar
-2. Optional: insert shortcode `[thirteen-moon-calendar]` into a post or page
-3. Settings are at `Dashboard -> Settings -> 13-Moon Settings`
+1. Optional: insert shortcode `[thirteen-moon-calendar]` into a post or page
+1. Settings are at `Dashboard -> Settings -> 13-Moon Settings`
 
 == Frequently Asked Questions ==
 
-1. What is the meaning of life?
+* What is the meaning of life?
+* The purpose is for your good, and your trust will grow to include peace on earth.
 
-The purpose is for your good, and your trust will grow to include peace on earth.
-
-* Perhaps future questions will be on the topic of the plugin
-
 == Screenshots ==
 
 1. Sidebar view 
@@ -72,6 +75,11 @@ The purpose is for your good, and your trust will grow to include peace on earth
 5. Options panel
 
 == Changelog ==
+
+= 1.5.1 - NS1.26.5.16 - 27.11.2013 =
+* Full translations to Dutch and Spanish
+* Added more date features expanding value
+* Style improvements to look better in your theme
 
 = 1.5.0 - 27.11.2013 =
 * More work to reduce PHP warnings
@@ -97,6 +105,9 @@ The purpose is for your good, and your trust will grow to include peace on earth
 * First Release of 13-Moon Synchronometer - Limi Day 27 Self-Existing Moon 4 Kin 14 WHITE MAGNETIC WIZARD
 
 == Upgrade Notice ==
+
+= 1.5.1 =
+Major improvements in layout, function and translation
 
 = 1.5.0 =
 Reworked the date logic to work with other plugins

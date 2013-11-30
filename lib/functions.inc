@@ -1,40 +1,29 @@
 <?php // functions.inc
 /* FUNCTIONS IN THIS FILE
 
-tmc_date_mysql_to_kin ($mysql_date, $dcode_bcad)
+tmc_date_mysql_to_kin($mysql_date, $dcode_bcad)
 ms_date_is_leapday
-guiding_power
-tone_nm_to_img_num
-tone_nm_to_img_num_rev
-tribe_nm_to_img_num
-tmc_date_mysql_to_short
-date_mysql_to_very_short
+guiding_power($tone_num, $tribe_num)
+tone_num_to_img_num
+seal_num_to_img_num
+
 tmc_truncate
-tone_name_to_num
-tmc_tone_num_to_name
-tribe_name_to_num
-tribe_num_to_name 
-tribe_num_to_color
 kin_to_next_gb
-kin_to_wavespell
+tmc_kin_to_wavespell($kin_ID, $tone_num)
 tmc_count_days
 num_days_moon_num
 ms_moon_start_yr - determine the starting year of the 13m cal from any mysql date
 tmc_is_leapyear - advanced method for checking leap year
 ms_date_moon_array - creates array of moon illumination of any day/time
 class Moon
-translate_kin_to_seo ($tran_kin, $database) // Translate URL for SEO
 moon_phase ($year, $month, $day) // Gets date of full moon
-prof_to_list - Convert list of abbreviated professions to a list of Readable Words
 is_portal($kin_ID) - reports past and future portals
-
 tm_day_num_to_plasma_num ($this_day_count) // Used in new calendar
-tribe_num_to_tribe_essences_del ($tribe_num)
-tone_num_to_tone_essences_del ($tone_num)
-
-tmc_castle_num_to_name($castle_number)
-
 get_this_day_wp_posts($this_mysql_date) // an awesome little func that gets the posts on a given date
+tmc_translate_kin_to_seo($tran_kin, $database) // Translate URL for SEO
+tmc_tone_num_to_name
+
+tmc_ns_yr_nums($dcode_yr, $dcode_mo, $dcode_day)
 
 */
 
@@ -226,76 +215,29 @@ function guiding_power($tone_num, $tribe_num){
 }
 
 // Tone to Image function
-function tone_nm_to_img_num($Tone){
-	switch ($Tone) {
-		case "MAGNETIC":		$tone_img = "01p.gif";break;
-		case "LUNAR":			$tone_img = "02p.gif";break;
-		case "ELECTRIC":		$tone_img = "03p.gif";break;
-		case "SELF-EXISTING":	$tone_img = "04p.gif";break;
-		case "OVERTONE":		$tone_img = "05p.gif";break;
-		case "RHYTHMIC":		$tone_img = "06p.gif";break;
-		case "RESONANT":		$tone_img = "07p.gif";break;
-		case "GALACTIC":		$tone_img = "08p.gif";break;
-		case "SOLAR":			$tone_img = "09p.gif";break;
-		case "PLANETARY":		$tone_img = "10p.gif";break;
-		case "SPECTRAL":		$tone_img = "11p.gif";break;
-		case "CRYSTAL":		$tone_img = "12p.gif";break;
-		case "COSMIC":			$tone_img = "13p.gif";break;
+function tone_num_to_img_num ($tone_num){
+	switch ($tone_num) {
+		case "1":		$tone_img = "01.png";break;
+		case "2":		$tone_img = "02.png";break;
+		case "3":		$tone_img = "03.png";break;
+		case "4":		$tone_img = "04.png";break;
+		case "5":		$tone_img = "05.png";break;
+		case "6":		$tone_img = "06.png";break;
+		case "7":		$tone_img = "07.png";break;
+		case "8":		$tone_img = "08.png";break;
+		case "9":		$tone_img = "09.png";break;
+		case "10":	$tone_img = "10.png";break;
+		case "11":	$tone_img = "11.png";break;
+		case "12":	$tone_img = "12.png";break;
+		case "13":	$tone_img = "13.png";break;
 	}
     return $tone_img;
 }
 
-// Tone to Image function
-function tone_nm_to_img_num_rev($Tone){
-	switch ($Tone) {
-		case "MAGNETIC":		$tone_img = "01.png";break;
-		case "LUNAR":			$tone_img = "02.png";break;
-		case "ELECTRIC":		$tone_img = "03.png";break;
-		case "SELF-EXISTING":	$tone_img = "04.png";break;
-		case "OVERTONE":		$tone_img = "05.png";break;
-		case "RHYTHMIC":		$tone_img = "06.png";break;
-		case "RESONANT":		$tone_img = "07.png";break;
-		case "GALACTIC":		$tone_img = "08.png";break;
-		case "SOLAR":			$tone_img = "09.png";break;
-		case "PLANETARY":		$tone_img = "10.png";break;
-		case "SPECTRAL":		$tone_img = "11.png";break;
-		case "CRYSTAL":		$tone_img = "12.png";break;
-		case "COSMIC":			$tone_img = "13.png";break;
-	}
-    return $tone_img;
-}
-
-
 // Tribe NAME to Tribe Number Image
-function tribe_nm_to_img_num($Tribe){
-	switch ($Tribe) {
-		case "DRAGON":			$tribe_img = "01.png";break;
-		case "WIND":			$tribe_img = "02.png";break;
-		case "NIGHT":			$tribe_img = "03.png";break;
-		case "SEED":			$tribe_img = "04.png";break;
-		case "SERPENT":		$tribe_img = "05.png";break;
-		case "WORLDBRIDGER":	$tribe_img = "06.png";break;
-		case "HAND":			$tribe_img = "07.png";break;
-		case "STAR":			$tribe_img = "08.png";break;
-		case "MOON":			$tribe_img = "09.png";break;
-		case "DOG":			$tribe_img = "10.png";break;
-		case "MONKEY":			$tribe_img = "11.png";break;
-		case "HUMAN":			$tribe_img = "12.png";break;
-		case "SKYWALKER":		$tribe_img = "13.png";break;
-		case "WIZARD":			$tribe_img = "14.png";break;
-		case "EAGLE":			$tribe_img = "15.png";break;
-		case "WARRIOR":		$tribe_img = "16.png";break;
-		case "EARTH":			$tribe_img = "17.png";break;
-		case "MIRROR":			$tribe_img = "18.png";break;
-		case "STORM":			$tribe_img = "19.png";break;
-		case "SUN":			$tribe_img = "20.png";break;
-	}
-    return $tribe_img;
-}
-
-// Tribe NAME to Tribe Number Image
-function tribe_num_to_img_num($Tribe){
-	switch ($Tribe) {
+function seal_num_to_img_num
+($tribe_num){
+	switch ($tribe_num) {
 		case "1":			$tribe_img = "01.png";break;
 		case "2":			$tribe_img = "02.png";break;
 		case "3":			$tribe_img = "03.png";break;
@@ -320,85 +262,6 @@ function tribe_num_to_img_num($Tribe){
     return $tribe_img;
 }
 
-// Date MySQL to SHORT DATE
-function tmc_date_mysql_to_short($mysql_date){
-	$mysql_date_pcs = explode('-',$mysql_date);
-	$year = $mysql_date_pcs[0];
-	$month = $mysql_date_pcs[1];
-	$day = $mysql_date_pcs[2];
-
-	switch ($month){
-		case "01":  $month = "1"; break;
-		case "02":  $month = "2"; break;
-		case "03":  $month = "3"; break;
-		case "04":  $month = "4"; break;
-		case "05":  $month = "5"; break;
-		case "06":  $month = "6"; break;
-		case "07":  $month = "7"; break;
-		case "08":  $month = "8"; break;
-		case "09":  $month = "9"; break;
-		case "10":  $month = "10"; break;
-		case "11":  $month = "11"; break;
-		case "12":  $month = "12"; break;
-    }
-
-	switch ($day){
-		case "01":  $day = "1"; break;
-		case "02":  $day = "2"; break;
-		case "03":  $day = "3"; break;
-		case "04":  $day = "4"; break;
-		case "05":  $day = "5"; break;
-		case "06":  $day = "6"; break;
-		case "07":  $day = "7"; break;
-		case "08":  $day = "8"; break;
-		case "09":  $day = "9"; break;
-    }
-
-	$date_full = "$month/$day/$year";
-	return $date_full;
-}
-
-
-// Date MySQL to SHORT DATE
-function date_mysql_to_very_short($mysql_date){
-	$mysql_date_pcs = explode('-',$mysql_date);
-	$year = $mysql_date_pcs[0];
-	$month = $mysql_date_pcs[1];
-	$day = $mysql_date_pcs[2];
-
-	switch ($month){
-		case "01":  $month = "1"; break;
-		case "02":  $month = "2"; break;
-		case "03":  $month = "3"; break;
-		case "04":  $month = "4"; break;
-		case "05":  $month = "5"; break;
-		case "06":  $month = "6"; break;
-		case "07":  $month = "7"; break;
-		case "08":  $month = "8"; break;
-		case "09":  $month = "9"; break;
-		case "10":  $month = "10"; break;
-		case "11":  $month = "11"; break;
-		case "12":  $month = "12"; break;
-    }
-
-	switch ($day){
-		case "01":  $day = "1"; break;
-		case "02":  $day = "2"; break;
-		case "03":  $day = "3"; break;
-		case "04":  $day = "4"; break;
-		case "05":  $day = "5"; break;
-		case "06":  $day = "6"; break;
-		case "07":  $day = "7"; break;
-		case "08":  $day = "8"; break;
-		case "09":  $day = "9"; break;
-    }
-
-	$year = substr("$year", -2);    // turns 2010 to 10
-
-	$date_full = "$month/$day/$year";
-	return $date_full;
-}
-
 // tmc_truncate long names
 function tmc_truncate($string, $max, $replacement){
     if (strlen($string) <= $max)
@@ -409,127 +272,6 @@ function tmc_truncate($string, $max, $replacement){
     return substr_replace($string, $replacement, $leave);
 }
 
-// Tone NAME to Tone Number
-function tone_name_to_num($tone_name){
-	switch ($tone_name){
-		case "MAGNETIC":  		$tone_num = "1"; break;
-		case "LUNAR":  		$tone_num = "2"; break;
-		case "ELECTRIC":  		$tone_num = "3"; break;
-		case "SELF-EXISTING":  	$tone_num = "4"; break;
-		case "OVERTONE":  		$tone_num = "5"; break;
-		case "RHYTHMIC":		$tone_num = "6"; break;
-		case "RESONANT":		$tone_num = "7"; break;
-		case "GALACTIC":		$tone_num = "8"; break;
-		case "SOLAR":			$tone_num = "9"; break;
-		case "PLANETARY":		$tone_num = "10"; break;
-		case "SPECTRAL":		$tone_num = "11"; break;
-		case "CRYSTAL":		$tone_num = "12"; break;
-		case "COSMIC":			$tone_num = "13"; break;
-    }
-	return $tone_num;
-}
-
-// Tone NAME to Tone Number
-function tmc_tone_num_to_name($tone_num){
-	switch ($tone_num){
-		case 1:  $tone_name = "Magnetic";		break;
-		case 2:  $tone_name = "Lunar";  		break;
-		case 3:  $tone_name = "Electric";  	break;
-		case 4:  $tone_name = "Self-Existing";	break;
-		case 5:  $tone_name = "Overtone";  	break;
-		case 6:  $tone_name = "Rhythmic";		break;
-		case 7:  $tone_name = "Resonant";		break;
-		case 8:  $tone_name = "Galactic";		break;
-		case 9:  $tone_name = "Solar";		break;
-		case 10: $tone_name = "Planetary";		break;
-		case 11: $tone_name = "Spectral";		break;
-		case 12: $tone_name = "Crystal";		break;
-		case 13: $tone_name = "Cosmic";		break;
-    }
-	return $tone_name;
-}
-
-// Tribe NAME to Tribe Number
-function tribe_name_to_num($tribe_name){
-	switch ($tribe_name){
-		case "DRAGON":			$tribe_num = "1"; break;
-		case "WIND":			$tribe_num = "2"; break;
-		case "NIGHT":			$tribe_num = "3"; break;
-		case "SEED":			$tribe_num = "4"; break;
-		case "SERPENT":		$tribe_num = "5"; break;
-		case "WORLDBRIDGER":	$tribe_num = "6"; break;
-		case "HAND":			$tribe_num = "7"; break;
-		case "STAR":			$tribe_num = "8"; break;
-		case "MOON":			$tribe_num = "9"; break;
-		case "DOG":			$tribe_num = "10"; break;
-		case "MONKEY":			$tribe_num = "11"; break;
-		case "HUMAN":			$tribe_num = "12"; break;
-		case "SKYWALKER":		$tribe_num = "13"; break;
-		case "WIZARD":			$tribe_num = "14"; break;
-		case "EAGLE":			$tribe_num = "15"; break;
-		case "WARRIOR":		$tribe_num = "16"; break;
-		case "EARTH":			$tribe_num = "17"; break;
-		case "MIRROR":			$tribe_num = "18"; break;
-		case "STORM":			$tribe_num = "19"; break;
-		case "SUN":			$tribe_num = "20"; break;
-    }
-	return $tribe_num;
-}
-
-
-// Tribe NUMBER to Tribe NAME
-function tribe_num_to_name($tribe_num){
-	switch ($tribe_num){
-		case 1:		$tribe_name = "DRAGON"; break;
-		case 2:		$tribe_name = "WIND"; break;
-		case 3:		$tribe_name = "NIGHT"; break;
-		case 4:		$tribe_name = "SEED"; break;
-		case 5:		$tribe_name = "SERPENT"; break;
-		case 6:		$tribe_name = "WORLDBRIDGER"; break;
-		case 7:		$tribe_name = "HAND"; break;
-		case 8:		$tribe_name = "STAR"; break;
-		case 9:		$tribe_name = "MOON"; break;
-		case 10:		$tribe_name = "DOG"; break;
-		case 11:		$tribe_name = "MONKEY"; break;
-		case 12:		$tribe_name = "HUMAN"; break;
-		case 13:		$tribe_name = "SKYWALKER"; break;
-		case 14:		$tribe_name = "WIZARD"; break;
-		case 15:		$tribe_name = "EAGLE"; break;
-		case 16:		$tribe_name = "WARRIOR"; break;
-		case 17:		$tribe_name = "EARTH"; break;
-		case 18:		$tribe_name = "MIRROR"; break;
-		case 19:		$tribe_name = "STORM"; break;
-		case 20:		$tribe_name = "SUN"; break;
-    }
-	return $tribe_name;
-}
-
-// Tribe NUMBER to Tribe COLOR
-function tribe_num_to_color($tribe_num){
-	switch ($tribe_num){
-		case 1:		$tribe_color = "RED"; break;
-		case 2:		$tribe_color = "WHITE"; break;
-		case 3:		$tribe_color = "BLUE"; break;
-		case 4:		$tribe_color = "YELLOW"; break;
-		case 5:		$tribe_color = "RED"; break;
-		case 6:		$tribe_color = "WHITE"; break;
-		case 7:		$tribe_color = "BLUE"; break;
-		case 8:		$tribe_color = "YELLOW"; break;
-		case 9:		$tribe_color = "RED"; break;
-		case 10:		$tribe_color = "WHITE"; break;
-		case 11:		$tribe_color = "BLUE"; break;
-		case 12:		$tribe_color = "YELLOW"; break;
-		case 13:		$tribe_color = "RED"; break;
-		case 14:		$tribe_color = "WHITE"; break;
-		case 15:		$tribe_color = "BLUE"; break;
-		case 16:		$tribe_color = "YELLOW"; break;
-		case 17:		$tribe_color = "RED"; break;
-		case 18:		$tribe_color = "WHITE"; break;
-		case 19:		$tribe_color = "BLUE"; break;
-		case 20:		$tribe_color = "YELLOW"; break;
-    }
-	return $tribe_color;
-}
 
 // The REVERSE DECODER:
 function kin_to_next_gb($start_kin_id){
@@ -558,7 +300,7 @@ function kin_to_next_gb($start_kin_id){
 
 
 // GET WAVESPELL kin_to_wavespell
-function kin_to_wavespell($kin_ID, $tone_num){
+function tmc_kin_to_wavespell($kin_ID, $tone_num){
 	// This gets the last kin with tone #1
 	$wavespell_kin = ($kin_ID - ($tone_num - 1));
 	// Adjust in case we have a negative kin number
@@ -855,8 +597,190 @@ class Moon {
 	}
 }
 
+// Get the moon phase
+function moon_phase($year, $month, $day){
+/*
+modified from http://www.voidware.com/moon_phase.htm
+Found at: http://jivebay.com/2008/09/07/calculating-the-moon-phase/
+*/
+	$c = $e = $jd = $b = 0;
+	if ($month < 3){
+		$year--;
+		$month += 12;
+	}
+	++$month;
+	$c = 365.25 * $year;
+	$e = 30.6 * $month;
+	$jd = $c + $e + $day - 694039.09; //jd is total days elapsed
+	$jd /= 29.5305882; //divide by the moon cycle
+	$b = (int) $jd; //int(jd) -> b, take integer part of jd
+	$jd -= $b; //subtract integer part to leave fractional part of original jd
+	$b = round($jd * 8); //scale fraction from 0-8 and round
+	if ($b >= 8 ){
+		$b = 0;//0 and 8 are the same so turn 8 into 0
+	}
+	switch ($b){
+		case 0: return 'New Moon'; break;
+		case 1: return 'Waxing Crescent'; break;
+		case 2: return 'First Quarter'; break;
+		case 3: return 'Waxing Gibbous'; break;
+		case 4: return 'Full Moon'; break;
+		case 5: return 'Waning Gibbous'; break;
+		case 6: return 'Last Quarter'; break;
+		case 7: return 'Waning Crescent'; break;
+		default: return 'Date out of Range';
+	}
+}
+
+
+// Determine if this kin is a portal, and what kind F or P
+function is_portal($kin_ID){
+	$portal = "N";
+	switch ($kin_ID){
+		case 1: 			$portal = "P"; break;
+		case 20: 			$portal = "P"; break;
+		case 22: 			$portal = "P"; break;
+		case 39: 			$portal = "P"; break;
+		case 43: 			$portal = "P"; break;
+		case 50: 			$portal = "F"; break;
+		case 51: 			$portal = "F"; break;
+		case 58: 			$portal = "P"; break;
+		case 64: 			$portal = "P"; break;
+		case 69: 			$portal = "F"; break;
+		case 72: 			$portal = "F"; break;
+		case 77: 			$portal = "P"; break;
+		case 85: 			$portal = "P"; break;
+		case 88: 			$portal = "F"; break;
+		case 93: 			$portal = "F"; break;
+		case 96: 			$portal = "P"; break;
+		case 106: 		$portal = "P"; break;
+		case 107: 		$portal = "F"; break;
+		case 108: 		$portal = "P"; break;
+		case 109: 		$portal = "P"; break;
+		case 110: 		$portal = "P"; break;
+		case 111: 		$portal = "P"; break;
+		case 112: 		$portal = "P"; break;
+		case 113: 		$portal = "P"; break;
+		case 114: 		$portal = "F"; break;
+		case 115: 		$portal = "P"; break;
+		case 146: 		$portal = "F"; break;
+		case 147: 		$portal = "P"; break;
+		case 148: 		$portal = "F"; break;
+		case 149: 		$portal = "F"; break;
+		case 150: 		$portal = "F"; break;
+		case 151: 		$portal = "F"; break;
+		case 152: 		$portal = "F"; break;
+		case 153: 		$portal = "F"; break;
+		case 154: 		$portal = "P"; break;
+		case 155: 		$portal = "F"; break;
+		case 165: 		$portal = "F"; break;
+		case 168: 		$portal = "P"; break;
+		case 173: 		$portal = "P"; break;
+		case 176: 		$portal = "F"; break;
+		case 184: 		$portal = "F"; break;
+		case 189: 		$portal = "P"; break;
+		case 192: 		$portal = "P"; break;
+		case 197: 		$portal = "F"; break;
+		case 203: 		$portal = "F"; break;
+		case 210: 		$portal = "P"; break;
+		case 211: 		$portal = "P"; break;
+		case 218: 		$portal = "F"; break;
+		case 222: 		$portal = "F"; break;
+		case 239: 		$portal = "F"; break;
+		case 241: 		$portal = "F"; break;
+		case 260: 		$portal = "F"; break;
+    }
+	return $portal;
+}
+
+
+// Day Number of Plasma
+function tm_day_num_to_plasma_num ($this_day_count){
+	switch ($this_day_count) {
+     	case "1":		$this_plasma = "1"; break; 
+     	case "2":		$this_plasma = "2"; break; 
+     	case "3":		$this_plasma = "3"; break; 
+     	case "4":		$this_plasma = "4"; break; 
+     	case "5":		$this_plasma = "5"; break; 
+     	case "6":		$this_plasma = "6"; break; 
+     	case "7":		$this_plasma = "7"; break; 
+     	case "8":		$this_plasma = "1"; break; 
+     	case "9":		$this_plasma = "2"; break; 
+     	case "10":	$this_plasma = "3"; break; 
+     	case "11":	$this_plasma = "4"; break; 
+     	case "12":	$this_plasma = "5"; break; 
+     	case "13":	$this_plasma = "6"; break; 
+     	case "14":	$this_plasma = "7"; break; 
+     	case "15":	$this_plasma = "1"; break; 
+     	case "16":	$this_plasma = "2"; break; 
+     	case "17":	$this_plasma = "3"; break; 
+     	case "18":	$this_plasma = "4"; break; 
+     	case "19":	$this_plasma = "5"; break; 
+     	case "20":	$this_plasma = "6"; break; 
+     	case "21":	$this_plasma = "7"; break; 
+     	case "22":	$this_plasma = "1"; break; 
+     	case "23":	$this_plasma = "2"; break; 
+     	case "24":	$this_plasma = "3"; break; 
+     	case "25":	$this_plasma = "4"; break; 
+     	case "26":	$this_plasma = "5"; break; 
+     	case "27":	$this_plasma = "6"; break; 
+     	case "28":	$this_plasma = "7"; break; 
+	}
+    return $this_plasma;
+}
+
+
+
+
+// This is a WP custom function to get the posts on a given date
+function get_this_day_wp_posts($this_mysql_date){
+// Break up date for functions
+	$this_mysql_date_pieces = explode("-", $this_mysql_date);
+
+     $this_wp_year = $this_mysql_date_pieces[0];
+     $this_wp_mon = $this_mysql_date_pieces[1];
+     $this_wp_day = $this_mysql_date_pieces[2];
+
+// Prepare the date string to query the db
+     if (strlen($this_wp_mon) === 1){$this_wp_mon = "0".$this_wp_mon;}
+     if (strlen($this_wp_day) === 1){$this_wp_day = "0".$this_wp_day;}
+
+	$new_wp_mysql_date_today = "$this_wp_year-$this_wp_mon-$this_wp_day";
+
+// We're going to access the database, so we need to globaliza $wpdb
+	global $wpdb;
+
+// Query the databazse using WordPress to get a list of posts on this date
+
+// This works
+     $thisday_posts_array = $wpdb->get_results("
+     SELECT ID, post_title, post_date, guid 
+     FROM $wpdb->posts 
+     WHERE post_status = 'publish' 
+     AND post_type='post' 
+     AND (post_date BETWEEN '$new_wp_mysql_date_today 00:00:00' AND '$new_wp_mysql_date_today 23:59:59')
+     ORDER BY post_date DESC LIMIT 0,10
+     ");
+
+// Try a join to get the name of the poster
+
+/*
+     $thisday_posts_array = $wpdb->get_results("
+	SELECT post_author, display_name, ID, post_title, post_date, guid 
+     FROM $wpdb->posts 
+	LEFT JOIN $wpdb->users ON $wpdb->posts.post_author = $wpdb->users.ID 
+     WHERE post_status = 'publish' 
+     AND post_type='post' 
+     AND (post_date BETWEEN '$new_wp_mysql_date_today 00:00:00' AND '$new_wp_mysql_date_today 23:59:59')
+     ORDER BY post_date DESC LIMIT 0,10
+     ");
+*/
+	return $thisday_posts_array;
+// return $thisday_posts_array;
+}
+
 // Translate URL for SEO
-function translate_kin_to_seo($tran_kin) {
+function tmc_translate_kin_to_seo($tran_kin) {
 	switch ($tran_kin) {
      	case "1":		$translation = "RED-MAGNETIC-DRAGON"; break;
      	case "2":		$translation = "WHITE-LUNAR-WIND"; break;
@@ -1122,292 +1046,69 @@ function translate_kin_to_seo($tran_kin) {
 	return $translation;
 }
 
-// Get the moon phase
-function moon_phase($year, $month, $day){
-/*
-modified from http://www.voidware.com/moon_phase.htm
-Found at: http://jivebay.com/2008/09/07/calculating-the-moon-phase/
-*/
-	$c = $e = $jd = $b = 0;
-	if ($month < 3){
-		$year--;
-		$month += 12;
-	}
-	++$month;
-	$c = 365.25 * $year;
-	$e = 30.6 * $month;
-	$jd = $c + $e + $day - 694039.09; //jd is total days elapsed
-	$jd /= 29.5305882; //divide by the moon cycle
-	$b = (int) $jd; //int(jd) -> b, take integer part of jd
-	$jd -= $b; //subtract integer part to leave fractional part of original jd
-	$b = round($jd * 8); //scale fraction from 0-8 and round
-	if ($b >= 8 ){
-		$b = 0;//0 and 8 are the same so turn 8 into 0
-	}
-	switch ($b){
-		case 0: return 'New Moon'; break;
-		case 1: return 'Waxing Crescent'; break;
-		case 2: return 'First Quarter'; break;
-		case 3: return 'Waxing Gibbous'; break;
-		case 4: return 'Full Moon'; break;
-		case 5: return 'Waning Gibbous'; break;
-		case 6: return 'Last Quarter'; break;
-		case 7: return 'Waning Crescent'; break;
-		default: return 'Date out of Range';
-	}
-}
 
-// prof_to_list
-function prof_to_list($Prof){
-
-     // Make array of this event's professions
-     $ev_prof_array = str_split($Prof);
-
-     // Create array for professions
-     $prof_array 	= array('M', 'E', 'P', 'W', 'A', 'R', 'S', 'Y', 'D', 'T', 'N', 'B', 'U');
-     $display_array = array('Music', 'Entertainment', 'Politics', 'Writing', 'Art', 'Religion', 'Science', 'War', 'Sports', 'Education', 'Nature', 'Business', 'Accident');
-     
-     // Loop through Professions
-     $inc_prof = 0;
-     foreach($prof_array as $this_prof){
-// Which ones should be checked?
-     	foreach ($ev_prof_array as $this_ev_prof){
-     		if ($this_prof === $this_ev_prof){
-     			$profession_list .= $display_array["$inc_prof"].", ";
-     		}
-     	}
-    	$inc_prof++;
-	}
-    return $profession_list;
-}
-
-// Determine if this kin is a portal, and what kind F or P
-function is_portal($kin_ID){
-	$portal = "N";
-	switch ($kin_ID){
-		case 1: 			$portal = "P"; break;
-		case 20: 			$portal = "P"; break;
-		case 22: 			$portal = "P"; break;
-		case 39: 			$portal = "P"; break;
-		case 43: 			$portal = "P"; break;
-		case 50: 			$portal = "F"; break;
-		case 51: 			$portal = "F"; break;
-		case 58: 			$portal = "P"; break;
-		case 64: 			$portal = "P"; break;
-		case 69: 			$portal = "F"; break;
-		case 72: 			$portal = "F"; break;
-		case 77: 			$portal = "P"; break;
-		case 85: 			$portal = "P"; break;
-		case 88: 			$portal = "F"; break;
-		case 93: 			$portal = "F"; break;
-		case 96: 			$portal = "P"; break;
-		case 106: 		$portal = "P"; break;
-		case 107: 		$portal = "F"; break;
-		case 108: 		$portal = "P"; break;
-		case 109: 		$portal = "P"; break;
-		case 110: 		$portal = "P"; break;
-		case 111: 		$portal = "P"; break;
-		case 112: 		$portal = "P"; break;
-		case 113: 		$portal = "P"; break;
-		case 114: 		$portal = "F"; break;
-		case 115: 		$portal = "P"; break;
-		case 146: 		$portal = "F"; break;
-		case 147: 		$portal = "P"; break;
-		case 148: 		$portal = "F"; break;
-		case 149: 		$portal = "F"; break;
-		case 150: 		$portal = "F"; break;
-		case 151: 		$portal = "F"; break;
-		case 152: 		$portal = "F"; break;
-		case 153: 		$portal = "F"; break;
-		case 154: 		$portal = "P"; break;
-		case 155: 		$portal = "F"; break;
-		case 165: 		$portal = "F"; break;
-		case 168: 		$portal = "P"; break;
-		case 173: 		$portal = "P"; break;
-		case 176: 		$portal = "F"; break;
-		case 184: 		$portal = "F"; break;
-		case 189: 		$portal = "P"; break;
-		case 192: 		$portal = "P"; break;
-		case 197: 		$portal = "F"; break;
-		case 203: 		$portal = "F"; break;
-		case 210: 		$portal = "P"; break;
-		case 211: 		$portal = "P"; break;
-		case 218: 		$portal = "F"; break;
-		case 222: 		$portal = "F"; break;
-		case 239: 		$portal = "F"; break;
-		case 241: 		$portal = "F"; break;
-		case 260: 		$portal = "F"; break;
+// Tone NAME to Tone Number
+function tmc_tone_num_to_name($tone_num){
+	switch ($tone_num){
+		case 1:  $tone_name = "Magnetic";		break;
+		case 2:  $tone_name = "Lunar";  		break;
+		case 3:  $tone_name = "Electric";  	break;
+		case 4:  $tone_name = "Self-Existing";	break;
+		case 5:  $tone_name = "Overtone";  	break;
+		case 6:  $tone_name = "Rhythmic";		break;
+		case 7:  $tone_name = "Resonant";		break;
+		case 8:  $tone_name = "Galactic";		break;
+		case 9:  $tone_name = "Solar";		break;
+		case 10: $tone_name = "Planetary";		break;
+		case 11: $tone_name = "Spectral";		break;
+		case 12: $tone_name = "Crystal";		break;
+		case 13: $tone_name = "Cosmic";		break;
     }
-	return $portal;
+	return $tone_name;
 }
 
+// Get the first two dates for the official date notation
 
-// Day Number of Plasma
-function tm_day_num_to_plasma_num ($this_day_count){
-	switch ($this_day_count) {
+function tmc_ns_yr_nums($dcode_yr, $dcode_mo, $dcode_day){
 
-     	case "1":		$this_plasma = "1"; break; 
-     	case "2":		$this_plasma = "2"; break; 
-     	case "3":		$this_plasma = "3"; break; 
-     	case "4":		$this_plasma = "4"; break; 
-     	case "5":		$this_plasma = "5"; break; 
-     	case "6":		$this_plasma = "6"; break; 
-     	case "7":		$this_plasma = "7"; break; 
-     	case "8":		$this_plasma = "1"; break; 
-     	case "9":		$this_plasma = "2"; break; 
-     	case "10":	$this_plasma = "3"; break; 
-     	case "11":	$this_plasma = "4"; break; 
-     	case "12":	$this_plasma = "5"; break; 
-     	case "13":	$this_plasma = "6"; break; 
-     	case "14":	$this_plasma = "7"; break; 
-     	case "15":	$this_plasma = "1"; break; 
-     	case "16":	$this_plasma = "2"; break; 
-     	case "17":	$this_plasma = "3"; break; 
-     	case "18":	$this_plasma = "4"; break; 
-     	case "19":	$this_plasma = "5"; break; 
-     	case "20":	$this_plasma = "6"; break; 
-     	case "21":	$this_plasma = "7"; break; 
-     	case "22":	$this_plasma = "1"; break; 
-     	case "23":	$this_plasma = "2"; break; 
-     	case "24":	$this_plasma = "3"; break; 
-     	case "25":	$this_plasma = "4"; break; 
-     	case "26":	$this_plasma = "5"; break; 
-     	case "27":	$this_plasma = "6"; break; 
-     	case "28":	$this_plasma = "7"; break; 
+	$start_year = 1987;
+	$start_mon = 7;
+	$start_day = 26;
+
+// echo ceil(4.3);    // 5
+
+// Only for July
+
+	if ($dcode_mo <= 6){
+			$tmc_ns_first_cycle = ceil((($dcode_yr - $start_year)+2) / 52);
+			$tmc_ns_second_cycle = ceil(($dcode_yr - $start_year)-1);
 	}
-    return $this_plasma;
-}
 
-// Day Number of Plasma
-function tribe_num_to_tribe_essences_del ($tribe_num){
-	switch ($tribe_num) {
-     	case "1":		$tribe_essences_del = "|1|Dragon|Nurture|Being|Birth|"; break; 
-     	case "2":		$tribe_essences_del = "|2|Wind|Communicate|Breath|Spirit|"; break; 
-     	case "3":		$tribe_essences_del = "|3|Night|Dream|Intuition|Abundance|"; break; 
-     	case "4":		$tribe_essences_del = "|4|Seed|Target|Awareness|Flowering|"; break; 
-     	case "5":		$tribe_essences_del = "|5|Serpent|Survive|Instinct|Life Force|"; break; 
-     	case "6":		$tribe_essences_del = "|6|World-Bridger|Equalize|Opportunity|Death|"; break; 
-     	case "7":		$tribe_essences_del = "|7|Hand|Know|Healing|Accomplishment|"; break; 
-     	case "8":		$tribe_essences_del = "|8|Star|Beautify|Art|Elegance|"; break; 
-     	case "9":		$tribe_essences_del = "|9|Moon|Purify|Flow|Universal Water|"; break; 
-     	case "10":	$tribe_essences_del = "|10|Dog|Love|Loyalty|Heart|"; break; 
-     	case "11":	$tribe_essences_del = "|11|Monkey|Play|Illusion|Magic|"; break; 
-     	case "12":	$tribe_essences_del = "|12|Human|Influence|Wisdom|Free Will|"; break; 
-     	case "13":	$tribe_essences_del = "|13|Skywalker|Explore|Wakefulness|Space|"; break; 
-     	case "14":	$tribe_essences_del = "|14|Wizard|Enchant|Receptivity|Timelessness|"; break; 
-     	case "15":	$tribe_essences_del = "|15|Eagle|Create|Mind|Vision|"; break; 
-     	case "16":	$tribe_essences_del = "|16|Warrior|Question|Fearlessness|Intelligence|"; break; 
-     	case "17":	$tribe_essences_del = "|17|Earth|Evolve|Syncronicity|Navigation|"; break; 
-     	case "18":	$tribe_essences_del = "|18|Mirror|Reflect|Order|Endlessness|"; break; 
-     	case "19":	$tribe_essences_del = "|19|Storm|Catalyze|Energy|Self-Generation|"; break; 
-     	case "20":	$tribe_essences_del = "|20|Sun|Enlighten|Life|Universal Fire|"; break; 
+	if ($dcode_mo >= 8){
+			$tmc_ns_first_cycle = ceil((($dcode_yr - $start_year)+1) / 52);
+			$tmc_ns_second_cycle = ceil($dcode_yr - $start_year);
 	}
-    return $tribe_essences_del;
-}
 
-// Day Number of Plasma
-function tone_num_to_tone_essences_del ($tone_num){
-	switch ($tone_num) {
-     	case "1":		$tone_essences_del = "|MAGNETIC|Unify|Attract|Purpose|"; break; 
-     	case "2":		$tone_essences_del = "|LUNAR|Polarize|Stabilize|Challenge|"; break; 
-     	case "3":		$tone_essences_del = "|ELECTRIC|Activate|Bond|Service|"; break; 
-     	case "4":		$tone_essences_del = "|SELF-EXISTING|Define|Measure|Form|"; break; 
-     	case "5":		$tone_essences_del = "|OVERTONE|Empower|Command|Radiance|"; break; 
-     	case "6":		$tone_essences_del = "|RHYTHMIC|Organize|Balance|Equality|"; break; 
-     	case "7":		$tone_essences_del = "|RESONANT|Channel|Inspire|Attunement|"; break; 
-     	case "8":		$tone_essences_del = "|GALACTIC|Harmonize|Model|Integrity|"; break; 
-     	case "9":		$tone_essences_del = "|SOLAR|Pulse|Realize|Intention|"; break; 
-     	case "10":	$tone_essences_del = "|PLANETARY|Perfect|Produce|Manifestation|"; break; 
-     	case "11":	$tone_essences_del = "|SPECTRAL|Dissolve|Release|Liberation|"; break; 
-     	case "12":	$tone_essences_del = "|CRYSTAL|Dedicate|Universalize|Cooperation|"; break; 
-     	case "13":	$tone_essences_del = "|COSMIC|Endure|Transcend|Presence|"; break; 
+	if ($dcode_mo == 7){
+		if ($dcode_day < 26){
+			$tmc_ns_first_cycle = ceil((($dcode_yr - $start_year)+2) / 52);
+			$tmc_ns_second_cycle = ceil(($dcode_yr - $start_year)-1);
+		} else {
+			$tmc_ns_first_cycle = ceil((($dcode_yr - $start_year)+1) / 52);
+			$tmc_ns_second_cycle = ceil($dcode_yr - $start_year);
+		}
 	}
-    return $tone_essences_del;
-}
 
-function tmc_castle_num_to_name($castle_number){
-	switch ($castle_number) {
-     	case "1":		$castle_name = "Red Eastern Castle of Turning"; break; 
-     	case "2":		$castle_name = "White Northern Castle of Crossing"; break; 
-     	case "3":		$castle_name = "Blue Western Castle of Burning"; break; 
-     	case "4":		$castle_name = "Yellow Southern Castle of Giving"; break; 
-     	case "5":		$castle_name = "Green Central Castle of Enchantment"; break; 
+	while ($tmc_ns_second_cycle < 0){
+		$tmc_ns_second_cycle = ($tmc_ns_second_cycle + 52);
 	}
-    return $castle_name;
-}
 
-function tmc_wavespell_num_to_name($wavespell_number){
-	switch ($wavespell_number) {
-     	case "1":		$wavespell_name = "Red Dragon"; break; 
-     	case "2":		$wavespell_name = "White Wizard"; break; 
-     	case "3":		$wavespell_name = "Blue Hand"; break; 
-     	case "4":		$wavespell_name = "Yellow Sun"; break; 
-     	case "5":		$wavespell_name = "Red Skywalker"; break; 
-     	case "6":		$wavespell_name = "White Worldbridger"; break; 
-     	case "7":		$wavespell_name = "Blue Storm"; break; 
-     	case "8":		$wavespell_name = "Yellow Human"; break; 
-     	case "9":		$wavespell_name = "Red Serpent"; break; 
-     	case "10":		$wavespell_name = "White Mirror"; break; 
-     	case "12":		$wavespell_name = "Blue Monkey"; break; 
-     	case "12":		$wavespell_name = "Yellow Seed"; break; 
-     	case "13":		$wavespell_name = "Red Earth"; break; 
-     	case "14":		$wavespell_name = "White Dog"; break; 
-     	case "15":		$wavespell_name = "Blue Night"; break; 
-     	case "16":		$wavespell_name = "Yellow Warrior"; break; 
-     	case "17":		$wavespell_name = "Red Moon"; break; 
-     	case "18":		$wavespell_name = "White Wind"; break; 
-     	case "19":		$wavespell_name = "Blue Eagle"; break; 
-     	case "20":		$wavespell_name = "Yellow Star"; break; 
+	while ($tmc_ns_second_cycle > 52){
+		$tmc_ns_second_cycle = ($tmc_ns_second_cycle - 52);
 	}
-    return $wavespell_name;
+
+	return array($tmc_ns_first_cycle, $tmc_ns_second_cycle);
 }
 
-
-// This is a WP custom function to get the posts on a given date
-function get_this_day_wp_posts($this_mysql_date){
-// Break up date for functions
-	$this_mysql_date_pieces = explode("-", $this_mysql_date);
-
-     $this_wp_year = $this_mysql_date_pieces[0];
-     $this_wp_mon = $this_mysql_date_pieces[1];
-     $this_wp_day = $this_mysql_date_pieces[2];
-
-// Prepare the date string to query the db
-     if (strlen($this_wp_mon) === 1){$this_wp_mon = "0".$this_wp_mon;}
-     if (strlen($this_wp_day) === 1){$this_wp_day = "0".$this_wp_day;}
-
-	$new_wp_mysql_date_today = "$this_wp_year-$this_wp_mon-$this_wp_day";
-
-// We're going to access the database, so we need to globaliza $wpdb
-	global $wpdb;
-
-// Query the databazse using WordPress to get a list of posts on this date
-
-// This works
-     $thisday_posts_array = $wpdb->get_results("
-     SELECT ID, post_title, post_date, guid 
-     FROM $wpdb->posts 
-     WHERE post_status = 'publish' 
-     AND post_type='post' 
-     AND (post_date BETWEEN '$new_wp_mysql_date_today 00:00:00' AND '$new_wp_mysql_date_today 23:59:59')
-     ORDER BY post_date DESC LIMIT 0,10
-     ");
-
-// Try a join to get the name of the poster
-
-/*
-     $thisday_posts_array = $wpdb->get_results("
-	SELECT post_author, display_name, ID, post_title, post_date, guid 
-     FROM $wpdb->posts 
-	LEFT JOIN $wpdb->users ON $wpdb->posts.post_author = $wpdb->users.ID 
-     WHERE post_status = 'publish' 
-     AND post_type='post' 
-     AND (post_date BETWEEN '$new_wp_mysql_date_today 00:00:00' AND '$new_wp_mysql_date_today 23:59:59')
-     ORDER BY post_date DESC LIMIT 0,10
-     ");
-*/
-	return $thisday_posts_array;
-// return $thisday_posts_array;
-}
 
 ?>

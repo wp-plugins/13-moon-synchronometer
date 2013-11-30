@@ -117,9 +117,9 @@ div.tmc_ads {
 
 #tm_synchronometer td {
      padding-top: 2px;
-
      padding-bottom: 2px;
-     padding-left: 2px;	
+     padding-right: 2px;
+     padding-left: 2px;
 	text-align: center;
 	vertical-align: middle;
 	font-size: 10px;
@@ -135,9 +135,9 @@ div.tmc_ads {
 
 #tm_synchronometer td.cal_row_med_norm {
      padding-top: 2px;
-     padding-right: 2px;
+ //    padding-right: 2px;
      padding-bottom: 2px;
-     padding-left: 2px;
+//     padding-left: 2px;
      text-align: center;
 }
 
@@ -362,9 +362,10 @@ td.cal_row_dk_4 /* White on dk Yellow */
 
 /* Medium darkenss for Gregorian Day */
 
+td.cal_row_med_hlt_moons
+
 td.cal_row_med_hlt /* Highlighted Day on Calendar */
 {
-	padding: 2px;
 	color: Black;
 	text-align: center;
 	font-weight: bold;
@@ -520,6 +521,17 @@ td.cal_row_lt_4 /* Black on Yellow */
 	text-align: center;
 	white-space: nowrap;
 }
+
+
+.proper_date {
+	width: 180px;
+}
+
+.seal_image {
+	float: left;
+	width: 70px;
+}
+
 
 
 /* END Calendar classes ======================================== */
