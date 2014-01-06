@@ -27,20 +27,72 @@
 	font-size: x-small;
 }
 
+#tm_synchronometer a {
+     display: inline;
+     background: none;
+     padding-right: 2px;
+	padding-left: 2px;
+}
+
 a.tmc_ads:link, a.tmc_ads:visited, a.tmc_ads:hover, a.tmc_ads:active {
      display: inline;
      background: none;
      text-decoration: none;
      font-size: 10px;
      font-weight: bold;
-
+	background: none;
      line-height: 14px;
      padding-left: 4px;
 }
 
+
+
+
+
 #morestuff {
-	float: right;
+     background: none;
+     padding-top: 10px;
+     font-size: 10px;
+     float: right;
+     line-height: 12px;
+	font-weight: bold;
 }
+
+
+.tmc_ads {
+  font-size: 10px;
+  line-height: 12px;
+  margin-top: 12px;
+}
+
+
+
+.tmc_ads a:link, .tmc_ads a:visited, .tmc_ads a:hover, .tmc_ads a:active {
+  display: inline;
+  background: none;
+  padding: 5px;
+  padding-left: 0px;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+//  border-bottom: 1px solid #CCC;
+//  border-top: 1px solid #ccc;
+
+}
+
+
+
+#tm_synchronometer select {
+	font-size: 10px;
+	font-size: x-small;
+}
+
+
+
+
+
+
+
 
 /* THICKBOX - add the close icon into your core. ======================================== */
 
@@ -130,11 +182,6 @@ div.tmc_ads {
      text-transform: capitalize;
 }
 
-
-
-#tm_synchronometer a {
-	text-decoration: none;
-}
 
 #tm_synchronometer i.change_month {
 	font-size: x-large;

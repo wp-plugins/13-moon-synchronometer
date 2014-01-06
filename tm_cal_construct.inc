@@ -179,7 +179,7 @@ function start_new_calendar() {
 	echo "</table>\n";
 
 // Output the Header with days of Plasmas
-     echo "<table width=\"100%\" style=\"background-color: $plasma_table_background_color; border: 0; padding: 0 0 0 0;\">\n";
+     echo "<table width=\"100%\" id=\"plasma_table\" style=\"background-color: $plasma_table_background_color; border: 0; padding: 0 0 0 0;\">\n";
 	echo "<tr>";
 	include(dirname(__FILE__).'/lib/cal_maya_days_row.inc');
 	echo "</tr>\n";
@@ -217,6 +217,8 @@ function start_new_calendar() {
          	echo "</div>";
 
 	}
+	
+	echo "<br clear=both>\n";
 
 // Stop Storing Output ...
 	$tmc_content = "<div id=\"tm_synchronometer\">".ob_get_contents()."</div>";
