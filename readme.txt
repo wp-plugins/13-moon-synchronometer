@@ -1,7 +1,7 @@
 === 13-Moon Synchronometer === Contributors: tonyray, abmaya
 Author URI: http://anthonyfogleman.com/Donate link: http://anthonyfogleman.com/blog/donations/Tags: 13-moon, natural-time, dreamspell, tzolkin, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, Cosmic-History, sychronometer, calendar, natural-time, valum-votan, telektonon, turtle, native, maya, noosphere, psi-bank, kin, in-lakech, decode, date
 Requires at least: WP 3.2
-Tested up to: WP 3.8
+Tested up to: WP 3.9
 Stable tag: 1.5.3License: GPLv2License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
 The 13-Moon Synchronometer is a new calendar of Natural Time and harmonic measurement tool synchronized with natural order. Your site will display a harmonic Calendar, list your posts, moon, kin, and more. Makes a widget you can drop in a sidebar or use shortcode [thirteen-moon-calendar] in post or page to synchronize with Natural Time.
