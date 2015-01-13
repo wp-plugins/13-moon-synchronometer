@@ -82,7 +82,7 @@ function start_new_calendar() {
      if (($dcode_mo == 7) && ($dcode_day == 25)) {$dcode_day = 26; $day_out_of_time_flag = "YES";}
 
 
-// BEGIN OUTPUT =============================================================== TEST
+// BEGIN OUTPUT ===============================================================
 
      // Format for MySQL
      $mysql_date = $dcode_yr."-".$dcode_mo."-".$dcode_day;
@@ -96,14 +96,12 @@ function start_new_calendar() {
 
 
 // Output the Form to De-Code a date
-	
-	echo "<form method=\"GET\" id=\"tmc_calendar_plug_form\">";
+	echo "<form method=\"GET\" action=\"\" id=\"tmc_calendar_plug_form\">";
 	echo "<table id=decode_table width=\"100%\" style=\"background-color: $decode_table_background_color; border: 0; padding: 0 0 0 0; margin-top: 13px;\">\n";
 	echo "<tr>";
 	include(dirname(__FILE__).'/lib/cal_decode_form.inc');
 	echo "</tr>\n";
-	echo "</table>\n";
-	echo "</form>\n";
+	echo "</table></form>\n";
 
 	if ($this_moon_num == "1"){
 		$doot_link = "<a href=\"$ajax_info?width=380&date=$this_mysql_date_pieces[0]-7-25&purl=".plugins_url()."\" title=\"The Day out of Time $this_mysql_date_pieces[0]\" class=\"thickbox\">Day Out of Time $this_mysql_date_pieces[0]</a><br>";
