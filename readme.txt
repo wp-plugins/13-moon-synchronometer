@@ -4,11 +4,11 @@ Requires at least: WP 3.2
 Tested up to: WP 4.1
 Stable tag: 2.0.2License: GPLv2License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
-The 13-Moon Synchronometer is a new calendar of Natural Time and harmonic measurement tool synchronized with natural order. Your site will display a harmonic Calendar, list your posts, moon, kin, and more. Makes a widget you can drop in a sidebar or use shortcode [thirteen-moon-calendar] in post or page to synchronize with Natural Time.
+The 13-Moon Synchronometer is a new calendar of Natural Time and harmonic measurement tool synchronized with natural order. Your site will display a harmonic Calendar, list your posts, moon, kin, and more. Makes a widget you can drop in a sidebar or use shortcode thirteen-moon-calendar in post or page to synchronize with Natural Time.
 
 This plugin is part of a growing series of Dreamspell plugins, designed to work on their own and together, changing together each day and when a different day is decoded. Check out the other plugins by [__tonyray and abmaya__](http://profiles.wordpress.org/tonyray/).
 
-Translated from English (en_EN) to Spanish (es_ES) and Dutch (nl_NL).
+Translations in English Spanish and Dutch.
 
 = Contributors include =* [__Lawoftime.org__](http://Lawoftime.org/)* [__Planet Art Network (PAN)__](http://planetartnetwork.info/)* [__Space Station Plaza (SSP)__](http://spacestationplaza.com/)* [__Foundation for the Law of Time Netherlands__](http://www.wetvantijd.nl) Dutch version: Juryt Abma Kin-243 Blue Solar Night* [__Anthony Fogleman WP Blog__](http://anthonyfogleman.com/) Anthony Fogleman - Anka Kin 139 Blue Solar Storm
 * [__Uptime Hosting WP Site__](http://uptimehosting.com/) Anthony's Hosting and Programming Service
