@@ -41,11 +41,6 @@ function tmc_date_mysql_to_kin($mysql_date, $dcode_bcad){
 
 	if (($birth_yr <> "")&&($birth_mo <> "")&&($birth_day <> "")){
 
-//		if (preg_match("/^[0-9]{1,4}/", $birth_yr)) {
-//		    $input_good .= "The year is PROPERLY formatted.<br>";
-//		} else {
-//			$input_error .= "The year is NOT formatted properly.<br>";
-//		}
 	
 		if ((preg_match("/^[0-9]{1,2}/", $birth_mo))&&($birth_mo < 13)) {
 		    $input_good .= "Your birth month is PROPERLY formatted.<br>";
@@ -156,6 +151,9 @@ function tmc_date_mysql_to_kin($mysql_date, $dcode_bcad){
 // Check to see if this date is a Leap Day
 function ms_date_is_leapday($mysql_date){
 // Find out if the day is a leap day
+
+//	$leap_day = "FALSE";
+	
 	$msdate_pcs = explode("-", $mysql_date);
 	$answer = adodb_date('L', strtotime("$msdate_pcs[0]-1-1"));
 	if($answer){
@@ -349,6 +347,9 @@ function day_of_week($date, $shift){
 
 // Day Number of Plasma
 function gday_nam_to_may_name($day_count){
+
+//	$may_nm_day = "";
+	
 	switch ($day_count) {
 		case "1":			$may_nm_day = "Dali";break;
 		case "2":			$may_nm_day = "Seli";break;

@@ -205,28 +205,27 @@ $style_for_hilite_day = "";
 
 // Get user settings
      $day_with_posts_highlight_border_color = get_option('day_with_posts_highlight_border_color');
-     $day_with_posts_highlight_border_size = get_option('day_with_posts_highlight_border_size');
 
 // Set defaults
 	if ($day_with_posts_highlight_border_color != ""){} else {
 		$day_with_posts_highlight_border_color = "00f";
 	}
 
-	if ($day_with_posts_highlight_border_size > 1 && $day_with_posts_highlight_border_size < 6){} else {
-		$day_with_posts_highlight_border_size = 2;
-	}
-
 
 // Color the cell with more than zero posts
 	if (count($thisday_posts_array) > 0) {
-		$day_button_style = "border-color: #".$day_with_posts_highlight_border_color."; border-width: ".$day_with_posts_highlight_border_size."px;";
-//		$ajax_get_value .= "&posts=$post_info_del";
-	} else {$day_button_style = "";}
+//		$day_button_style = "background-color: #".$day_with_posts_highlight_border_color.";";
+
+		$day_button_style = "super-tony-tmc-high";
+
+	} else {
+		$day_button_style = "super-tony-tmc-lo";
+	}
 
 // Create cell to hold this day
 	$cal_display .= "<td class=\"cal_row_med_$cal_class\" $style_for_hilite_day>\n";
 	$cal_display .= "$leap_day_info";
-	$cal_display .= "<input alt=\"$ajax_link\" $button_title class=\"thickbox\" type=\"button\" value=\"$day_count\" style=\"$day_button_style\" class=\"ui-state-default ui-corner-all $button_class\">";
+	$cal_display .= "<input alt=\"$ajax_link\" $button_title class=\"thickbox\" type=\"button\" value=\"$day_count\" class=\"ui-state-default ui-corner-all $button_class\" id=\"$day_button_style\">";
 	$cal_display .= "</td>\n";
 
 // Let's get the date

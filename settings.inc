@@ -2,7 +2,7 @@
 
 function tmc_admin_options_menu() {
 	//create new top-level menu
-	add_options_page('13-Moon Cal Settings', '13-Moon Cal Settings', 'administrator', __FILE__, 'thirteen_moon_settings_page');
+	add_options_page('13-Moon Calendar', '13-Moon Calendar', 'administrator', __FILE__, 'thirteen_moon_settings_page');
 	add_action( 'admin_init', 'thirteen_moon_calendar_register_mysettings' );
 }
 
@@ -11,14 +11,10 @@ function thirteen_moon_calendar_register_mysettings() {
 	register_setting( 'tmc-settings-group', 'decode_table_background_color' );
 	register_setting( 'tmc-settings-group', 'moon_table_background_color' );
 	register_setting( 'tmc-settings-group', 'plasma_table_background_color' );
-
 	register_setting( 'tmc-settings-group', 'day_with_posts_highlight_border_color' ); // NEW
-	register_setting( 'tmc-settings-group', 'day_with_posts_highlight_border_size' ); // NEW
 	register_setting( 'tmc-settings-group', 'show_num_posts' ); // NEW
 	register_setting( 'tmc-settings-group', 'show_famous_events' ); // NEW
-
 	register_setting( 'tmc-settings-group', 'curr_day_hilite_color' ); // NEW
-
 	register_setting( 'tmc-settings-group', 'permit_credits' );
 	register_setting( 'tmc-settings-group', 'last_save_time' );
 }
@@ -93,16 +89,9 @@ echo "</table>\n";
 	   </tr>
 
 	   <tr>
-	   <th scope="row"><b>Day With Posts Border Highlight Color</b></th>
+	   <th scope="row"><b>Day With Posts Cell Color</b></th>
 	   <td valign=top>
 <input size=8 maxlength=6 type="text" name="day_with_posts_highlight_border_color" value="<?php echo get_option('day_with_posts_highlight_border_color'); ?>" />hex (Default is 00f)
-		</td>
-	   </tr>
-
-	   <tr>
-	   <th scope="row"><b>Day With Posts Border Size</b></th>
-	   <td valign=top>
-<input size=8 maxlength=1 type="text" name="day_with_posts_highlight_border_size" value="<?php echo get_option('day_with_posts_highlight_border_size'); ?>" />px (Default is 2)
 		</td>
 	   </tr>
 

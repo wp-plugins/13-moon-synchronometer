@@ -23,8 +23,6 @@
      text-align: center;
      height: 20px;
      width: 30px;
-	font-size: 10px;
-	font-size: x-small;
 }
 
 #tm_synchronometer a {
@@ -586,6 +584,33 @@ td.cal_row_lt_4 /* Black on Yellow */
 	width: 70px;
 }
 
+#tm_synchronometer input.thickbox:hover {
+	background-color: #0f0;
+}
+
+input#super-tony-tmc-high {
+	background-color: #000;
+}
+
+input#super-tony-tmc-low {
+	background-color: #aaa;
+}
+
+#tm_synchronometer input.thickbox:hover {
+/*  background-color:#AAF;  */
+ }
+
+td.cal_row_med_1, td.cal_row_med_2, td.cal_row_med_3, td.cal_row_med_4  {
+}
+
+td.cal_row_med_1:hover, td.cal_row_med_2:hover, td.cal_row_med_3:hover, td.cal_row_med_4:hover {
+
+/*
+	opacity: 0.7;
+	background-color: black;  
+*/
+
+}
 
 
 /* END Calendar classes ======================================== */

@@ -54,20 +54,39 @@ function start_new_calendar() {
 	ob_start();
 // Start outputting 
 
-     // Get the date requested and return properly formatted date 
-     if (isset($_GET[dcode_yr])){
-     // Assign GET to vars
-     	$dcode_yr 	= $_GET['dcode_yr'];
-     	$dcode_mo 	= ltrim($_GET['dcode_mo'], '0');
-     	$dcode_day 	= ltrim($_GET['dcode_day'], '0');
-     	$dcode_bcad 	= $_GET[dcode_bcad];
-     } else {
+
+
+     if (!(isset($_GET['dcode_yr']))){
      // If no GETS, then use today's date
      	$dcode_yr 	= adodb_date("Y");
      	$dcode_mo 	= adodb_date("n");
      	$dcode_day 	= adodb_date("j");
      	$dcode_bcad 	= "AD";
      }
+
+
+// Is this a post?
+	$this_pg_type_post = get_post_type(get_the_ID());
+      	if ($this_pg_type_post == "post"){
+      		$this_post_date = get_the_date("Y-n-j");
+      		$this_post_date_pcs = explode("-", $this_post_date);
+      		$dcode_yr  = $this_post_date_pcs[0]; // Y	A full numeric representation of a year, 4 digits
+      		$dcode_mo  = $this_post_date_pcs[1];  // n	Numeric representation of a month, with NO leading zeros
+      		$dcode_day = $this_post_date_pcs[2];  // j	Day of the month, 2 digits with leading NO zeros
+      		$dcode_bcad 	= "AD";
+      	}
+
+      	
+
+     // Get the date requested and return properly formatted date 
+     if (isset($_GET['dcode_yr'])){
+     // Assign GET to vars
+     	$dcode_yr 	= $_GET['dcode_yr'];
+     	$dcode_mo 	= ltrim($_GET['dcode_mo'], '0');
+     	$dcode_day 	= ltrim($_GET['dcode_day'], '0');
+     	$dcode_bcad 	= "AD";
+     }
+
 
 
 // Get today's date

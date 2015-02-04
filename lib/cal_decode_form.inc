@@ -47,5 +47,5 @@
 <option value="12"<?php if ($dcode_mo == "12") echo " SELECTED";?>>12</option>
 </select></td>
 <td><input type=text size=5 maxlength=4 name=dcode_yr value="<?php echo "$dcode_yr";?>"></td>
-<td><input type=submit value="" style="padding-top: 2px; padding-right: 10px; padding-bottom: 2px; padding-left: 10px;" title="Set a new date and page will reload with decoded date"></td>
+<td><input type=submit value="SYNC" style="padding-top: 1px; padding-right: 8px; padding-bottom: 4px; padding-left: 8px;" title="CLICK to reload with new date"></td>
 
