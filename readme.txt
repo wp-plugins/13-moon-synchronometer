@@ -4,9 +4,9 @@ Requires at least: WP 3.2
 Tested up to: WP 4.1
 Stable tag: 2.0.2License: GPLv2License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
-The 13-Moon Synchronometer is a new calendar of Natural Time and harmonic measurement tool synchronized with natural order. Your site will display a harmonic Calendar, list your posts, moon, kin, and more. Makes a widget you can drop in a sidebar or use shortcode thirteen-moon-calendar in post or page to synchronize with Natural Time.
+Natural Time and harmonic measurement tool synchronized with natural order.  List posts, moon, kin, and more. Makes a widget you can drop in a sidebar or use shortcode thirteen-moon-calendar in post or page to synchronize with Natural Time.
 
-This plugin is part of a growing series of Dreamspell plugins, designed to work on their own and together, changing together each day and when a different day is decoded. Check out the other plugins by [__tonyray and abmaya__](http://profiles.wordpress.org/tonyray/).
+Part of a series of Dreamspell plugins, designed to work on their own and together, changing together each day and when a different day is decoded. Check out the other plugins by [__tonyray and abmaya__](http://profiles.wordpress.org/tonyray/).
 
 Translations in English Spanish and Dutch.
 
