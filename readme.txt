@@ -1,5 +1,5 @@
 === 13-Moon Synchronometer === Contributors: tonyray, abmaya
-Author URI: http://anthonyfogleman.com/Donate link: http://anthonyfogleman.com/blog/donations/Tags: 13-moon, natural-time, dreamspell, tzolkin, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, Cosmic-History, sychronometer, calendar, natural-time, valum-votan, telektonon, turtle, native, maya, noosphere, psi-bank, kin, in-lakech, decode, date
+Author URI: http://anthonyfogleman.com/Donate link: http://anthonyfogleman.com/blog/donations/Tags: 13-moon, natural-time, dreamspell, tzolkin
 Requires at least: WP 3.2
 Tested up to: WP 4.1
 Stable tag: 2.0.2License: GPLv2 or laterLicense URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -29,8 +29,6 @@ Blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
 = Manual Method =1. Download the zip file from wordpress 1. At `Plugins->new->upload` upload zip file.  It makes `13-moon-synchronometer` dir 1. Activate plugin `13-moon-synchronometer` (in Plugins menu) 
 = Once installed, how to make it work: =1. Got to Widgets, and put a 13-Moon Calendar widget into a sidebar 
 1. Optional: insert shortcode `[thirteen-moon-calendar]` into a post or page 1. Settings are at `Dashboard -> Settings -> 13-Moon Settings` 
-== Frequently Asked Questions ==* What is the meaning of life?
-* The purpose is for your good, and your trust will grow to include peace on earth.
 
 == Screenshots ==
 1. Sidebar view 2. Day detail for launch day Nov 13 2013 Kin 14 WHITE MAGNETIC WIZARD3. Use the handy 13-Moon Calendar Widget4. Navigate to settings5. Options panel
