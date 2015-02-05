@@ -2,7 +2,7 @@
 Author URI: http://anthonyfogleman.com/Donate link: http://anthonyfogleman.com/blog/donations/Tags: 13-moon, natural-time, dreamspell, tzolkin, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, Cosmic-History, sychronometer, calendar, natural-time, valum-votan, telektonon, turtle, native, maya, noosphere, psi-bank, kin, in-lakech, decode, date
 Requires at least: WP 3.2
 Tested up to: WP 4.1
-Stable tag: 2.0.2License: GPLv2License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Stable tag: 2.0.2License: GPLv2 or laterLicense URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
 Natural Time and harmonic measurement tool helps you synchronize with natural time. A harmonic Calendar, that list your posts, moon, kin, and more. Makes a widget you can drop in a sidebar or use shortcode [thirteen-moon-calendar] in post or page to synchronize with Natural Time. On of a series of Dreamspell plugins designed to work on their own and together, changing each day and when a date is decoded. Translations in English to Spanish and Dutch.
 
