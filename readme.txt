@@ -1,8 +1,8 @@
 === 13-Moon Synchronometer === Contributors: tonyray, abmaya
-Author URI: http://anthonyfogleman.com/Donate link: http://anthonyfogleman.com/blog/donations/Tags: 13-moon, natural-time, dreamspell, tzolkin, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, Cosmic-History, sychronometer, calendar, natural-time, valum-votan, telektonon, turtle, native, maya, noosphere, psi-bank, kin, in-lakech, decode, date
+Author URI: http://anthonyfogleman.com/Donate link: http://anthonyfogleman.com/blog/donations/Tags: 13-moon, natural-time, dreamspell, tzolkin, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, Cosmic-History, sychronometer, calendar, natural-time, valum-votan, telektonon, turtle, native, maya, noosphere, psi-bank, kin, in-lakech, decode
 Requires at least: WP 3.2
 Tested up to: WP 4.1
-Stable tag: 2.0.2License: GPLv2 or laterLicense URI: http://www.gnu.org/licenses/gpl-2.0.html
+Stable tag: 1.5.5License: GPLv2 or laterLicense URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
 Natural Time and harmonic measurement tool helps you synchronize with natural time. A harmonic Calendar, that list your posts, moon, kin, and more. Makes a widget you can drop in a sidebar or use shortcode [thirteen-moon-calendar] in post or page to synchronize with Natural Time. On of a series of Dreamspell plugins designed to work on their own and together, changing each day and when a date is decoded. Translations in English to Spanish and Dutch.
 
@@ -36,7 +36,7 @@ Blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
 1. Sidebar view 2. Day detail for launch day Nov 13 2013 Kin 14 WHITE MAGNETIC WIZARD3. Use the handy 13-Moon Calendar Widget4. Navigate to settings5. Options panel
 == Changelog ==
 
-= 2.0.2 - NS1.27.7.26 - 4.2.2015 =
+= 1.5.5 - NS1.27.7.26 - 4.2.2015 =
 * Sycronizes now with the date of your post automatically
 * Other interesting changes
 
