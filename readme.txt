@@ -10,9 +10,12 @@ Part of a growing series of Dreamspell plugins, designed to work on their own an
 
 Translations in English to Spanish and Dutch.
 
-= Contributors include =* [__Lawoftime.org__](http://Lawoftime.org/)* [__Planet Art Network (PAN)__](http://planetartnetwork.info/)* [__Space Station Plaza (SSP)__](http://spacestationplaza.com/)* [__Foundation for the Law of Time Netherlands__](http://www.wetvantijd.nl) Dutch version: Juryt Abma Kin-243 Blue Solar Night* [__Anthony Fogleman WP Blog__](http://anthonyfogleman.com/) Anthony Fogleman - Anka Kin 139 Blue Solar Storm
-* [__Uptime Hosting WP Site__](http://uptimehosting.com/) Anthony's Hosting and Programming Service
-* [__u-ching.com WP/BP/WPML__](http://u-ching.com/) A site designed for learning and using the uChing Code
+= Contributors include =
+Lawoftime.org
+Planet Art Network (PAN)
+Space Station Plaza (SSP)
+Foundation for the Law of Time Netherlands
+
 == Translation credits ==
 * Juryt Abma 243 - Dutch
 * Araygua Simran pal Kaur 224 - Spanish
