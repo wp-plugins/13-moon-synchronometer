@@ -4,11 +4,7 @@ Requires at least: WP 3.2
 Tested up to: WP 4.1
 Stable tag: 2.0.2License: GPLv2License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
-Natural Time and harmonic measurement tool helps you synchronize with natural time. A harmonic Calendar, that list your posts, moon, kin, and more. Makes a widget you can drop in a sidebar or use shortcode [thirteen-moon-calendar] in post or page to synchronize with Natural Time.
-
-Part of a growing series of Dreamspell plugins, designed to work on their own and together, changing together each day and when a different day is decoded. Check out the other plugins by [__tonyray and abmaya__](http://profiles.wordpress.org/tonyray/).
-
-Translations in English to Spanish and Dutch.
+Natural Time and harmonic measurement tool helps you synchronize with natural time. A harmonic Calendar, that list your posts, moon, kin, and more. Makes a widget you can drop in a sidebar or use shortcode [thirteen-moon-calendar] in post or page to synchronize with Natural Time. On of a series of Dreamspell plugins designed to work on their own and together, changing each day and when a date is decoded. Translations in English to Spanish and Dutch.
 
 = Contributors include =
 Lawoftime.org
