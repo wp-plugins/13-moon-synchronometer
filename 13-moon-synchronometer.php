@@ -1,6 +1,30 @@
-<?php/*Plugin Name: 13-Moon SynchronometerPlugin URI: http://anthonyfogleman.com/blog/13-moon-synchronometer-wp-plugin/Description: Natural Time and harmonic measurement tool helps you synchronize with natural time. A harmonic Calendar, that list your posts, moon, kin, and more. Makes a widget you can drop in a sidebar or use shortcode [thirteen-moon-calendar] in post or page to synchronize with Natural Time. On of a series of Dreamspell plugins designed to work on their own and together, changing each day and when a date is decoded. Translations in English to Spanish and Dutch.
-Version: 1.5.5Author: Anthony R. FoglemanAuthor URI: http://anthonyfogleman.comLicense: GPLv2 or later*/
-/*  Copyright 2013  Anthony R. Fogleman  ( circle@uptimehosting.com )    This program is free software; you can redistribute it and/or modify    it under the terms of the GNU General Public License, version 2, as     published by the Free Software Foundation.    This program is distributed in the hope that it will be useful,    but WITHOUT ANY WARRANTY; without even the implied warranty of    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the    GNU General Public License for more details.    You should have received a copy of the GNU General Public License    along with this program; if not, write to the Free Software    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA*/
+<?php
+/*
+Plugin Name: 13-Moon Synchronometer
+Plugin URI: http://anthonyfogleman.com/blog/13-moon-synchronometer-wp-plugin/
+Description: Natural Time and harmonic measurement tool helps you synchronize with natural time. A harmonic Calendar, that list your posts, moon, kin, and more. Makes a widget you can drop in a sidebar or use shortcode [thirteen-moon-calendar] in post or page to synchronize with Natural Time. On of a series of Dreamspell plugins designed to work on their own and together, changing each day and when a date is decoded. Translations in English to Spanish and Dutch.
+Version: 2.0.3
+Author: Anthony R. Fogleman
+Author URI: http://anthonyfogleman.com
+License: GPLv2 or later
+*/
+
+/*  Copyright 2013  Anthony R. Fogleman  ( circle@uptimehosting.com )
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License, version 2, as 
+    published by the Free Software Foundation.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
 /**
  * THE Proper way to enqueue scripts and styles 
 */
@@ -32,9 +56,11 @@ add_filter('widget_text', 'do_shortcode');
 include('tm_cal_construct.inc');
 
 // Make a shortcode for full-page use
-add_shortcode('thirteen-moon-calendar', 'start_new_calendar');
+add_shortcode('thirteen-moon-calendar', 'start_new_calendar');
+
 // Include wp menu and settings file
-include('settings.inc');
+include('settings.inc');
+
 // create custom plugin settings menu
 add_action('admin_menu', 'tmc_admin_options_menu');
 
