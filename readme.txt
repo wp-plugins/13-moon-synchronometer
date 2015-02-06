@@ -10,7 +10,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-Harmonic measurement tool helps you synchronize with natural timekeepers. A harmonic Calendar lists your kin, moon & posts.
+Natural Time harmonic measurement synchronizes with natural time. List kin, moon & posts. Widget for sidebar or use shortcode [thirteen-moon-calendar] in post or page. Works harmoniously with other Dreamspell plugins, changing each day and when date is decoded. Translations in English to Spanish and Dutch.
 
 = Contributors Include =
 
