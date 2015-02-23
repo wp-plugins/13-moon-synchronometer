@@ -128,10 +128,6 @@ $ocx .=  "</div>\n"; // end Div that wraps table
 $ocx .= "</div>\n";  // end DIV  is the toggle content
 
 
-
-
-
-
 // FOR WIDGET ONLY Set the starting visibility of the main section
 if (isset($this_instance_settings['display_onload'])) {
 	$display_onload = $this_instance_settings['display_onload'];
@@ -146,8 +142,6 @@ $ocx .= "<div class=\"toggled_oracle_content\" style=\"display: $start_display; 
 $ocx .= '<div class="oracle_header_txt">';
 $ocx .= 'Oracle of Destiny';
 $ocx .= '</div>';
-
-$ocx .= $debugit;
 
 // Optional text for popup info box
 $GP_Text = "Guiding Power is an overseeing and directing energy providing <br>protection, clarity and guidance.  Your Guiding Power is the same color<br> with your sign and you share similar energy.  <br><br>Your perfect gude is the same tone as you.";

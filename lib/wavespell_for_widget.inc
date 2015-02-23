@@ -1,7 +1,7 @@
 <?php // wavespell_for_widget.inc CALLED BY: tm_wavespell_construct.inc
 // ORIGINALY: kin_wavespell.inc ON SSP
 
-$mp_thisfile[] = "$settings_file - wavespell_for_widget.inc";
+$mp_thisfile[] = "wavespell_for_widget.inc";
 
 
 
@@ -57,7 +57,7 @@ for ($x = 0; $x <= 12; $x++) {
 	$ws_info[$x] = array(
 		"kin_id" => "$this_kin",
 		"tone_num" => ($x + 1),
-		"tribe_num" => "$this_tribe", 
+		"tribe_num" => "$this_tribe_num", 
 		"ws_img_pkg" => "$ws_img_pkg", 
 	);
 } // END for loop
