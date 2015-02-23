@@ -108,7 +108,11 @@ Blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
 * First Release of 13-Moon Synchronometer - Limi Day 27 Self-Existing Moon 4 Kin 14 WHITE MAGNETIC WIZARD
 
 == Upgrade Notice ==
-= 1.5.3 - NS1.26.6.24 - 5.1.2014 =
+
+= 2.0.9 =
+* Added so much, don't miss this upgrade!
+
+= 1.5.3 =
 * Updates to CSS and construct files to improve compatibility with various themes
 
 = 1.5.1 =
