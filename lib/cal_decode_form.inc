@@ -1,7 +1,10 @@
 
 <!-- form for decoding gregorian to 13 moon -->
 
-<td><select name="dcode_day"><option value="1"<?php if ($dcode_day == "1") echo " SELECTED";?>>01 &nbsp;</option>
+<td>
+<div class="styled-select black rounded">
+<select name="dcode_day">
+<option value="1"<?php if ($dcode_day == "1") echo " SELECTED";?>>01 &nbsp;</option>
 <option value="2"<?php if ($dcode_day == "2") echo " SELECTED";?>>02</option>
 <option value="3"<?php if ($dcode_day == "3") echo " SELECTED";?>>03</option>
 <option value="4"<?php if ($dcode_day == "4") echo " SELECTED";?>>04</option>
@@ -32,8 +35,13 @@
 <option value="29"<?php if ($dcode_day == "29") echo " SELECTED";?>>29</option>
 <option value="30"<?php if ($dcode_day == "30") echo " SELECTED";?>>30</option>
 <option value="31"<?php if ($dcode_day == "31") echo " SELECTED";?>>31</option>
-</select></td>
-<td><select name="dcode_mo"><option value="1"<?php if ($dcode_mo == "1") echo " SELECTED";?>>1</option>
+</select>
+</div>
+</td>
+
+<td>
+<select name="dcode_mo">
+<option value="1"<?php if ($dcode_mo == "1") echo " SELECTED";?>>1</option>
 <option value="2"<?php if ($dcode_mo == "2") echo " SELECTED";?>>2</option>
 <option value="3"<?php if ($dcode_mo == "3") echo " SELECTED";?>>3</option>
 <option value="4"<?php if ($dcode_mo == "4") echo " SELECTED";?>>4</option>
@@ -45,7 +53,9 @@
 <option value="10"<?php if ($dcode_mo == "10") echo " SELECTED";?>>10</option>
 <option value="11"<?php if ($dcode_mo == "11") echo " SELECTED";?>>11</option>
 <option value="12"<?php if ($dcode_mo == "12") echo " SELECTED";?>>12</option>
-</select></td>
+</select>
+</td>
+
 <td><input type=text size=5 maxlength=4 name=dcode_yr value="<?php echo "$dcode_yr";?>"></td>
-<td><input type=submit value="SYNC" style="padding-top: 1px; padding-right: 8px; padding-bottom: 4px; padding-left: 8px;" title="CLICK to reload with new date"></td>
+<td><input type=submit value="SYNC" class="sync_button" title="CLICK to reload with new date"></td>
 

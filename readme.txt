@@ -4,8 +4,8 @@ Author URI: http://anthonyfogleman.com/
 Donate link: http://anthonyfogleman.com/blog/donations/
 Tags: 13-moon, natural-time, dreamspell, calendar, tzolkin, maya, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, natural-time
 Requires at least: WP 3.2
-Tested up to: WP 4.1
-Stable tag: 2.0.4
+Tested up to: WP 4.1.1
+Stable tag: 2.0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -64,6 +64,10 @@ Blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
 5. Options panel
 
 == Changelog ==
+
+= 2.0.9 - NS1.27.8.17 - 23.2.2015 =
+* Added widgets: Kin, Oracle, and Wavespell
+* Repaired numerous HTML errors
 
 = 2.0.4 - NS1.27.7.28 - 6.2.2015 =
 * Sycronizes now with the date of your post automatically

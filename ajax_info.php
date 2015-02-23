@@ -3,6 +3,11 @@
 // This is the program that comes up in the ThickBox ajax modal dialog box - WordPress-Friendly
 
 
+
+// <input alt="http://u-ching.com/wp-content/plugins/13-moon-synchronometer/ajax_info.php?height=300&amp;width=280&amp;date=2015-2-16&amp;purl=http://u-ching.com/wp-content/plugins&amp;ucd_locale=en_EN&amp;show_famous_events=YES&amp;rurl_enc_posts_del=&amp;tm_date_proper=NS1.27.8.10" title="Monday 16 February 2015" class="thickbox" type="button" value="10" id="super-tony-tmc-lo">
+
+
+
 // Turn of annoying warnings
 error_reporting(E_ERROR);
 // error_reporting(E_ALL);
@@ -26,32 +31,56 @@ $ucd_locale = $_GET['ucd_locale'];
 $rurl_enc_posts_del = $_GET['rurl_enc_posts_del'];
 
 // Get the official date code
-$tm_date_proper = $_GET['tm_date_proper'];
+$this_tm_date_proper = $_GET['tm_date_proper'];
 
-// echo "$rurl_enc_posts_del<hr>";
+$show_famous_events = $_GET['show_famous_events'];
 
-// echo "rurl_enc_posts_del: $rurl_enc_posts_del";
+/*
+<input alt="http://uptimehosting.com/sandbox/wp-content/plugins/13-moon-synchronometer/ajax_info.php?height=300&amp;width=280&amp;date=2015-2-11&amp;purl=http://uptimehosting.com/sandbox/wp-content/plugins&amp;ucd_locale=en_EN&amp;show_famous_events=YES&amp;rurl_enc_posts_del=&amp;tm_date_proper=NS1.27.8.5" title="Wednesday 11 February 2015" class="thickbox" type="button" value="5" id="super-tony-tmc-lo">
+
+http://uptimehosting.com/sandbox/wp-content/plugins/13-moon-synchronometer/ajax_info.php?
+height=300&amp;
+width=280&amp;
+date=2015-2-11&amp;
+purl=http://uptimehosting.com/sandbox/wp-content/plugins&amp;
+ucd_locale=en_EN&amp;
+show_famous_events=YES&amp;
+rurl_enc_posts_del=&amp;
+tm_date_proper=NS1.27.8.5
+
+echo "show_famous_events: $show_famous_events";
+
+exit;
+
+
+*/
+
 
 if (strlen($rurl_enc_posts_del) > 10){
-     $posts_pcs = explode("|", $rurl_enc_posts_del);
-     
-     $inc = 0;
+	$posts_pcs = explode("|", $rurl_enc_posts_del);
+	
+	$inc = 0;
 	$post_listing = "";
-     foreach ($posts_pcs as $dummy){
-     	$post_listing .= "<li>\n";
-     	$post_listing .= "<a href=\">".$posts_pcs[$inc]."\" title=\"".$posts_pcs[$inc + 1]."\">";
-     	$inc++;
-     	$post_listing .= "$posts_pcs[$inc]</a></li>";
-     	$inc++;
-     	if ($posts_pcs[$inc] == ""){
-     		break;
-     	}
-     }
-     
-     echo "Posts (".($inc / 2).")";
-     echo "$post_listing";
+	foreach ($posts_pcs as $dummy){
+		$post_listing .= '<li>';
+		$post_listing .= '<a href="'.$posts_pcs[$inc].'" title="'.$posts_pcs[$inc + 1].'">';
+		$inc++;
+		$post_listing .= $posts_pcs[$inc];
+		$post_listing .= '</a></li>';
+		
+		$inc++;
+		
+		if ($posts_pcs[$inc] == ""){
+		break;
+		}
+	}
+	
+	echo "Posts (".($inc / 2).")";
+	echo "$post_listing";
 
 }
+
+// http://sandbox.web/wp/experimental-plugin-space/   %3E http://sandbox.web/wp/?p=10
 
 // Directory paths for important things
 $moons_img_dir 	= "$purl/13-moon-synchronometer/images/moons";
@@ -146,11 +175,25 @@ if (isset($_GET['kin_num'])){
 	$nice_date .= $this_nice_translated_date;
      $nice_date .= "</div>\n";
      $nice_date .= "<br clear=both>\n";
+     
+     
 
 // Include kin-fo
-    	$kin_info = "<div style=\"float: left; text-align: center; margin-left: 0px;\">\n";
+
+// NS - Style DATE -- tm_date_proper
+	$kin_info = "<div class=\"proper_date\">$this_tm_date_proper</div>";
+
+
+$kin_info .= $capture_to_test;
+
+
+    	$kin_info .= "<div style=\"float: left; text-align: center; margin-left: 0px;\">\n";
 	ob_start();
-	$temp = include('lib/cal_show_kin_info.inc');
+
+	$temp = include('lib/prep_for_kin.inc');
+	
+	$temp = include('lib/kin_for_popup.inc');
+
 	$kin_info .= ob_get_clean();
      $kin_info .= "</div>\n";
 	echo "$kin_info";

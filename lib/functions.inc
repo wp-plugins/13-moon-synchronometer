@@ -3,17 +3,15 @@
 
 tmc_date_mysql_to_kin($mysql_date, $dcode_bcad)
 ms_date_is_leapday
-guiding_power($tone_num, $tribe_num)
+tmc_is_leapyear - advanced method for checking leap year
 tone_num_to_img_num
 seal_num_to_img_num
-
 tmc_truncate
 kin_to_next_gb
 tmc_kin_to_wavespell($kin_ID, $tone_num)
 tmc_count_days
 num_days_moon_num
 ms_moon_start_yr - determine the starting year of the 13m cal from any mysql date
-tmc_is_leapyear - advanced method for checking leap year
 ms_date_moon_array - creates array of moon illumination of any day/time
 class Moon
 moon_phase ($year, $month, $day) // Gets date of full moon
@@ -21,9 +19,10 @@ is_portal($kin_ID) - reports past and future portals
 tm_day_num_to_plasma_num ($this_day_count) // Used in new calendar
 get_this_day_wp_posts($this_mysql_date) // an awesome little func that gets the posts on a given date
 tmc_translate_kin_to_seo($tran_kin, $database) // Translate URL for SEO
-tmc_tone_num_to_name
-
 tmc_ns_yr_nums($dcode_yr, $dcode_mo, $dcode_day)
+
+guiding_power($tone_num, $tribe_num)
+tribe_to_analog($tribe_num)
 
 */
 
@@ -35,31 +34,19 @@ function tmc_date_mysql_to_kin($mysql_date, $dcode_bcad){
 	$birth_mo = $mysql_date_pcs[1];
 	$birth_day = $mysql_date_pcs[2];
 
-	if ($dcode_bcad === "BC"){
-			$birth_yr = (($birth_yr) - ($birth_yr * 2));
-	}
+	if ($dcode_bcad === "BC"){$birth_yr = (($birth_yr) - ($birth_yr * 2));}
 
 	if (($birth_yr <> "")&&($birth_mo <> "")&&($birth_day <> "")){
 
-	
 		if ((preg_match("/^[0-9]{1,2}/", $birth_mo))&&($birth_mo < 13)) {
-		    $input_good .= "Your birth month is PROPERLY formatted.<br>";
-		} else {
-			$input_error .= "Your birth month is NOT formatted properly.<br>";
-		}
+		    $input_good = "Date is PROPERLY formatted.<br>";
+		} else {$input_error = "Date is NOT formatted properly.<br>";}
 	
 		if ((preg_match("/^[0-9]{1,2}/", $birth_day))&&($birth_day < 32)) {
-		    $input_good .= "Your birth day is PROPERLY formatted.<br>";
-		} else {
-			$input_error .= "Your birth day is NOT formatted properly.<br>";
-		}
+		    $input_good = "Date is PROPERLY formatted.<br>";
+		} else {$input_error = "Date is NOT formatted properly.<br>";}
 	
-		if (isset($input_error)){
-			$yr_mo_day_code = "Error: $input_error";
-	
-		} else {
-	
-//	 		echo "You Entered the dates: $birth_mo/$birth_day/$birth_yr<p>$input_good <BR> $input_error";
+		if (isset($input_error)){$yr_mo_day_code = "Error: $input_error";} else {
 	
 			if (($birth_yr - 2013) % 52 == 0){$yr_code = 217;}
 			elseif (($birth_yr - 2012) % 52 == 0){$yr_code = 112;}
@@ -131,14 +118,12 @@ function tmc_date_mysql_to_kin($mysql_date, $dcode_bcad){
 			$yr_mo_day_code = ($yr_code + $mo_code + $birth_day);
 			if ($yr_mo_day_code > 260){$yr_mo_day_code = ($yr_mo_day_code - 260); $exc_260 = "- 260";}
 			if ($yr_mo_day_code > 260){$yr_mo_day_code = ($yr_mo_day_code - 260);}
-	
 		} // END if no input error
 	} // END if input
 
-
 // Finally, we check to see if it's leap day -- NOT DAY OUT OF TIME but GAD or 0.0.hunab ku
 
-	if (ms_date_is_leapday($mysql_date)){
+	if (ms_date_is_leapday($mysql_date) === "TRUE"){
 		// Adjust back one kin for Leap Day
 			$yr_mo_day_code = ($yr_mo_day_code - 1); if ($yr_mo_day_code < 1){$yr_mo_day_code = ($yr_mo_day_code + 260);}
 	}
@@ -148,69 +133,45 @@ function tmc_date_mysql_to_kin($mysql_date, $dcode_bcad){
 } // END of function tmc_date_mysql_to_kin
 
 
+/*  Not every year that is divisible by 4 is a leap year. There are other conditions. Here's the complete list:
+
+   1. Every year that is evenly divisible by four is a leap year;
+   2. of those years, if it can be evenly divided by 100, it is NOT a leap year, unless
+   3. the year is evenly divisible by 400. Then it is a leap year.
+*/
+
+function tmc_is_leapyear($year) {
+	if ( ($year%4) != 0 )
+	{     return false;     }
+	
+	if ( ($year%100)==0 )
+	{
+	     if ( ($year%400) == 0 )
+	     {     return true;     }
+	     else
+	     {     return false;    }
+	}
+	else
+	{     return true;     }
+}
+
+
 // Check to see if this date is a Leap Day
 function ms_date_is_leapday($mysql_date){
 // Find out if the day is a leap day
-
-//	$leap_day = "FALSE";
-	
+	$leap_day = "FALSE";
 	$msdate_pcs = explode("-", $mysql_date);
 	$answer = adodb_date('L', strtotime("$msdate_pcs[0]-1-1"));
 	if($answer){
 		if ((($msdate_pcs[1] === "02")||($msdate_pcs[1] === "2"))&&($msdate_pcs[2] === "29")){
 			if (tmc_is_leapyear($msdate_pcs[0])){
 				$leap_day = "TRUE";
-			}
+			} else {$leap_day = "FALSE";}
 		}
 	}
 	return $leap_day;
 }
 
-
-// Here we have the kin number, now to get the mysql dates hmmm...
-function guiding_power($tone_num, $tribe_num){
-
-/*
-* GET equations for getting relationships to kin: 
-	- Guiding Power - 
-		* tone: 1, 6 or 11: 	My own power doubled (same kin)
-		* tone: 2,7 or 12: 		-2 tribes of same color ()
-		* tone: 3, 8 or 13: 	+1 tribe of same color ()
-		* tone: 4, 9:       	-1 tribe of same color ()
-		* tone: 5, 10:     		+2 tribes of same color ()
-
-	It's about what tribe it is
-	- Antipode (challenge) - To find the ANTIPODE, move 10 tribes forward or backward
-		- perfect antipode is same tone, but if not same tone, still analog (because of the tribe)
-	- Analog (support)  - To find the ANALOG -- your tribe plus analog adds up to 19 -- sum you and analog are 19 -- perfect one is (
-		- Same with, subtract or add 19 from tribe
-		- if tribe 11, plus adds up to 19
-	- Occult Power (hidden gift)
-		- 21, use if tribe 11, then 10 is Occult, because it adds up to 21
-
-*/
-	
-	if (($tone_num === "1")||($tone_num === "6")||($tone_num === "11")){
-		$guiding_power_tribe = $tribe_num;
-		} elseif (($tone_num === "2")||($tone_num === "7")||($tone_num === "12")){
-			$guiding_power_tribe = ($tribe_num - 8);
-			if ($guiding_power_tribe > 20){$guiding_power_tribe = ($guiding_power_tribe - 20);}
-		} elseif (($tone_num === "3")||($tone_num === "8")||($tone_num === "13")){
-			$guiding_power_tribe = ($tribe_num + 4);
-			if ($guiding_power_tribe > 20){$guiding_power_tribe = ($guiding_power_tribe - 20);}
-		} elseif (($tone_num === "4")||($tone_num === "9")){
-			$guiding_power_tribe = ($tribe_num - 4);
-			if ($guiding_power_tribe > 20){$guiding_power_tribe = ($guiding_power_tribe - 20);}
-		} elseif (($tone_num === "5")||($tone_num === "10")){
-			$guiding_power_tribe = ($tribe_num + 8);
-			if ($guiding_power_tribe > 20){$guiding_power_tribe = ($guiding_power_tribe - 20);}
-		}
-
-		if ($guiding_power_tribe === 0){$guiding_power_tribe = 20;}
-		if ($guiding_power_tribe < 0){($guiding_power_tribe = ($guiding_power_tribe + 20));}
-
-	return $guiding_power_tribe;
-}
 
 // Tone to Image function
 function tone_num_to_img_num ($tone_num){
@@ -236,26 +197,26 @@ function tone_num_to_img_num ($tone_num){
 function seal_num_to_img_num
 ($tribe_num){
 	switch ($tribe_num) {
-		case "1":			$tribe_img = "01.png";break;
-		case "2":			$tribe_img = "02.png";break;
-		case "3":			$tribe_img = "03.png";break;
-		case "4":			$tribe_img = "04.png";break;
-		case "5":			$tribe_img = "05.png";break;
-		case "6":			$tribe_img = "06.png";break;
-		case "7":			$tribe_img = "07.png";break;
-		case "8":			$tribe_img = "08.png";break;
-		case "9":			$tribe_img = "09.png";break;
-		case "10":		$tribe_img = "10.png";break;
-		case "11":		$tribe_img = "11.png";break;
-		case "12":		$tribe_img = "12.png";break;
-		case "13":		$tribe_img = "13.png";break;
-		case "14":		$tribe_img = "14.png";break;
-		case "15":		$tribe_img = "15.png";break;
-		case "16":		$tribe_img = "16.png";break;
-		case "17":		$tribe_img = "17.png";break;
-		case "18":		$tribe_img = "18.png";break;
-		case "19":		$tribe_img = "19.png";break;
-		case "20":		$tribe_img = "20.png";break;
+		case "1":	$tribe_img = "01.png";break;
+		case "2":	$tribe_img = "02.png";break;
+		case "3":	$tribe_img = "03.png";break;
+		case "4":	$tribe_img = "04.png";break;
+		case "5":	$tribe_img = "05.png";break;
+		case "6":	$tribe_img = "06.png";break;
+		case "7":	$tribe_img = "07.png";break;
+		case "8":	$tribe_img = "08.png";break;
+		case "9":	$tribe_img = "09.png";break;
+		case "10":	$tribe_img = "10.png";break;
+		case "11":	$tribe_img = "11.png";break;
+		case "12":	$tribe_img = "12.png";break;
+		case "13":	$tribe_img = "13.png";break;
+		case "14":	$tribe_img = "14.png";break;
+		case "15":	$tribe_img = "15.png";break;
+		case "16":	$tribe_img = "16.png";break;
+		case "17":	$tribe_img = "17.png";break;
+		case "18":	$tribe_img = "18.png";break;
+		case "19":	$tribe_img = "19.png";break;
+		case "20":	$tribe_img = "20.png";break;
 	}
     return $tribe_img;
 }
@@ -347,9 +308,7 @@ function day_of_week($date, $shift){
 
 // Day Number of Plasma
 function gday_nam_to_may_name($day_count){
-
-//	$may_nm_day = "";
-	
+	$may_nm_day = "";
 	switch ($day_count) {
 		case "1":			$may_nm_day = "Dali";break;
 		case "2":			$may_nm_day = "Seli";break;
@@ -383,29 +342,6 @@ function ms_moon_start_yr($dcode_mo, $dcode_day, $dcode_yr) {
 }
 
 
-/*  Not every year that is divisible by 4 is a leap year. There are other conditions. Here's the complete list:
-
-   1. Every year that is evenly divisible by four is a leap year;
-   2. of those years, if it can be evenly divided by 100, it is NOT a leap year, unless
-   3. the year is evenly divisible by 400. Then it is a leap year.
-*/
-
-function tmc_is_leapyear($year) {
-	if ( ($year%4) != 0 )
-	{     return false;     }
-	
-	if ( ($year%100)==0 )
-	{
-	     if ( ($year%400) == 0 )
-	     {     return true;     }
-	     else
-	     {     return false;    }
-	}
-	else
-	{     return true;     }
-}
-
-
 // ms_date_moon_array - creates an array of dates & moons for every day of the 13-moon solar cycle - from a MySQL date
 function ms_date_moon_array($dcode_mo, $dcode_day, $dcode_yr){
 // Get starting YEAR
@@ -423,24 +359,24 @@ function ms_date_moon_array($dcode_mo, $dcode_day, $dcode_yr){
 	while ($inc_days <= 364){
 // Get number of days in that month (skipping over LEAP DAY just like it doesn't exist!!!)
 		switch ($gmonth) {
-			case "1":			$num_days_ms_mo = "31";break;
-			case "2":			$num_days_ms_mo = "28";break;
-			case "3":			$num_days_ms_mo = "31";break;
-			case "4":			$num_days_ms_mo = "30";break;
-			case "5":			$num_days_ms_mo = "31";break;
-			case "6":			$num_days_ms_mo = "30";break;
-			case "7":			$num_days_ms_mo = "31";break;
-			case "8":			$num_days_ms_mo = "31";break;
-			case "9":			$num_days_ms_mo = "30";break;
-			case "10":		$num_days_ms_mo = "31";break;
-			case "11":		$num_days_ms_mo = "30";break;
-			case "12":		$num_days_ms_mo = "31";break;
+			case "1":	$dys_mo = "31";break;
+			case "2":	$dys_mo = "28";break;
+			case "3":	$dys_mo = "31";break;
+			case "4":	$dys_mo = "30";break;
+			case "5":	$dys_mo = "31";break;
+			case "6":	$dys_mo = "30";break;
+			case "7":	$dys_mo = "31";break;
+			case "8":	$dys_mo = "31";break;
+			case "9":	$dys_mo = "30";break;
+			case "10":	$dys_mo = "31";break;
+			case "11":	$dys_mo = "30";break;
+			case "12":	$dys_mo = "31";break;
 		}
 // Increment greg day
-		if($gday <= $num_days_ms_mo){
+		if($gday <= $dys_mo){
 			$gday++;
 		}
-		if ($gday > $num_days_ms_mo){
+		if ($gday > $dys_mo){
 // reset greg day
 			$gday = 1;
 // Increment greg month
@@ -638,22 +574,22 @@ Found at: http://jivebay.com/2008/09/07/calculating-the-moon-phase/
 function is_portal($kin_ID){
 	$portal = "N";
 	switch ($kin_ID){
-		case 1: 			$portal = "P"; break;
-		case 20: 			$portal = "P"; break;
-		case 22: 			$portal = "P"; break;
-		case 39: 			$portal = "P"; break;
-		case 43: 			$portal = "P"; break;
-		case 50: 			$portal = "F"; break;
-		case 51: 			$portal = "F"; break;
-		case 58: 			$portal = "P"; break;
-		case 64: 			$portal = "P"; break;
-		case 69: 			$portal = "F"; break;
-		case 72: 			$portal = "F"; break;
-		case 77: 			$portal = "P"; break;
-		case 85: 			$portal = "P"; break;
-		case 88: 			$portal = "F"; break;
-		case 93: 			$portal = "F"; break;
-		case 96: 			$portal = "P"; break;
+		case 1: 		$portal = "P"; break;
+		case 20: 		$portal = "P"; break;
+		case 22: 		$portal = "P"; break;
+		case 39: 		$portal = "P"; break;
+		case 43: 		$portal = "P"; break;
+		case 50: 		$portal = "F"; break;
+		case 51: 		$portal = "F"; break;
+		case 58: 		$portal = "P"; break;
+		case 64: 		$portal = "P"; break;
+		case 69: 		$portal = "F"; break;
+		case 72: 		$portal = "F"; break;
+		case 77: 		$portal = "P"; break;
+		case 85: 		$portal = "P"; break;
+		case 88: 		$portal = "F"; break;
+		case 93: 		$portal = "F"; break;
+		case 96: 		$portal = "P"; break;
 		case 106: 		$portal = "P"; break;
 		case 107: 		$portal = "F"; break;
 		case 108: 		$portal = "P"; break;
@@ -697,35 +633,36 @@ function is_portal($kin_ID){
 
 // Day Number of Plasma
 function tm_day_num_to_plasma_num ($this_day_count){
+	$this_plasma = "";
 	switch ($this_day_count) {
-     	case "1":		$this_plasma = "1"; break; 
-     	case "2":		$this_plasma = "2"; break; 
-     	case "3":		$this_plasma = "3"; break; 
-     	case "4":		$this_plasma = "4"; break; 
-     	case "5":		$this_plasma = "5"; break; 
-     	case "6":		$this_plasma = "6"; break; 
-     	case "7":		$this_plasma = "7"; break; 
-     	case "8":		$this_plasma = "1"; break; 
-     	case "9":		$this_plasma = "2"; break; 
-     	case "10":	$this_plasma = "3"; break; 
-     	case "11":	$this_plasma = "4"; break; 
-     	case "12":	$this_plasma = "5"; break; 
-     	case "13":	$this_plasma = "6"; break; 
-     	case "14":	$this_plasma = "7"; break; 
-     	case "15":	$this_plasma = "1"; break; 
-     	case "16":	$this_plasma = "2"; break; 
-     	case "17":	$this_plasma = "3"; break; 
-     	case "18":	$this_plasma = "4"; break; 
-     	case "19":	$this_plasma = "5"; break; 
-     	case "20":	$this_plasma = "6"; break; 
-     	case "21":	$this_plasma = "7"; break; 
-     	case "22":	$this_plasma = "1"; break; 
-     	case "23":	$this_plasma = "2"; break; 
-     	case "24":	$this_plasma = "3"; break; 
-     	case "25":	$this_plasma = "4"; break; 
-     	case "26":	$this_plasma = "5"; break; 
-     	case "27":	$this_plasma = "6"; break; 
-     	case "28":	$this_plasma = "7"; break; 
+	     	case "1":	$this_plasma = "1"; break; 
+	     	case "2":	$this_plasma = "2"; break; 
+	     	case "3":	$this_plasma = "3"; break; 
+	     	case "4":	$this_plasma = "4"; break; 
+	     	case "5":	$this_plasma = "5"; break; 
+	     	case "6":	$this_plasma = "6"; break; 
+	     	case "7":	$this_plasma = "7"; break; 
+	     	case "8":	$this_plasma = "1"; break; 
+	     	case "9":	$this_plasma = "2"; break; 
+	     	case "10":	$this_plasma = "3"; break; 
+	     	case "11":	$this_plasma = "4"; break; 
+	     	case "12":	$this_plasma = "5"; break; 
+	     	case "13":	$this_plasma = "6"; break; 
+	     	case "14":	$this_plasma = "7"; break; 
+	     	case "15":	$this_plasma = "1"; break; 
+	     	case "16":	$this_plasma = "2"; break; 
+	     	case "17":	$this_plasma = "3"; break; 
+	     	case "18":	$this_plasma = "4"; break; 
+	     	case "19":	$this_plasma = "5"; break; 
+	     	case "20":	$this_plasma = "6"; break; 
+	     	case "21":	$this_plasma = "7"; break; 
+	     	case "22":	$this_plasma = "1"; break; 
+	     	case "23":	$this_plasma = "2"; break; 
+	     	case "24":	$this_plasma = "3"; break; 
+	     	case "25":	$this_plasma = "4"; break; 
+	     	case "26":	$this_plasma = "5"; break; 
+	     	case "27":	$this_plasma = "6"; break; 
+	     	case "28":	$this_plasma = "7"; break; 
 	}
     return $this_plasma;
 }
@@ -783,289 +720,268 @@ function get_this_day_wp_posts($this_mysql_date){
 // Translate URL for SEO
 function tmc_translate_kin_to_seo($tran_kin) {
 	switch ($tran_kin) {
-     	case "1":		$translation = "RED-MAGNETIC-DRAGON"; break;
-     	case "2":		$translation = "WHITE-LUNAR-WIND"; break;
-     	case "3":		$translation = "BLUE-ELECTRIC-NIGHT"; break;
-     	case "4":		$translation = "YELLOW-SELF-EXISTING-SEED"; break;
-     	case "5":		$translation = "RED-OVERTONE-SERPENT"; break;
-     	case "6":		$translation = "WHITE-RHYTHMIC-WORLDBRIDGER"; break;
-     	case "7":		$translation = "BLUE-RESONANT-HAND"; break;
-     	case "8":		$translation = "YELLOW-GALACTIC-STAR"; break;
-     	case "9":		$translation = "RED-SOLAR-MOON"; break;
-     	case "10":	$translation = "WHITE-PLANETARY-DOG"; break;
-     	case "11":	$translation = "BLUE-SPECTRAL-MONKEY"; break;
-     	case "12":	$translation = "YELLOW-CRYSTAL-HUMAN"; break;
-     	case "13":	$translation = "RED-COSMIC-SKYWALKER"; break;
-     	case "14":	$translation = "WHITE-MAGNETIC-WIZARD"; break;
-     	case "15":	$translation = "BLUE-LUNAR-EAGLE"; break;
-     	case "16":	$translation = "YELLOW-ELECTRIC-WARRIOR"; break;
-     	case "17":	$translation = "RED-SELF-EXISTING-EARTH"; break;
-     	case "18":	$translation = "WHITE-OVERTONE-MIRROR"; break;
-     	case "19":	$translation = "BLUE-RHYTHMIC-STORM"; break;
-     	case "20":	$translation = "YELLOW-RESONANT-SUN"; break;
-     	case "21":	$translation = "RED-GALACTIC-DRAGON"; break;
-     	case "22":	$translation = "WHITE-SOLAR-WIND"; break;
-     	case "23":	$translation = "BLUE-PLANETARY-NIGHT"; break;
-     	case "24":	$translation = "YELLOW-SPECTRAL-SEED"; break;
-     	case "25":	$translation = "RED-CRYSTAL-SERPENT"; break;
-     	case "26":	$translation = "WHITE-COSMIC-WORLDBRIDGER"; break;
-     	case "27":	$translation = "BLUE-MAGNETIC-HAND"; break;
-     	case "28":	$translation = "YELLOW-LUNAR-STAR"; break;
-     	case "29":	$translation = "RED-ELECTRIC-MOON"; break;
-     	case "30":	$translation = "WHITE-SELF-EXISTING-DOG"; break;
-     	case "31":	$translation = "BLUE-OVERTONE-MONKEY"; break;
-     	case "32":	$translation = "YELLOW-RHYTHMIC-HUMAN"; break;
-     	case "33":	$translation = "RED-RESONANT-SKYWALKER"; break;
-     	case "34":	$translation = "WHITE-GALACTIC-WIZARD"; break;
-     	case "35":	$translation = "BLUE-SOLAR-EAGLE"; break;
-     	case "36":	$translation = "YELLOW-PLANETARY-WARRIOR"; break;
-     	case "37":	$translation = "RED-SPECTRAL-EARTH"; break;
-     	case "38":	$translation = "WHITE-CRYSTAL-MIRROR"; break;
-     	case "39":	$translation = "BLUE-COSMIC-STORM"; break;
-     	case "40":	$translation = "YELLOW-MAGNETIC-SUN"; break;
-     	case "41":	$translation = "RED-LUNAR-DRAGON"; break;
-     	case "42":	$translation = "WHITE-ELECTRIC-WIND"; break;
-     	case "43":	$translation = "BLUE-SELF-EXISTING-NIGHT"; break;
-     	case "44":	$translation = "YELLOW-OVERTONE-SEED"; break;
-     	case "45":	$translation = "RED-RHYTHMIC-SERPENT"; break;
-     	case "46":	$translation = "WHITE-RESONANT-WORLDBRIDGER"; break;
-     	case "47":	$translation = "BLUE-GALACTIC-HAND"; break;
-     	case "48":	$translation = "YELLOW-SOLAR-STAR"; break;
-     	case "49":	$translation = "RED-PLANETARY-MOON"; break;
-     	case "50":	$translation = "WHITE-SPECTRAL-DOG"; break;
-     	case "51":	$translation = "BLUE-CRYSTAL-MONKEY"; break;
-     	case "52":	$translation = "YELLOW-COSMIC-HUMAN"; break;
-     	case "53":	$translation = "RED-MAGNETIC-SKYWALKER"; break;
-     	case "54":	$translation = "WHITE-LUNAR-WIZARD"; break;
-     	case "55":	$translation = "BLUE-ELECTRIC-EAGLE"; break;
-     	case "56":	$translation = "YELLOW-SELF-EXISTING-WARRIOR"; break;
-     	case "57":	$translation = "RED-OVERTONE-EARTH"; break;
-     	case "58":	$translation = "WHITE-RHYTHMIC-MIRROR"; break;
-     	case "59":	$translation = "BLUE-RESONANT-STORM"; break;
-     	case "60":	$translation = "YELLOW-GALACTIC-SUN"; break;
-     	case "61":	$translation = "RED-SOLAR-DRAGON"; break;
-     	case "62":	$translation = "WHITE-PLANETARY-WIND"; break;
-     	case "63":	$translation = "BLUE-SPECTRAL-NIGHT"; break;
-     	case "64":	$translation = "YELLOW-CRYSTAL-SEED"; break;
-     	case "65":	$translation = "RED-COSMIC-SERPENT"; break;
-     	case "66":	$translation = "WHITE-MAGNETIC-WORLDBRIDGER"; break;
-     	case "67":	$translation = "BLUE-LUNAR-HAND"; break;
-     	case "68":	$translation = "YELLOW-ELECTRIC-STAR"; break;
-     	case "69":	$translation = "RED-SELF-EXISTING-MOON"; break;
-     	case "70":	$translation = "WHITE-OVERTONE-DOG"; break;
-     	case "71":	$translation = "BLUE-RHYTHMIC-MONKEY"; break;
-     	case "72":	$translation = "YELLOW-RESONANT-HUMAN"; break;
-     	case "73":	$translation = "RED-GALACTIC-SKYWALKER"; break;
-     	case "74":	$translation = "WHITE-SOLAR-WIZARD"; break;
-     	case "75":	$translation = "BLUE-PLANETARY-EAGLE"; break;
-     	case "76":	$translation = "YELLOW-SPECTRAL-WARRIOR"; break;
-     	case "77":	$translation = "RED-CRYSTAL-EARTH"; break;
-     	case "78":	$translation = "WHITE-COSMIC-MIRROR"; break;
-     	case "79":	$translation = "BLUE-MAGNETIC-STORM"; break;
-     	case "80":	$translation = "YELLOW-LUNAR-SUN"; break;
-     	case "81":	$translation = "RED-ELECTRIC-DRAGON"; break;
-     	case "82":	$translation = "WHITE-SELF-EXISTING-WIND"; break;
-     	case "83":	$translation = "BLUE-OVERTONE-NIGHT"; break;
-     	case "84":	$translation = "YELLOW-RHYTHMIC-SEED"; break;
-     	case "85":	$translation = "RED-RESONANT-SERPENT"; break;
-     	case "86":	$translation = "WHITE-GALACTIC-WORLDBRIDGER"; break;
-     	case "87":	$translation = "BLUE-SOLAR-HAND"; break;
-     	case "88":	$translation = "YELLOW-PLANETARY-STAR"; break;
-     	case "89":	$translation = "RED-SPECTRAL-MOON"; break;
-     	case "90":	$translation = "WHITE-CRYSTAL-DOG"; break;
-     	case "91":	$translation = "BLUE-COSMIC-MONKEY"; break;
-     	case "92":	$translation = "YELLOW-MAGNETIC-HUMAN"; break;
-     	case "93":	$translation = "RED-LUNAR-SKYWALKER"; break;
-     	case "94":	$translation = "WHITE-ELECTRIC-WIZARD"; break;
-     	case "95":	$translation = "BLUE-SELF-EXISTING-EAGLE"; break;
-     	case "96":	$translation = "YELLOW-OVERTONE-WARRIOR"; break;
-     	case "97":	$translation = "RED-RHYTHMIC-EARTH"; break;
-     	case "98":	$translation = "WHITE-RESONANT-MIRROR"; break;
-     	case "99":	$translation = "BLUE-GALACTIC-STORM"; break;
-     	case "100":	$translation = "YELLOW-SOLAR-SUN"; break;
-     	case "101":	$translation = "RED-PLANETARY-DRAGON"; break;
-     	case "102":	$translation = "WHITE-SPECTRAL-WIND"; break;
-     	case "103":	$translation = "BLUE-CRYSTAL-NIGHT"; break;
-     	case "104":	$translation = "YELLOW-COSMIC-SEED"; break;
-     	case "105":	$translation = "RED-MAGNETIC-SERPENT"; break;
-     	case "106":	$translation = "WHITE-LUNAR-WORLDBRIDGER"; break;
-     	case "107":	$translation = "BLUE-ELECTRIC-HAND"; break;
-     	case "108":	$translation = "YELLOW-SELF-EXISTING-STAR"; break;
-     	case "109":	$translation = "RED-OVERTONE-MOON"; break;
-     	case "110":	$translation = "WHITE-RHYTHMIC-DOG"; break;
-     	case "111":	$translation = "BLUE-RESONANT-MONKEY"; break;
-     	case "112":	$translation = "YELLOW-GALACTIC-HUMAN"; break;
-     	case "113":	$translation = "RED-SOLAR-SKYWALKER"; break;
-     	case "114":	$translation = "WHITE-PLANETARY-WIZARD"; break;
-     	case "115":	$translation = "BLUE-SPECTRAL-EAGLE"; break;
-     	case "116":	$translation = "YELLOW-CRYSTAL-WARRIOR"; break;
-     	case "117":	$translation = "RED-COSMIC-EARTH"; break;
-     	case "118":	$translation = "WHITE-MAGNETIC-MIRROR"; break;
-     	case "119":	$translation = "BLUE-LUNAR-STORM"; break;
-     	case "120":	$translation = "YELLOW-ELECTRIC-SUN"; break;
-     	case "121":	$translation = "RED-SELF-EXISTING-DRAGON"; break;
-     	case "122":	$translation = "WHITE-OVERTONE-WIND"; break;
-     	case "123":	$translation = "BLUE-RHYTHMIC-NIGHT"; break;
-     	case "124":	$translation = "YELLOW-RESONANT-SEED"; break;
-     	case "125":	$translation = "RED-GALACTIC-SERPENT"; break;
-     	case "126":	$translation = "WHITE-SOLAR-WORLDBRIDGER"; break;
-     	case "127":	$translation = "BLUE-PLANETARY-HAND"; break;
-     	case "128":	$translation = "YELLOW-SPECTRAL-STAR"; break;
-     	case "129":	$translation = "RED-CRYSTAL-MOON"; break;
-     	case "130":	$translation = "WHITE-COSMIC-DOG"; break;
-     	case "131":	$translation = "BLUE-MAGNETIC-MONKEY"; break;
-     	case "132":	$translation = "YELLOW-LUNAR-HUMAN"; break;
-     	case "133":	$translation = "RED-ELECTRIC-SKYWALKER"; break;
-     	case "134":	$translation = "WHITE-SELF-EXISTING-WIZARD"; break;
-     	case "135":	$translation = "BLUE-OVERTONE-EAGLE"; break;
-     	case "136":	$translation = "YELLOW-RHYTHMIC-WARRIOR"; break;
-     	case "137":	$translation = "RED-RESONANT-EARTH"; break;
-     	case "138":	$translation = "WHITE-GALACTIC-MIRROR"; break;
-     	case "139":	$translation = "BLUE-SOLAR-STORM"; break;
-     	case "140":	$translation = "YELLOW-PLANETARY-SUN"; break;
-     	case "141":	$translation = "RED-SPECTRAL-DRAGON"; break;
-     	case "142":	$translation = "WHITE-CRYSTAL-WIND"; break;
-     	case "143":	$translation = "BLUE-COSMIC-NIGHT"; break;
-     	case "144":	$translation = "YELLOW-MAGNETIC-SEED"; break;
-     	case "145":	$translation = "RED-LUNAR-SERPENT"; break;
-     	case "146":	$translation = "WHITE-ELECTRIC-WORLDBRIDGER"; break;
-     	case "147":	$translation = "BLUE-SELF-EXISTING-HAND"; break;
-     	case "148":	$translation = "YELLOW-OVERTONE-STAR"; break;
-     	case "149":	$translation = "RED-RHYTHMIC-MOON"; break;
-     	case "150":	$translation = "WHITE-RESONANT-DOG"; break;
-     	case "151":	$translation = "BLUE-GALACTIC-MONKEY"; break;
-     	case "152":	$translation = "YELLOW-SOLAR-HUMAN"; break;
-     	case "153":	$translation = "RED-PLANETARY-SKYWALKER"; break;
-     	case "154":	$translation = "WHITE-SPECTRAL-WIZARD"; break;
-     	case "155":	$translation = "BLUE-CRYSTAL-EAGLE"; break;
-     	case "156":	$translation = "YELLOW-COSMIC-WARRIOR"; break;
-     	case "157":	$translation = "RED-MAGNETIC-EARTH"; break;
-     	case "158":	$translation = "WHITE-LUNAR-MIRROR"; break;
-     	case "159":	$translation = "BLUE-ELECTRIC-STORM"; break;
-     	case "160":	$translation = "YELLOW-SELF-EXISTING-SUN"; break;
-     	case "161":	$translation = "RED-OVERTONE-DRAGON"; break;
-     	case "162":	$translation = "WHITE-RHYTHMIC-WIND"; break;
-     	case "163":	$translation = "BLUE-RESONANT-NIGHT"; break;
-     	case "164":	$translation = "YELLOW-GALACTIC-SEED"; break;
-     	case "165":	$translation = "RED-SOLAR-SERPENT"; break;
-     	case "166":	$translation = "WHITE-PLANETARY-WORLDBRIDGER"; break;
-     	case "167":	$translation = "BLUE-SPECTRAL-HAND"; break;
-     	case "168":	$translation = "YELLOW-CRYSTAL-STAR"; break;
-     	case "169":	$translation = "RED-COSMIC-MOON"; break;
-     	case "170":	$translation = "WHITE-MAGNETIC-DOG"; break;
-     	case "171":	$translation = "BLUE-LUNAR-MONKEY"; break;
-     	case "172":	$translation = "YELLOW-ELECTRIC-HUMAN"; break;
-     	case "173":	$translation = "RED-SELF-EXISTING-SKYWALKER"; break;
-     	case "174":	$translation = "WHITE-OVERTONE-WIZARD"; break;
-     	case "175":	$translation = "BLUE-RHYTHMIC-EAGLE"; break;
-     	case "176":	$translation = "YELLOW-RESONANT-WARRIOR"; break;
-     	case "177":	$translation = "RED-GALACTIC-EARTH"; break;
-     	case "178":	$translation = "WHITE-SOLAR-MIRROR"; break;
-     	case "179":	$translation = "BLUE-PLANETARY-STORM"; break;
-     	case "180":	$translation = "YELLOW-SPECTRAL-SUN"; break;
-     	case "181":	$translation = "RED-CRYSTAL-DRAGON"; break;
-     	case "182":	$translation = "WHITE-COSMIC-WIND"; break;
-     	case "183":	$translation = "BLUE-MAGNETIC-NIGHT"; break;
-     	case "184":	$translation = "YELLOW-LUNAR-SEED"; break;
-     	case "185":	$translation = "RED-ELECTRIC-SERPENT"; break;
-     	case "186":	$translation = "WHITE-SELF-EXISTING-WORLDBRIDGER"; break;
-     	case "187":	$translation = "BLUE-OVERTONE-HAND"; break;
-     	case "188":	$translation = "YELLOW-RHYTHMIC-STAR"; break;
-     	case "189":	$translation = "RED-RESONANT-MOON"; break;
-     	case "190":	$translation = "WHITE-GALACTIC-DOG"; break;
-     	case "191":	$translation = "BLUE-SOLAR-MONKEY"; break;
-     	case "192":	$translation = "YELLOW-PLANETARY-HUMAN"; break;
-     	case "193":	$translation = "RED-SPECTRAL-SKYWALKER"; break;
-     	case "194":	$translation = "WHITE-CRYSTAL-WIZARD"; break;
-     	case "195":	$translation = "BLUE-COSMIC-EAGLE"; break;
-     	case "196":	$translation = "YELLOW-MAGNETIC-WARRIOR"; break;
-     	case "197":	$translation = "RED-LUNAR-EARTH"; break;
-     	case "198":	$translation = "WHITE-ELECTRIC-MIRROR"; break;
-     	case "199":	$translation = "BLUE-SELF-EXISTING-STORM"; break;
-     	case "200":	$translation = "YELLOW-OVERTONE-SUN"; break;
-     	case "201":	$translation = "RED-RHYTHMIC-DRAGON"; break;
-     	case "202":	$translation = "WHITE-RESONANT-WIND"; break;
-     	case "203":	$translation = "BLUE-GALACTIC-NIGHT"; break;
-     	case "204":	$translation = "YELLOW-SOLAR-SEED"; break;
-     	case "205":	$translation = "RED-PLANETARY-SERPENT"; break;
-     	case "206":	$translation = "WHITE-SPECTRAL-WORLDBRIDGER"; break;
-     	case "207":	$translation = "BLUE-CRYSTAL-HAND"; break;
-     	case "208":	$translation = "YELLOW-COSMIC-STAR"; break;
-     	case "209":	$translation = "RED-MAGNETIC-MOON"; break;
-     	case "210":	$translation = "WHITE-LUNAR-DOG"; break;
-     	case "211":	$translation = "BLUE-ELECTRIC-MONKEY"; break;
-     	case "212":	$translation = "YELLOW-SELF-EXISTING-HUMAN"; break;
-     	case "213":	$translation = "RED-OVERTONE-SKYWALKER"; break;
-     	case "214":	$translation = "WHITE-RHYTHMIC-WIZARD"; break;
-     	case "215":	$translation = "BLUE-RESONANT-EAGLE"; break;
-     	case "216":	$translation = "YELLOW-GALACTIC-WARRIOR"; break;
-     	case "217":	$translation = "RED-SOLAR-EARTH"; break;
-     	case "218":	$translation = "WHITE-PLANETARY-MIRROR"; break;
-     	case "219":	$translation = "BLUE-SPECTRAL-STORM"; break;
-     	case "220":	$translation = "YELLOW-CRYSTAL-SUN"; break;
-     	case "221":	$translation = "RED-COSMIC-DRAGON"; break;
-     	case "222":	$translation = "WHITE-MAGNETIC-WIND"; break;
-     	case "223":	$translation = "BLUE-LUNAR-NIGHT"; break;
-     	case "224":	$translation = "YELLOW-ELECTRIC-SEED"; break;
-     	case "225":	$translation = "RED-SELF-EXISTING-SERPENT"; break;
-     	case "226":	$translation = "WHITE-OVERTONE-WORLDBRIDGER"; break;
-     	case "227":	$translation = "BLUE-RHYTHMIC-HAND"; break;
-     	case "228":	$translation = "YELLOW-RESONANT-STAR"; break;
-     	case "229":	$translation = "RED-GALACTIC-MOON"; break;
-     	case "230":	$translation = "WHITE-SOLAR-DOG"; break;
-     	case "231":	$translation = "BLUE-PLANETARY-MONKEY"; break;
-     	case "232":	$translation = "YELLOW-SPECTRAL-HUMAN"; break;
-     	case "233":	$translation = "RED-CRYSTAL-SKYWALKER"; break;
-     	case "234":	$translation = "WHITE-COSMIC-WIZARD"; break;
-     	case "235":	$translation = "BLUE-MAGNETIC-EAGLE"; break;
-     	case "236":	$translation = "YELLOW-LUNAR-WARRIOR"; break;
-     	case "237":	$translation = "RED-ELECTRIC-EARTH"; break;
-     	case "238":	$translation = "WHITE-SELF-EXISTING-MIRROR"; break;
-     	case "239":	$translation = "BLUE-OVERTONE-STORM"; break;
-     	case "240":	$translation = "YELLOW-RHYTHMIC-SUN"; break;
-     	case "241":	$translation = "RED-RESONANT-DRAGON"; break;
-     	case "242":	$translation = "WHITE-GALACTIC-WIND"; break;
-     	case "243":	$translation = "BLUE-SOLAR-NIGHT"; break;
-     	case "244":	$translation = "YELLOW-PLANETARY-SEED"; break;
-     	case "245":	$translation = "RED-SPECTRAL-SERPENT"; break;
-     	case "246":	$translation = "WHITE-CRYSTAL-WORLDBRIDGER"; break;
-     	case "247":	$translation = "BLUE-COSMIC-HAND"; break;
-     	case "248":	$translation = "YELLOW-MAGNETIC-STAR"; break;
-     	case "249":	$translation = "RED-LUNAR-MOON"; break;
-     	case "250":	$translation = "WHITE-ELECTRIC-DOG"; break;
-     	case "251":	$translation = "BLUE-SELF-EXISTING-MONKEY"; break;
-     	case "252":	$translation = "YELLOW-OVERTONE-HUMAN"; break;
-     	case "253":	$translation = "RED-RHYTHMIC-SKYWALKER"; break;
-     	case "254":	$translation = "WHITE-RESONANT-WIZARD"; break;
-     	case "255":	$translation = "BLUE-GALACTIC-EAGLE"; break;
-     	case "256":	$translation = "YELLOW-SOLAR-WARRIOR"; break;
-     	case "257":	$translation = "RED-PLANETARY-EARTH"; break;
-     	case "258":	$translation = "WHITE-SPECTRAL-MIRROR"; break;
-     	case "259":	$translation = "BLUE-CRYSTAL-STORM"; break;
-     	case "260":	$translation = "YELLOW-COSMIC-SUN"; break;
+     	case "1":	$trx = "RED-MAGNETIC-DRAGON"; break;
+     	case "2":	$trx = "WHITE-LUNAR-WIND"; break;
+     	case "3":	$trx = "BLUE-ELECTRIC-NIGHT"; break;
+     	case "4":	$trx = "YELLOW-SELF-EXISTING-SEED"; break;
+     	case "5":	$trx = "RED-OVERTONE-SERPENT"; break;
+     	case "6":	$trx = "WHITE-RHYTHMIC-WORLDBRIDGER"; break;
+     	case "7":	$trx = "BLUE-RESONANT-HAND"; break;
+     	case "8":	$trx = "YELLOW-GALACTIC-STAR"; break;
+     	case "9":	$trx = "RED-SOLAR-MOON"; break;
+     	case "10":	$trx = "WHITE-PLANETARY-DOG"; break;
+     	case "11":	$trx = "BLUE-SPECTRAL-MONKEY"; break;
+     	case "12":	$trx = "YELLOW-CRYSTAL-HUMAN"; break;
+     	case "13":	$trx = "RED-COSMIC-SKYWALKER"; break;
+     	case "14":	$trx = "WHITE-MAGNETIC-WIZARD"; break;
+     	case "15":	$trx = "BLUE-LUNAR-EAGLE"; break;
+     	case "16":	$trx = "YELLOW-ELECTRIC-WARRIOR"; break;
+     	case "17":	$trx = "RED-SELF-EXISTING-EARTH"; break;
+     	case "18":	$trx = "WHITE-OVERTONE-MIRROR"; break;
+     	case "19":	$trx = "BLUE-RHYTHMIC-STORM"; break;
+     	case "20":	$trx = "YELLOW-RESONANT-SUN"; break;
+     	case "21":	$trx = "RED-GALACTIC-DRAGON"; break;
+     	case "22":	$trx = "WHITE-SOLAR-WIND"; break;
+     	case "23":	$trx = "BLUE-PLANETARY-NIGHT"; break;
+     	case "24":	$trx = "YELLOW-SPECTRAL-SEED"; break;
+     	case "25":	$trx = "RED-CRYSTAL-SERPENT"; break;
+     	case "26":	$trx = "WHITE-COSMIC-WORLDBRIDGER"; break;
+     	case "27":	$trx = "BLUE-MAGNETIC-HAND"; break;
+     	case "28":	$trx = "YELLOW-LUNAR-STAR"; break;
+     	case "29":	$trx = "RED-ELECTRIC-MOON"; break;
+     	case "30":	$trx = "WHITE-SELF-EXISTING-DOG"; break;
+     	case "31":	$trx = "BLUE-OVERTONE-MONKEY"; break;
+     	case "32":	$trx = "YELLOW-RHYTHMIC-HUMAN"; break;
+     	case "33":	$trx = "RED-RESONANT-SKYWALKER"; break;
+     	case "34":	$trx = "WHITE-GALACTIC-WIZARD"; break;
+     	case "35":	$trx = "BLUE-SOLAR-EAGLE"; break;
+     	case "36":	$trx = "YELLOW-PLANETARY-WARRIOR"; break;
+     	case "37":	$trx = "RED-SPECTRAL-EARTH"; break;
+     	case "38":	$trx = "WHITE-CRYSTAL-MIRROR"; break;
+     	case "39":	$trx = "BLUE-COSMIC-STORM"; break;
+     	case "40":	$trx = "YELLOW-MAGNETIC-SUN"; break;
+     	case "41":	$trx = "RED-LUNAR-DRAGON"; break;
+     	case "42":	$trx = "WHITE-ELECTRIC-WIND"; break;
+     	case "43":	$trx = "BLUE-SELF-EXISTING-NIGHT"; break;
+     	case "44":	$trx = "YELLOW-OVERTONE-SEED"; break;
+     	case "45":	$trx = "RED-RHYTHMIC-SERPENT"; break;
+     	case "46":	$trx = "WHITE-RESONANT-WORLDBRIDGER"; break;
+     	case "47":	$trx = "BLUE-GALACTIC-HAND"; break;
+     	case "48":	$trx = "YELLOW-SOLAR-STAR"; break;
+     	case "49":	$trx = "RED-PLANETARY-MOON"; break;
+     	case "50":	$trx = "WHITE-SPECTRAL-DOG"; break;
+     	case "51":	$trx = "BLUE-CRYSTAL-MONKEY"; break;
+     	case "52":	$trx = "YELLOW-COSMIC-HUMAN"; break;
+     	case "53":	$trx = "RED-MAGNETIC-SKYWALKER"; break;
+     	case "54":	$trx = "WHITE-LUNAR-WIZARD"; break;
+     	case "55":	$trx = "BLUE-ELECTRIC-EAGLE"; break;
+     	case "56":	$trx = "YELLOW-SELF-EXISTING-WARRIOR"; break;
+     	case "57":	$trx = "RED-OVERTONE-EARTH"; break;
+     	case "58":	$trx = "WHITE-RHYTHMIC-MIRROR"; break;
+     	case "59":	$trx = "BLUE-RESONANT-STORM"; break;
+     	case "60":	$trx = "YELLOW-GALACTIC-SUN"; break;
+     	case "61":	$trx = "RED-SOLAR-DRAGON"; break;
+     	case "62":	$trx = "WHITE-PLANETARY-WIND"; break;
+     	case "63":	$trx = "BLUE-SPECTRAL-NIGHT"; break;
+     	case "64":	$trx = "YELLOW-CRYSTAL-SEED"; break;
+     	case "65":	$trx = "RED-COSMIC-SERPENT"; break;
+     	case "66":	$trx = "WHITE-MAGNETIC-WORLDBRIDGER"; break;
+     	case "67":	$trx = "BLUE-LUNAR-HAND"; break;
+     	case "68":	$trx = "YELLOW-ELECTRIC-STAR"; break;
+     	case "69":	$trx = "RED-SELF-EXISTING-MOON"; break;
+     	case "70":	$trx = "WHITE-OVERTONE-DOG"; break;
+     	case "71":	$trx = "BLUE-RHYTHMIC-MONKEY"; break;
+     	case "72":	$trx = "YELLOW-RESONANT-HUMAN"; break;
+     	case "73":	$trx = "RED-GALACTIC-SKYWALKER"; break;
+     	case "74":	$trx = "WHITE-SOLAR-WIZARD"; break;
+     	case "75":	$trx = "BLUE-PLANETARY-EAGLE"; break;
+     	case "76":	$trx = "YELLOW-SPECTRAL-WARRIOR"; break;
+     	case "77":	$trx = "RED-CRYSTAL-EARTH"; break;
+     	case "78":	$trx = "WHITE-COSMIC-MIRROR"; break;
+     	case "79":	$trx = "BLUE-MAGNETIC-STORM"; break;
+     	case "80":	$trx = "YELLOW-LUNAR-SUN"; break;
+     	case "81":	$trx = "RED-ELECTRIC-DRAGON"; break;
+     	case "82":	$trx = "WHITE-SELF-EXISTING-WIND"; break;
+     	case "83":	$trx = "BLUE-OVERTONE-NIGHT"; break;
+     	case "84":	$trx = "YELLOW-RHYTHMIC-SEED"; break;
+     	case "85":	$trx = "RED-RESONANT-SERPENT"; break;
+     	case "86":	$trx = "WHITE-GALACTIC-WORLDBRIDGER"; break;
+     	case "87":	$trx = "BLUE-SOLAR-HAND"; break;
+     	case "88":	$trx = "YELLOW-PLANETARY-STAR"; break;
+     	case "89":	$trx = "RED-SPECTRAL-MOON"; break;
+     	case "90":	$trx = "WHITE-CRYSTAL-DOG"; break;
+     	case "91":	$trx = "BLUE-COSMIC-MONKEY"; break;
+     	case "92":	$trx = "YELLOW-MAGNETIC-HUMAN"; break;
+     	case "93":	$trx = "RED-LUNAR-SKYWALKER"; break;
+     	case "94":	$trx = "WHITE-ELECTRIC-WIZARD"; break;
+     	case "95":	$trx = "BLUE-SELF-EXISTING-EAGLE"; break;
+     	case "96":	$trx = "YELLOW-OVERTONE-WARRIOR"; break;
+     	case "97":	$trx = "RED-RHYTHMIC-EARTH"; break;
+     	case "98":	$trx = "WHITE-RESONANT-MIRROR"; break;
+     	case "99":	$trx = "BLUE-GALACTIC-STORM"; break;
+     	case "100":	$trx = "YELLOW-SOLAR-SUN"; break;
+     	case "101":	$trx = "RED-PLANETARY-DRAGON"; break;
+     	case "102":	$trx = "WHITE-SPECTRAL-WIND"; break;
+     	case "103":	$trx = "BLUE-CRYSTAL-NIGHT"; break;
+     	case "104":	$trx = "YELLOW-COSMIC-SEED"; break;
+     	case "105":	$trx = "RED-MAGNETIC-SERPENT"; break;
+     	case "106":	$trx = "WHITE-LUNAR-WORLDBRIDGER"; break;
+     	case "107":	$trx = "BLUE-ELECTRIC-HAND"; break;
+     	case "108":	$trx = "YELLOW-SELF-EXISTING-STAR"; break;
+     	case "109":	$trx = "RED-OVERTONE-MOON"; break;
+     	case "110":	$trx = "WHITE-RHYTHMIC-DOG"; break;
+     	case "111":	$trx = "BLUE-RESONANT-MONKEY"; break;
+     	case "112":	$trx = "YELLOW-GALACTIC-HUMAN"; break;
+     	case "113":	$trx = "RED-SOLAR-SKYWALKER"; break;
+     	case "114":	$trx = "WHITE-PLANETARY-WIZARD"; break;
+     	case "115":	$trx = "BLUE-SPECTRAL-EAGLE"; break;
+     	case "116":	$trx = "YELLOW-CRYSTAL-WARRIOR"; break;
+     	case "117":	$trx = "RED-COSMIC-EARTH"; break;
+     	case "118":	$trx = "WHITE-MAGNETIC-MIRROR"; break;
+     	case "119":	$trx = "BLUE-LUNAR-STORM"; break;
+     	case "120":	$trx = "YELLOW-ELECTRIC-SUN"; break;
+     	case "121":	$trx = "RED-SELF-EXISTING-DRAGON"; break;
+     	case "122":	$trx = "WHITE-OVERTONE-WIND"; break;
+     	case "123":	$trx = "BLUE-RHYTHMIC-NIGHT"; break;
+     	case "124":	$trx = "YELLOW-RESONANT-SEED"; break;
+     	case "125":	$trx = "RED-GALACTIC-SERPENT"; break;
+     	case "126":	$trx = "WHITE-SOLAR-WORLDBRIDGER"; break;
+     	case "127":	$trx = "BLUE-PLANETARY-HAND"; break;
+     	case "128":	$trx = "YELLOW-SPECTRAL-STAR"; break;
+     	case "129":	$trx = "RED-CRYSTAL-MOON"; break;
+     	case "130":	$trx = "WHITE-COSMIC-DOG"; break;
+     	case "131":	$trx = "BLUE-MAGNETIC-MONKEY"; break;
+     	case "132":	$trx = "YELLOW-LUNAR-HUMAN"; break;
+     	case "133":	$trx = "RED-ELECTRIC-SKYWALKER"; break;
+     	case "134":	$trx = "WHITE-SELF-EXISTING-WIZARD"; break;
+     	case "135":	$trx = "BLUE-OVERTONE-EAGLE"; break;
+     	case "136":	$trx = "YELLOW-RHYTHMIC-WARRIOR"; break;
+     	case "137":	$trx = "RED-RESONANT-EARTH"; break;
+     	case "138":	$trx = "WHITE-GALACTIC-MIRROR"; break;
+     	case "139":	$trx = "BLUE-SOLAR-STORM"; break;
+     	case "140":	$trx = "YELLOW-PLANETARY-SUN"; break;
+     	case "141":	$trx = "RED-SPECTRAL-DRAGON"; break;
+     	case "142":	$trx = "WHITE-CRYSTAL-WIND"; break;
+     	case "143":	$trx = "BLUE-COSMIC-NIGHT"; break;
+     	case "144":	$trx = "YELLOW-MAGNETIC-SEED"; break;
+     	case "145":	$trx = "RED-LUNAR-SERPENT"; break;
+     	case "146":	$trx = "WHITE-ELECTRIC-WORLDBRIDGER"; break;
+     	case "147":	$trx = "BLUE-SELF-EXISTING-HAND"; break;
+     	case "148":	$trx = "YELLOW-OVERTONE-STAR"; break;
+     	case "149":	$trx = "RED-RHYTHMIC-MOON"; break;
+     	case "150":	$trx = "WHITE-RESONANT-DOG"; break;
+     	case "151":	$trx = "BLUE-GALACTIC-MONKEY"; break;
+     	case "152":	$trx = "YELLOW-SOLAR-HUMAN"; break;
+     	case "153":	$trx = "RED-PLANETARY-SKYWALKER"; break;
+     	case "154":	$trx = "WHITE-SPECTRAL-WIZARD"; break;
+     	case "155":	$trx = "BLUE-CRYSTAL-EAGLE"; break;
+     	case "156":	$trx = "YELLOW-COSMIC-WARRIOR"; break;
+     	case "157":	$trx = "RED-MAGNETIC-EARTH"; break;
+     	case "158":	$trx = "WHITE-LUNAR-MIRROR"; break;
+     	case "159":	$trx = "BLUE-ELECTRIC-STORM"; break;
+     	case "160":	$trx = "YELLOW-SELF-EXISTING-SUN"; break;
+     	case "161":	$trx = "RED-OVERTONE-DRAGON"; break;
+     	case "162":	$trx = "WHITE-RHYTHMIC-WIND"; break;
+     	case "163":	$trx = "BLUE-RESONANT-NIGHT"; break;
+     	case "164":	$trx = "YELLOW-GALACTIC-SEED"; break;
+     	case "165":	$trx = "RED-SOLAR-SERPENT"; break;
+     	case "166":	$trx = "WHITE-PLANETARY-WORLDBRIDGER"; break;
+     	case "167":	$trx = "BLUE-SPECTRAL-HAND"; break;
+     	case "168":	$trx = "YELLOW-CRYSTAL-STAR"; break;
+     	case "169":	$trx = "RED-COSMIC-MOON"; break;
+     	case "170":	$trx = "WHITE-MAGNETIC-DOG"; break;
+     	case "171":	$trx = "BLUE-LUNAR-MONKEY"; break;
+     	case "172":	$trx = "YELLOW-ELECTRIC-HUMAN"; break;
+     	case "173":	$trx = "RED-SELF-EXISTING-SKYWALKER"; break;
+     	case "174":	$trx = "WHITE-OVERTONE-WIZARD"; break;
+     	case "175":	$trx = "BLUE-RHYTHMIC-EAGLE"; break;
+     	case "176":	$trx = "YELLOW-RESONANT-WARRIOR"; break;
+     	case "177":	$trx = "RED-GALACTIC-EARTH"; break;
+     	case "178":	$trx = "WHITE-SOLAR-MIRROR"; break;
+     	case "179":	$trx = "BLUE-PLANETARY-STORM"; break;
+     	case "180":	$trx = "YELLOW-SPECTRAL-SUN"; break;
+     	case "181":	$trx = "RED-CRYSTAL-DRAGON"; break;
+     	case "182":	$trx = "WHITE-COSMIC-WIND"; break;
+     	case "183":	$trx = "BLUE-MAGNETIC-NIGHT"; break;
+     	case "184":	$trx = "YELLOW-LUNAR-SEED"; break;
+     	case "185":	$trx = "RED-ELECTRIC-SERPENT"; break;
+     	case "186":	$trx = "WHITE-SELF-EXISTING-WORLDBRIDGER"; break;
+     	case "187":	$trx = "BLUE-OVERTONE-HAND"; break;
+     	case "188":	$trx = "YELLOW-RHYTHMIC-STAR"; break;
+     	case "189":	$trx = "RED-RESONANT-MOON"; break;
+     	case "190":	$trx = "WHITE-GALACTIC-DOG"; break;
+     	case "191":	$trx = "BLUE-SOLAR-MONKEY"; break;
+     	case "192":	$trx = "YELLOW-PLANETARY-HUMAN"; break;
+     	case "193":	$trx = "RED-SPECTRAL-SKYWALKER"; break;
+     	case "194":	$trx = "WHITE-CRYSTAL-WIZARD"; break;
+     	case "195":	$trx = "BLUE-COSMIC-EAGLE"; break;
+     	case "196":	$trx = "YELLOW-MAGNETIC-WARRIOR"; break;
+     	case "197":	$trx = "RED-LUNAR-EARTH"; break;
+     	case "198":	$trx = "WHITE-ELECTRIC-MIRROR"; break;
+     	case "199":	$trx = "BLUE-SELF-EXISTING-STORM"; break;
+     	case "200":	$trx = "YELLOW-OVERTONE-SUN"; break;
+     	case "201":	$trx = "RED-RHYTHMIC-DRAGON"; break;
+     	case "202":	$trx = "WHITE-RESONANT-WIND"; break;
+     	case "203":	$trx = "BLUE-GALACTIC-NIGHT"; break;
+     	case "204":	$trx = "YELLOW-SOLAR-SEED"; break;
+     	case "205":	$trx = "RED-PLANETARY-SERPENT"; break;
+     	case "206":	$trx = "WHITE-SPECTRAL-WORLDBRIDGER"; break;
+     	case "207":	$trx = "BLUE-CRYSTAL-HAND"; break;
+     	case "208":	$trx = "YELLOW-COSMIC-STAR"; break;
+     	case "209":	$trx = "RED-MAGNETIC-MOON"; break;
+     	case "210":	$trx = "WHITE-LUNAR-DOG"; break;
+     	case "211":	$trx = "BLUE-ELECTRIC-MONKEY"; break;
+     	case "212":	$trx = "YELLOW-SELF-EXISTING-HUMAN"; break;
+     	case "213":	$trx = "RED-OVERTONE-SKYWALKER"; break;
+     	case "214":	$trx = "WHITE-RHYTHMIC-WIZARD"; break;
+     	case "215":	$trx = "BLUE-RESONANT-EAGLE"; break;
+     	case "216":	$trx = "YELLOW-GALACTIC-WARRIOR"; break;
+     	case "217":	$trx = "RED-SOLAR-EARTH"; break;
+     	case "218":	$trx = "WHITE-PLANETARY-MIRROR"; break;
+     	case "219":	$trx = "BLUE-SPECTRAL-STORM"; break;
+     	case "220":	$trx = "YELLOW-CRYSTAL-SUN"; break;
+     	case "221":	$trx = "RED-COSMIC-DRAGON"; break;
+     	case "222":	$trx = "WHITE-MAGNETIC-WIND"; break;
+     	case "223":	$trx = "BLUE-LUNAR-NIGHT"; break;
+     	case "224":	$trx = "YELLOW-ELECTRIC-SEED"; break;
+     	case "225":	$trx = "RED-SELF-EXISTING-SERPENT"; break;
+     	case "226":	$trx = "WHITE-OVERTONE-WORLDBRIDGER"; break;
+     	case "227":	$trx = "BLUE-RHYTHMIC-HAND"; break;
+     	case "228":	$trx = "YELLOW-RESONANT-STAR"; break;
+     	case "229":	$trx = "RED-GALACTIC-MOON"; break;
+     	case "230":	$trx = "WHITE-SOLAR-DOG"; break;
+     	case "231":	$trx = "BLUE-PLANETARY-MONKEY"; break;
+     	case "232":	$trx = "YELLOW-SPECTRAL-HUMAN"; break;
+     	case "233":	$trx = "RED-CRYSTAL-SKYWALKER"; break;
+     	case "234":	$trx = "WHITE-COSMIC-WIZARD"; break;
+     	case "235":	$trx = "BLUE-MAGNETIC-EAGLE"; break;
+     	case "236":	$trx = "YELLOW-LUNAR-WARRIOR"; break;
+     	case "237":	$trx = "RED-ELECTRIC-EARTH"; break;
+     	case "238":	$trx = "WHITE-SELF-EXISTING-MIRROR"; break;
+     	case "239":	$trx = "BLUE-OVERTONE-STORM"; break;
+     	case "240":	$trx = "YELLOW-RHYTHMIC-SUN"; break;
+     	case "241":	$trx = "RED-RESONANT-DRAGON"; break;
+     	case "242":	$trx = "WHITE-GALACTIC-WIND"; break;
+     	case "243":	$trx = "BLUE-SOLAR-NIGHT"; break;
+     	case "244":	$trx = "YELLOW-PLANETARY-SEED"; break;
+     	case "245":	$trx = "RED-SPECTRAL-SERPENT"; break;
+     	case "246":	$trx = "WHITE-CRYSTAL-WORLDBRIDGER"; break;
+     	case "247":	$trx = "BLUE-COSMIC-HAND"; break;
+     	case "248":	$trx = "YELLOW-MAGNETIC-STAR"; break;
+     	case "249":	$trx = "RED-LUNAR-MOON"; break;
+     	case "250":	$trx = "WHITE-ELECTRIC-DOG"; break;
+     	case "251":	$trx = "BLUE-SELF-EXISTING-MONKEY"; break;
+     	case "252":	$trx = "YELLOW-OVERTONE-HUMAN"; break;
+     	case "253":	$trx = "RED-RHYTHMIC-SKYWALKER"; break;
+     	case "254":	$trx = "WHITE-RESONANT-WIZARD"; break;
+     	case "255":	$trx = "BLUE-GALACTIC-EAGLE"; break;
+     	case "256":	$trx = "YELLOW-SOLAR-WARRIOR"; break;
+     	case "257":	$trx = "RED-PLANETARY-EARTH"; break;
+     	case "258":	$trx = "WHITE-SPECTRAL-MIRROR"; break;
+     	case "259":	$trx = "BLUE-CRYSTAL-STORM"; break;
+     	case "260":	$trx = "YELLOW-COSMIC-SUN"; break;
 	}
-	return $translation;
-}
-
-
-// Tone NAME to Tone Number
-function tmc_tone_num_to_name($tone_num){
-	switch ($tone_num){
-		case 1:  $tone_name = "Magnetic";		break;
-		case 2:  $tone_name = "Lunar";  		break;
-		case 3:  $tone_name = "Electric";  	break;
-		case 4:  $tone_name = "Self-Existing";	break;
-		case 5:  $tone_name = "Overtone";  	break;
-		case 6:  $tone_name = "Rhythmic";		break;
-		case 7:  $tone_name = "Resonant";		break;
-		case 8:  $tone_name = "Galactic";		break;
-		case 9:  $tone_name = "Solar";		break;
-		case 10: $tone_name = "Planetary";		break;
-		case 11: $tone_name = "Spectral";		break;
-		case 12: $tone_name = "Crystal";		break;
-		case 13: $tone_name = "Cosmic";		break;
-    }
-	return $tone_name;
+	return $trx;
 }
 
 // Get the first two dates for the official date notation
@@ -1091,7 +1007,11 @@ function tmc_ns_yr_nums($dcode_yr, $dcode_mo, $dcode_day){
 	}
 
 	if ($dcode_mo == 7){
-		if ($dcode_day < 26){
+
+		if ($dcode_day == 25){
+			$tmc_ns_first_cycle = ceil((($dcode_yr - $start_year)+2) / 52);
+			$tmc_ns_second_cycle = ceil(($dcode_yr - $start_year));
+		}elseif ($dcode_day < 26){
 			$tmc_ns_first_cycle = ceil((($dcode_yr - $start_year)+2) / 52);
 			$tmc_ns_second_cycle = ceil(($dcode_yr - $start_year)-1);
 		} else {
@@ -1110,6 +1030,91 @@ function tmc_ns_yr_nums($dcode_yr, $dcode_mo, $dcode_day){
 
 	return array($tmc_ns_first_cycle, $tmc_ns_second_cycle);
 }
+
+
+
+// The REVERSE DECODER:
+function tmc_kin_to_next_gb($start_kin_id){
+
+	// Get kin for today
+	$today_mysql_date = adodb_date("Y-n-j"); // For decoding
+	$today_kin = tmc_date_mysql_to_kin($today_mysql_date, "AD");
+
+	// Now that we have today's kin, we can do some math
+	$days_to_gb = ($start_kin_id - $today_kin);
+	if ($days_to_gb > 260){$days_to_gb = $days_to_gb - 260;}
+	if ($days_to_gb < 1){$days_to_gb = $days_to_gb + 260;}
+
+	// Convert this date to array
+	$today_date_array = explode("-", $today_mysql_date);
+	$dcode_yr  = 	$today_date_array[0];
+	$dcode_mo  = 	$today_date_array[1];
+	$dcode_day = 	$today_date_array[2];
+	
+	// Determine the date of the next GB
+	$next_gb_date_mysql = adodb_date('Y-n-j',adodb_mktime(0, 0, 0, $dcode_mo, $dcode_day+$days_to_gb, $dcode_yr));
+
+	// Return array
+	return array($next_gb_date_mysql, $days_to_gb);
+}
+
+
+
+
+// Here we have the kin number, now to get the mysql dates hmmm...
+function guiding_power($tone_num, $tribe_num){
+
+/*
+* GET equations for getting relationships to kin: 
+	- Guiding Power - 
+		* tone: 1, 6 or 11: 	My own power doubled (same kin)
+		* tone: 2,7 or 12: 	-2 tribes of same color ()
+		* tone: 3, 8 or 13: 	+1 tribe of same color ()
+		* tone: 4, 9:       	-1 tribe of same color ()
+		* tone: 5, 10:     	+2 tribes of same color ()
+
+	It's about what tribe it is
+	- Antipode (challenge) - To find the ANTIPODE, move 10 tribes forward or backward
+		- perfect antipode is same tone, but if not same tone, still analog (because of the tribe)
+	- Analog (support)  - To find the ANALOG -- your tribe plus analog adds up to 19 -- sum you and analog are 19 -- perfect one is (
+		- Same with, subtract or add 19 from tribe
+		- if tribe 11, plus adds up to 19
+	- Occult Power (hidden gift)
+		- 21, use if tribe 11, then 10 is Occult, because it adds up to 21
+
+*/
+	
+	if (($tone_num === "1")||($tone_num === "6")||($tone_num === "11")){
+		$guiding_power_tribe = $tribe_num;
+		} elseif (($tone_num === "2")||($tone_num === "7")||($tone_num === "12")){
+			$guiding_power_tribe = ($tribe_num - 8);
+			if ($guiding_power_tribe > 20){$guiding_power_tribe = ($guiding_power_tribe - 20);}
+		} elseif (($tone_num === "3")||($tone_num === "8")||($tone_num === "13")){
+			$guiding_power_tribe = ($tribe_num + 4);
+			if ($guiding_power_tribe > 20){$guiding_power_tribe = ($guiding_power_tribe - 20);}
+		} elseif (($tone_num === "4")||($tone_num === "9")){
+			$guiding_power_tribe = ($tribe_num - 4);
+			if ($guiding_power_tribe > 20){$guiding_power_tribe = ($guiding_power_tribe - 20);}
+		} elseif (($tone_num === "5")||($tone_num === "10")){
+			$guiding_power_tribe = ($tribe_num + 8);
+			if ($guiding_power_tribe > 20){$guiding_power_tribe = ($guiding_power_tribe - 20);}
+		}
+
+		if ($guiding_power_tribe === 0){$guiding_power_tribe = 20;}
+		if ($guiding_power_tribe < 0){($guiding_power_tribe = ($guiding_power_tribe + 20));}
+
+	return $guiding_power_tribe;
+}
+
+
+// get guiding power
+function tribe_to_analog($tribe_num){
+
+	// Return array
+	return $analog_tribe;
+}
+
+
 
 
 ?>

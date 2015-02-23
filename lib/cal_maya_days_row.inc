@@ -23,7 +23,7 @@ if ($what_is_today == $day_count){
 	$plasma_title = "title=\"$this_moon_name $maya_day_name\"";
 	echo "<td class=\"cal_row_med_norm\">\n";
 	echo "<div title=\"$day_count - $maya_day_name\" style=\"padding: 0px; line-height: 8px;\">";
-	echo "<a href=\"$ajax_info?height=150&width=200&day_num=$day_count&maya_day_name=$maya_day_name&purl=".plugins_url()."\" title=\"$maya_day_name\" class=\"thickbox\">";
+	echo "<a href=\"$ajax_info?height=150&amp;width=200&amp;day_num=$day_count&amp;maya_day_name=$maya_day_name&amp;purl=".plugins_url()."\" title=\"$maya_day_name\" class=\"thickbox\">";
 	echo "<img class=\"plasma_icons\" src=\"$plasmas_img_dir/$maya_day_name".".png\" alt=\"$maya_day_name\" width=24 height=24 style=\"padding-top: 1px;\" $plasma_title>";
 	echo "</a>";
 	echo "</div>";

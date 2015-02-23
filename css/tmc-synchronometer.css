@@ -11,18 +11,60 @@
      height: 18px;
 }
 
-#tm_synchronometer select {
-	font-size: 10px;
-	font-size: x-small;
+input.sync_button {
+
+	padding: 2px;
+
+}
+
+#tm_synchronometer input {
+	padding: 0px;
+	text-align: center;
+	font-size: small;
 }
 
 
-#tm_synchronometer input[type="text"] {
-     padding: 0px;
-     text-align: center;
-     height: 20px;
-     width: 30px;
+#tmc_calendar_plug_form input[type="text"] {
+height: inherit;
+padding: 0px;
+margin: 0px;
+text-align: center;
+font-size: initial;
+margin: 2px;
+height: initial;
+font-size: small;
 }
+
+#tmc_form_container input[type="submit"]:hover {
+	background-color: #0F0;
+	font-size: 12px;
+	line-height: initial;
+	text-align: center;
+	text-decoration: initial;
+	padding: 1px;
+	-webkit-appearance: initial;
+}
+
+
+#tmc_form_container input[type="submit"] {
+	background-color: darkgrey;
+	color: white;
+	font-size: 12px;
+	line-height: initial;
+	text-align: center;
+	text-decoration: initial;
+	padding: 1px;
+	-webkit-appearance: initial;
+}
+
+
+
+
+#tm_synchronometer input.thickbox:hover {
+	background-color: #0f0;
+}
+
+
 
 #tm_synchronometer a {
      display: inline;
@@ -43,27 +85,6 @@ a.tmc_ads:link, a.tmc_ads:visited, a.tmc_ads:hover, a.tmc_ads:active {
 }
 
 
-
-
-
-#morestuff {
-     background: none;
-     padding-top: 10px;
-     font-size: 10px;
-     float: right;
-     line-height: 12px;
-	font-weight: bold;
-}
-
-
-.tmc_ads {
-  font-size: 10px;
-  line-height: 12px;
-  margin-top: 12px;
-}
-
-
-
 .tmc_ads a:link, .tmc_ads a:visited, .tmc_ads a:hover, .tmc_ads a:active {
   display: inline;
   background: none;
@@ -72,32 +93,11 @@ a.tmc_ads:link, a.tmc_ads:visited, a.tmc_ads:hover, a.tmc_ads:active {
   text-decoration: none;
   font-size: 10px;
   font-weight: bold;
-//  border-bottom: 1px solid #CCC;
-//  border-top: 1px solid #ccc;
-
 }
-
-
-
-#tm_synchronometer select {
-	font-size: 10px;
-	font-size: x-small;
-}
-
-
-
-
-
-
 
 
 /* THICKBOX - add the close icon into your core. ======================================== */
 
-.TB_overlayBG {
-	background-color: #aaf;
-	filter:alpha(opacity=60);
-	opacity:.2;
-}
 
 div.close_window{
 	margin-top: -50px;
@@ -141,23 +141,34 @@ img.plasma_icons {
 	height: auto;
 }
 
-.tb-close-icon {
-     margin-top: 5px;
-}
 
 /* Calendar table definitions ======================================== */
 
 /* The whole thing is in a class, so we can customize any detail */
 
-#tm_synchronometer input {
-     padding: 0px;
-	text-align: center;
-	height: 20px;
+div.tmc_ads {
+
+	width: 100%;
+	float: none;
+	margin-top: 12px;
 }
 
-div.tmc_ads {
-	margin-top: 13px;
+div.tmc_ad_class {
+	text-align: right;
+	clear: both;
+
 }
+
+
+#oracle_div table {
+	width: 100%;
+}
+
+#oracle_div td {
+	align: center;
+	text-align: center;
+}
+
 
 #tm_synchronometer button.button_today {
 
@@ -171,11 +182,11 @@ div.tmc_ads {
      padding-left: 2px;
 	text-align: center;
 	vertical-align: middle;
-	font-size: 10px;
+	font-size: small;
 }
 
 #tm_synchronometer h4 {
-     font-size: 10px;
+     font-size: small;
      text-transform: capitalize;
      margin-top: 2px;
 	margin-bottom: 2px;
@@ -210,6 +221,28 @@ tr.plasma_row {
 img.plasm_img {
 	border: none;
 }
+
+
+
+
+div.orkin_tainer {
+	width: 100%;
+	margin: auto;
+	/* min-width: 140px; */
+	float: left;
+}
+
+
+div.otone_image {
+	width: 99%;
+}
+
+div.oseal_image {
+	width: 99%;
+}
+
+
+
 
 td.cal_row_dk_1 {
     border: 1px solid #ccc;
@@ -576,17 +609,246 @@ td.cal_row_lt_4 /* Black on Yellow */
 }
 
 
-.proper_date {
-	width: 180px;
+div.proper_date {
+	float: right;
+	overflow: visible;
 }
 
-.seal_image {
+
+div.seal_image {
 	float: left;
-	width: 70px;
+	width: 82px;
+	height: 82px;
 }
 
-#tm_synchronometer input.thickbox:hover {
-	background-color: #0f0;
+img.seal_img {
+	width: 82px;
+	height: 82px;
+}
+
+
+div.tone_image {
+	float: left;
+	height: 82px;
+}
+
+table#plasma_table {
+	margin: auto;
+	width: 100%;
+}
+
+#tmc_form_container input {
+padding: 0px;
+text-align: center;
+font-size: small;
+}
+
+
+div.color_tone_tribe {
+	float: none;
+	clear: both;
+	text-align: center;
+	white-space: nowrap;
+	padding-top: 6px;
+}
+
+table#decode_table {
+	margin-bottom: 0px;
+}
+
+table#tmc_calendar_plug_form {
+
+	margin-bottom: 20px;
+
+}
+
+div.kinfo_tainer {
+	font-size: 120%;
+	margin-top: 20px;
+	margin-left: auto;
+	margin: auto;
+	clear: both;
+}
+
+
+
+div.kin_tainer {
+	width: 20%;
+	margin: auto;
+	float: none;
+	overflow: hidden;
+	clear: both;
+}
+
+
+
+img.tone_img {
+	max-width: inherit;
+	max-height: 80px;
+}
+
+#TB_ajaxContent {
+	clear: both;
+	padding: 2px 15px 15px 15px;
+	overflow: auto;
+	text-align: left;
+	line-height: 1.4em;
+	margin-left: auto;
+}
+
+div.tone_image {
+	float: left;
+	max-width: 53px;
+	margin-top: 0px;
+	max-height: 100px;
+}
+
+div.portal_container {
+	width: 29%;
+	float: left;
+	max-width: 200px;
+	min-width: 90px;
+	margin-top: 0px;
+}
+
+div.ssp_ext_link {
+	float: left; 
+	text-align: left; 
+	margin-top: 13px;
+}
+
+
+div.portal_affirm {
+	font-size: 80%;
+	float: left;
+	max-width: 55px;
+	padding-left: 4px;
+	line-height: 12px;
+	margin-top: 8px;
+
+}
+
+div.portal_image_div {
+	float: left;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+
+
+#portal_image_id img {
+
+	margin-top: 10px;
+	height: 62px;
+	width: 30px;
+
+}
+
+
+.wave_container {
+	/* float: left; */
+	width: 89%;
+	/* margin-top: 20px; */
+	/* margin-left: auto; */
+	margin: auto;
+	min-width: 120px;
+}
+div.kin_affirm {
+	float: left;
+	clear: both;
+	text-align: center;
+	margin-top: 20px;
+	width: 100%;
+}
+
+
+
+.castle_class {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	clear: both;
+	padding-top: 20px;
+}
+
+div.kin_num_container_div {
+	width: 10%;
+	min-width: 90px;
+	margin: auto;
+	white-space: nowrap;
+}
+
+div.kin_num {
+	float: none;
+}
+
+div.kin_word {
+	float: left;
+	margin-right: 10px;
+}
+
+.wave_spl {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	clear: both;
+}
+
+
+div.moon_group {
+	clear: both;
+	width: 30%;
+	margin: auto;
+	min-width: 150px;
+	padding-top: 20px;
+	float: none;
+}
+
+
+div.moon_img {
+	float: left;
+}
+
+div.moon_info {
+float: left;
+max-width: 80px;
+margin-left: 10px;
+}
+
+#tmc_form_container td {
+padding-top: 2px;
+padding-bottom: 2px;
+padding-right: 2px;
+padding-left: 2px;
+text-align: center;
+vertical-align: middle;
+font-size: 10px;
+}
+
+.nice_date {
+	font-size: small;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+div#tm_kinfo {
+	min-height: 80px;
+}
+
+
+div.ssp_ext_link {
+	padding-top: 10px;
+	margin-top: 20px;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	clear: both;
+	float: none;
+}
+
+#tmc_form_container td {
+	padding: 0 0 0 0;
 }
 
 input#super-tony-tmc-high {
@@ -597,21 +859,185 @@ input#super-tony-tmc-low {
 	background-color: #aaa;
 }
 
-#tm_synchronometer input.thickbox:hover {
-/*  background-color:#AAF;  */
- }
 
-td.cal_row_med_1, td.cal_row_med_2, td.cal_row_med_3, td.cal_row_med_4  {
+
+
+/* here's some css for the main calendar on Day out of Time */
+
+
+
+div#doot_div_id {
+	width: 100%;
+	margin: auto;
+	float: none;
+	overflow: hidden;
 }
 
-td.cal_row_med_1:hover, td.cal_row_med_2:hover, td.cal_row_med_3:hover, td.cal_row_med_4:hover {
+img#doot_div_id {
 
-/*
-	opacity: 0.7;
-	background-color: black;  
-*/
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
 
 }
+
+div.doot_txt {
+	text-align: center;
+	/* float: left; */
+	/* width: 30%; */
+	font-size: small;
+	/* height: 50%; */
+	/* margin: auto; */
+	margin-left: 60%;
+	margin-top: 5%;
+}
+
+div.doot_img {
+	width: 60%;
+	float: left;
+}
+
+div.kin_content_toggle_div{
+	cursor: pointer; 
+	cursor: hand;
+
+}
+
+div.oracle_content_toggle_div {
+	cursor: -webkit-zoom-in;
+	cursor: hand;
+}
+
+
+div#tm_oracle {
+	min-height: 80px;
+	overflow: hidden;
+	clear: both;
+	display: block;
+}
+
+
+
+div.oracle_header_txt {
+	margin-top: 20px;
+	margin-left: auto;
+	margin: auto;
+	clear: both;
+	float: none;
+	width: 30%;
+	text-align: center;
+	text-shadow: 3px 6px 6px rgba(192, 105, 247, 0.88);
+	font-size: x-large;
+	min-width: 200px;
+}
+
+i.doot_itext {
+	text-shadow: 3px 6px 6px rgba(192, 105, 247, 0.88);
+	font-size: medium;
+}
+
+table#cal_grid {
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+table#decode_table {
+	width: 100%;
+}
+
+div.oracle_word {
+	font-size: x-small;
+}
+
+div.timewatch_tainer {
+
+}
+
+div.ws_tone_img {
+	margin-bottom: -5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+1.0 - Global Styles
+2.0 - Responsive media queries (mobile styles)
+	2.1 - MAXIMUM width of 720 pixels (phones landscape)
+	2.2 - MAXIMUM width of 380 pixels (phones portrait)
+	2.3 - MINIMUM width of 721 pixels (tablets+)
+	2.4 - MINIMUM width of 1040 pixels (desktops and laptops)
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1.0 - Global Styles
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+2.0 - Responsive media queries (mobile styles)
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+2.1 - MAXIMUM width of 720 pixels (phones landscape)
+--------------------------------------------------------------*/
+@media screen and (max-width: 720px) {
+
+
+	div#tmc_form_container {
+		margin: auto;
+	}
+
+
+
+}/* don't delete this closing bracket */
+
+
+/*--------------------------------------------------------------
+2.2 - MAXIMUM width of 380 pixels (phones portrait)
+--------------------------------------------------------------*/
+@media screen and (max-width: 380px) {
+
+
+
+}/* don't delete this closing bracket */
+
+
+/*--------------------------------------------------------------
+2.3 - MINIMUM width of 721 pixels (tablets+)
+--------------------------------------------------------------*/
+@media screen and (min-width: 721px)  {
+
+
+}/* don't delete this closing bracket */
+
+
+/*--------------------------------------------------------------
+2.4 - MINIMUM width of 1040 pixels (desktops and laptops)
+--------------------------------------------------------------*/
+@media screen and (min-width: 1040px)  {
+
+	#tmc_form_container input {
+		padding: 0px;
+		text-align: center;
+		font-size: small;
+	}
+
+	div#tmc_form_container {
+		max-width: 300px;
+		margin: auto;
+	}
+
+}/* don't delete this closing bracket */
 
 
 /* END Calendar classes ======================================== */

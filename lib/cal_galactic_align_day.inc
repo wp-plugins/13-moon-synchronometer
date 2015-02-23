@@ -6,8 +6,10 @@ $this_nice_date = adodb_date("D M j, Y", $this_date_adodb_timestamp);
 
 // Insert Text from astrodreamadvisor.com (Ariel Reading)
 
+echo "<div class=\"day_out_tm_contain\">\n";
+
 echo "<div style=\"float: left; text-align: left; margin-top: 13px;\">";
-echo "$this_nice_date is <b>0.0.Hunab ku</b></p>";
+echo "$this_nice_date is <b>0.0.Hunab ku</b>";
 // Display the text reading
 echo "</div>";
 
@@ -20,7 +22,9 @@ echo "Galactic Alignment Day and the Day Out Of Time, the day prior to the 13-Mo
 echo "</div>";
 
 echo "<div style=\"float: left; text-align: left; margin-top: 13px;\">";
-echo "The 13-Moon Solar Cycle begins with July 26th and ends with July 24, only 364 days.  The 365th day <b>The Day Out of Time</b>, giving the calendar 365 days per year.</p>";
+echo "The 13-Moon Solar Cycle begins with July 26th and ends with July 24, only 364 days.  The 365th day <b>The Day Out of Time</b>, giving the calendar 365 days per year.";
+echo "</div>";
+
 echo "</div>";
 
 ?>

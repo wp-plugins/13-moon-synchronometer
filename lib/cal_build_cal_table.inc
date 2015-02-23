@@ -28,11 +28,11 @@ $matched = "NO";
 include(dirname(__FILE__).'/cal_setup_month_arrays.inc');
 
 // Get Moon Name, begin day num, end day num
-$this_moon_name = tmc_tone_num_to_name($this_moon_num);
+// $this_moon_name = tmc_tone_num_to_name($this_moon_num);
 
 // Create cal_display  -----------------------------------------------------------
 
-$cal_display = "<table width=\"100%\" id=\"cal_grid\";\">\n";
+$cal_display = "<table id=\"cal_grid\">\n";
 $cal_display .= "<tr>\n";
 
 // Get all the days
@@ -54,17 +54,23 @@ foreach ($array_moons_dates[$this_moon_num] as $moon_date_item){
 
 // Check to see if this day is LEAP DAY
 	$leap_day_info = "";
+	
+	
      $this_mysql_date_pieces = explode("-", $this_mysql_date);
      if (($this_mysql_date_pieces[1] == 3)&&($this_mysql_date_pieces[2] == 1)){
      	$prior_yr  = $this_mysql_date_pieces[0];
      	$prior_mysql_date_ckld = $this_mysql_date_pieces[0]."-02-29";
-     	if (ms_date_is_leapday($prior_mysql_date_ckld)){
+	if (ms_date_is_leapday($prior_mysql_date_ckld) === "TRUE"){
 	// Adjust back one kin for leap day -- we're going to skip right over it.
  	        	$day_count++;
 	// This is leap day, we make a special Linke to a Popup for it
 //			$leap_day_info = "<a href=\"$ajax_info?height=250&width=400&date=$prior_mysql_date_ckld&purl=".plugins_url()."\" title=\"$prior_mysql_date_ckld is Leap Day\" class=\"thickbox\">LEAP</a><br>";
 
 			$leap_day_info = "<a href=\"$ajax_info?&date=$prior_mysql_date_ckld&purl=".plugins_url()."\" title=\"$prior_mysql_date_ckld is Leap Day\" class=\"thickbox\">LEAP</a><br>";
+			
+			// For testing
+//			$leap_day_info  .= "$this_mysql_date_pieces[0] $this_mysql_date_pieces[1] $this_mysql_date_pieces[2]";
+
 
      	}
      } // End if it's leap day
@@ -120,13 +126,9 @@ $style_for_hilite_day = "";
 // This is the day requested... highlight it, and get info from db
 	if ($this_day_kin_num === $hilite_kin_num){
 		$cal_class = "hlt";
-
 		$color_for_hilite_day = get_option('curr_day_hilite_color');
 		$style_for_hilite_day = " style=\"background-color: #".$color_for_hilite_day.";\"";
-
 		$this_date_tm_day = $day_count;
-
-		
 		$button_class = "button_today";
 		$hightlight_plasma_today = $day_count;
 	} else {
@@ -140,8 +142,14 @@ $style_for_hilite_day = "";
 // or this
 // font-weight: bold;
 
-// Make a title for the button // $this_moon_name $day_of_mo_num kin $this_day_kin_num 
-	$button_title = "title=\"$this_nice_translated_date\"";
+// Make a title for the button // 
+//	$button_title = 'title="'.$this_nice_translated_date.'-date"';
+
+if (strlen($this_nice_translated_date) < 10) {
+	$this_nice_translated_date = $this_nice_date;
+}
+
+	$button_title = 'title="'.$this_nice_translated_date.'"';
 
 // Do we have any posts on this day?
 
@@ -151,29 +159,24 @@ $style_for_hilite_day = "";
 // Set max number of posts to show per day
 	$show_num_posts = get_option('show_num_posts');
 	if ($show_num_posts == ""){$show_num_posts = 5;}
-     
-     // Do we have a listing of POSTS?
-     // Loop through posts
+	// Do we have a listing of POSTS?
 	$rurl_enc_posts_del =  "";
-     if (count($thisday_posts_array) > 0) {
+	if (count($thisday_posts_array) > 0) {
 		$countr = 0;
-          foreach ($thisday_posts_array as $thisday_post_item){
-
-			if ($countr >= $show_num_posts){
-				break;
-			}
-
-          	$this_id 			= $thisday_post_item->ID;
-          	$this_title 		= $thisday_post_item->post_title;
-          	$this_date 		= $thisday_post_item->post_date;
-          	$this_url 		= $thisday_post_item->guid;
-          	$this_p_auth_nm 	= $thisday_post_item->guid;
+		foreach ($thisday_posts_array as $thisday_post_item){
+	      		if ($countr >= $show_num_posts){
+	      			break;
+	      		}
+	          	$this_id 		= $thisday_post_item->ID;
+	          	$this_title 		= $thisday_post_item->post_title;
+	          	$this_date 		= $thisday_post_item->post_date;
+	          	$this_url 		= $thisday_post_item->guid;
+	          	$this_p_auth_nm 	= $thisday_post_item->guid;
 			$posts_del		= "$this_url|$this_title|";
-          	$rurl_enc_posts_del .= rawurlencode("$posts_del");
-
+	          	$rurl_enc_posts_del .= rawurlencode("$posts_del");
 			$countr++;
-          }
-     }
+	          }
+	}
 
 
      // Use 2 functions to get the correct 13moon date
@@ -189,44 +192,55 @@ $style_for_hilite_day = "";
      // Create the proper 13-moon date display
      $this_tm_date_proper = "NS".$tmc_ns_first_cycle.".".$tmc_ns_second_cycle.".".$this_moon_num.".".$day_count;
 
-
-
-
-// We're going to build a variable that is the URL that's passed to the ajax jquery program (currently ThickBox, which doesn't allow a POST)
+// We build a variable that is the URL that's passed to the ajax jquery program (currently ThickBox, which doesn't allow a POST)
 	$ajax_link = $ajax_info;
 	$ajax_link .= "?height=300";
-	$ajax_link .= "&width=280";
-	$ajax_link .= "&date=$this_mysql_date";
+	$ajax_link .= "&width=300";
+	$ajax_link .= "&date=".$this_mysql_date;
 	$ajax_link .= "&purl=".plugins_url();
-	$ajax_link .= "&ucd_locale=$ucd_locale";
+	$ajax_link .= "&ucd_locale=".$ucd_locale;
 	$ajax_link .= "&show_famous_events=".get_option('show_famous_events');
-	$ajax_link .= "&rurl_enc_posts_del=$rurl_enc_posts_del";
-	$ajax_link .= "&tm_date_proper=$this_tm_date_proper";
+	$ajax_link .= "&rurl_enc_posts_del=".$rurl_enc_posts_del;
+	$ajax_link .= "&tm_date_proper=".$this_tm_date_proper;
+	
+
 
 // Get user settings
      $day_with_posts_highlight_border_color = get_option('day_with_posts_highlight_border_color');
 
 // Set defaults
 	if ($day_with_posts_highlight_border_color != ""){} else {
-		$day_with_posts_highlight_border_color = "00f";
+		$day_with_posts_highlight_border_color = "f4f";
 	}
-
 
 // Color the cell with more than zero posts
 	if (count($thisday_posts_array) > 0) {
-//		$day_button_style = "background-color: #".$day_with_posts_highlight_border_color.";";
-
-		$day_button_style = "super-tony-tmc-high";
-
+		$day_button_style = 'color: #'.$day_with_posts_highlight_border_color.'; border-color: #'.$day_with_posts_highlight_border_color.'; font-weight: bold; border-width: 2px;';
 	} else {
-		$day_button_style = "super-tony-tmc-lo";
+		$day_button_style = "";
 	}
+
+// tm_date_proper=NS1.27.8.11title=" "="" class="thickbox" type="button" value="11" style="\&quot;color:" #f4f;="" border-color:="" font-weight:="" bold;="" border-width:="" 2px;"="">
 
 // Create cell to hold this day
 	$cal_display .= "<td class=\"cal_row_med_$cal_class\" $style_for_hilite_day>\n";
 	$cal_display .= "$leap_day_info";
-	$cal_display .= "<input alt=\"$ajax_link\" $button_title class=\"thickbox\" type=\"button\" value=\"$day_count\" class=\"ui-state-default ui-corner-all $button_class\" id=\"$day_button_style\">";
-	$cal_display .= "</td>\n";
+
+	// Encode for HTML -- WE NEED TO REPLACE THE & WITH SOMETHING NEW
+//	$ajax_link = htmlentities($ajax_link);
+//	$ajax_link  = str_replace ('&', '&amp;', $ajax_link);
+
+	$cal_display .= '<input alt="';
+	$cal_display .= $ajax_link;
+	$cal_display .= '" ';
+	$cal_display .= $button_title;
+	$cal_display .= ' class="thickbox" type="button" value="';
+	$cal_display .= $day_count;
+	$cal_display .= '" style="';
+	$cal_display .= $day_button_style;
+	$cal_display .= '">';
+
+
 
 // Let's get the date
      $this_day_year = $this_mysql_date_pieces[0];

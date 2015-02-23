@@ -50,12 +50,10 @@ echo "</table>\n";
 
 <hr>
 
-</P>
-
 <form method="post" action="options.php">
     <?php settings_fields( 'tmc-settings-group' ); ?>
 
-    <table class="form-table" width="100%">
+    <table class="form-table">
 
 	   <tr>
 	   <th scope="row" style="width: 400px;"><b>Decoder Table Background Color:</b>
@@ -89,9 +87,9 @@ echo "</table>\n";
 	   </tr>
 
 	   <tr>
-	   <th scope="row"><b>Day With Posts Cell Color</b></th>
+	   <th scope="row"><b>Day With Posts Button Text and Border Color</b></th>
 	   <td valign=top>
-<input size=8 maxlength=6 type="text" name="day_with_posts_highlight_border_color" value="<?php echo get_option('day_with_posts_highlight_border_color'); ?>" />hex (Default is 00f)
+<input size=8 maxlength=6 type="text" name="day_with_posts_highlight_border_color" value="<?php echo get_option('day_with_posts_highlight_border_color'); ?>" />hex (Default is f4f)
 		</td>
 	   </tr>
 
@@ -104,7 +102,7 @@ echo "</table>\n";
 
 
 		<?php $show_famous_events = get_option('show_famous_events'); ?>
-		<?php if ($show_famous_events != "NO"){$show_famous_events = "YES";} ?>
+		<?php if ($show_famous_events !== "YES"){$show_famous_events = "NO";} ?>
 
 	   <tr>
 	   <th scope="row"><b>Show Famous Events Link</b></th>
@@ -135,7 +133,6 @@ echo "</table>\n";
 
 </form>
 
-<P>
 <hr>
 <h2>What do you want in this plugin?</h2>
 We're wondering what OTHER settings or FEATURES you might like.

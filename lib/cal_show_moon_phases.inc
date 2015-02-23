@@ -24,15 +24,18 @@ if ($moon_img !== ""){
 
 // Display ON or OFF
 
-	echo "<br clear=both>";
-	echo "<div style=\"float: left; text-align: center;\">";
+
+	echo "<div class=\"moon_group\" id=\"moon_group_id\">";
+
+	echo "<div class=\"moon_img\">";
 	echo "$moon_img";
 	echo "</div>\n";
 
-	echo "<div style=\"float: left; text-align: center; margin-top: 6px;\">";
+	echo "<div class=\"moon_info\">";
 	echo "$moon_status"."%"."<br>$moon_name";
 	echo "</div>\n";
 
+	echo "</div>\n";
 }
 
 ?>
