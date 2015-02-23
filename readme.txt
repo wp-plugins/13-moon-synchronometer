@@ -1,5 +1,6 @@
 ﻿=== 13-Moon Synchronometer === 
-Contributors: tonyray, abmaya
+Contributors: tonyray, 
+
 Author URI: http://anthonyfogleman.com/
 Donate link: http://anthonyfogleman.com/blog/donations/
 Tags: 13-moon, natural-time, dreamspell, calendar, tzolkin, maya, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, natural-time
