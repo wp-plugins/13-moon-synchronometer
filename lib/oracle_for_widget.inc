@@ -134,7 +134,6 @@ if (isset($this_instance_settings['display_onload'])) {
 	if ($display_onload === "on") {$start_display = 'block';} else {$start_display = 'none';}
 } else {$start_display = 'none';}
 
-
 // Wrap the whole thing in a disappearing div
 $ocx .= "<div class=\"toggled_oracle_content\" style=\"display: $start_display; clear: both;\">";
 
@@ -142,13 +141,6 @@ $ocx .= "<div class=\"toggled_oracle_content\" style=\"display: $start_display; 
 $ocx .= '<div class="oracle_header_txt">';
 $ocx .= 'Oracle of Destiny';
 $ocx .= '</div>';
-
-// Optional text for popup info box
-$GP_Text = "Guiding Power is an overseeing and directing energy providing <br>protection, clarity and guidance.  Your Guiding Power is the same color<br> with your sign and you share similar energy.  <br><br>Your perfect gude is the same tone as you.";
-$AP_Text = "Antipode is a challenge power which counterbalances and strengthens<br> (as in DNA reconstruction).  Your Challenge or Antipode is your mirror<br> to your inner world.<br>They can serve as teachers who remind us to make good choices.<BR><BR>If they are the same tone, they are your perfect antipode.";
-$AL_Text = "Analog is a supportive, nurturing and like-minded power.  Planetary<br> partners.  People of this tribe are allies.  If they are the same tone,<br> they are your perfect analog.";
-$OC_Text = "Occult Power is your hidden gift.  They are good teachers.<br>Their energy is opposite yet complementing in a mysterious way.<br>Trust is the key.  <br><br>Your perfect occult is found when the two kin numbers equal 261.";
-$TK_Text = "Click here to see passengers in the $Tribe tribe.";
 
 // Show Kin Number and Text
 $ocx .= "<div class=\"kinfo_tainer\">";
