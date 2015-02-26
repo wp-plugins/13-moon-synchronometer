@@ -113,9 +113,6 @@ div.close_window{
 	padding: 0 4px !important;
 }
 
-#TB_window a:hover {
-//	background: silver;
-}
 
 /* Message Popup CSS ======================================== */
 
@@ -165,7 +162,6 @@ div.tmc_ad_class {
 }
 
 #oracle_div td {
-	align: center;
 	text-align: center;
 }
 
@@ -199,9 +195,7 @@ div.tmc_ad_class {
 
 #tm_synchronometer td.cal_row_med_norm {
      padding-top: 2px;
- //    padding-right: 2px;
      padding-bottom: 2px;
-//     padding-left: 2px;
      text-align: center;
 }
 
@@ -265,20 +259,20 @@ table.tmc_table_tight {
 }
 
 table.tmc_hdr_table_tight {
-	margin: none;
+	margin: 0 0 0 0;
 }
 
 td.cal_header_td {
 	padding: 2px 2px;
-	margin: none;
+	margin: 0 0 0 0;
 }
 
 td.cal_cell_1 {
-	margin: none;
+	margin: 0 0 0 0;
 }
 
 .content table tr td {
-     padding: none;
+     padding: 0 0 0 0;
      width: auto;
      text-align: center;
      border: 1px solid #CCC;
@@ -287,7 +281,7 @@ td.cal_cell_1 {
 
 
 .content table tr td {
-     padding: none;
+     padding: 0 0 0 0;
      width: auto;
      text-align: center;
      border: 1px solid #CCC;
@@ -379,7 +373,6 @@ td.cal_hdr{
 	font-size: 20px;
 	color: Yellow;
 	text-align: center;
-	font-stretch: wider;
 	font-style: italic;
 	font-weight: bold;
 }
@@ -877,7 +870,7 @@ img#doot_div_id {
 
 	max-width: 100%;
 	height: auto;
-	width: auto\9; /* ie8 */
+	width: auto;
 
 }
 
@@ -898,14 +891,11 @@ div.doot_img {
 }
 
 div.kin_content_toggle_div{
-	cursor: pointer; 
-	cursor: hand;
-
+	cursor: -webkit-zoom-in;
 }
 
 div.oracle_content_toggle_div {
 	cursor: -webkit-zoom-in;
-	cursor: hand;
 }
 
 
