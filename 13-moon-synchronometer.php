@@ -2,8 +2,8 @@
 /*
 Plugin Name: 13-Moon Synchronometer
 Plugin URI: http://anthonyfogleman.com/blog/13-moon-synchronometer-wp-plugin/
-Description: Natural Time harmonic measurement synchronizes with natural time. List kin, moon & posts. Widget for sidebar or use shortcode [thirteen-moon-calendar] in post or page. Works harmoniously with other Dreamspell plugins, changing each day and when date is decoded. Translations in English to Spanish and Dutch.
-Version: 2.0.9
+Description: Natural Time harmonic measurement and synchronizing tools include a decoder, 13 month grid, kin, wavespell, oracle, shows posts and affirmations in English, Spanish and Dutch.   Works harmoniously with other Dreamspell plugins, changing each day and when date is decoded. Use the widgets in your sidebars or shortcodes: [show-calendar] [show-kin] [show-oracle] [show-wavespell]
+Version: 2.1.0
 Author: Anthony R. Fogleman
 Author URI: http://anthonyfogleman.com
 License: GPLv2 or later

@@ -6,10 +6,6 @@
      font-size: 16px;
 }
 
-#cal_grid input{
-     width: 18px;
-     height: 18px;
-}
 
 input.sync_button {
 
@@ -113,6 +109,9 @@ div.close_window{
 	padding: 0 4px !important;
 }
 
+#TB_window a:hover {
+//	background: silver;
+}
 
 /* Message Popup CSS ======================================== */
 
@@ -162,6 +161,7 @@ div.tmc_ad_class {
 }
 
 #oracle_div td {
+	align: center;
 	text-align: center;
 }
 
@@ -170,6 +170,12 @@ div.tmc_ad_class {
 
 }
 
+#cal_grid input {
+	width: 22px;
+	height: 21px;
+	text-align: center;
+	font-weight: bold;
+}
 
 #tm_synchronometer td {
      padding-top: 2px;
@@ -195,7 +201,9 @@ div.tmc_ad_class {
 
 #tm_synchronometer td.cal_row_med_norm {
      padding-top: 2px;
+ //    padding-right: 2px;
      padding-bottom: 2px;
+//     padding-left: 2px;
      text-align: center;
 }
 
@@ -259,20 +267,20 @@ table.tmc_table_tight {
 }
 
 table.tmc_hdr_table_tight {
-	margin: 0 0 0 0;
+	margin: none;
 }
 
 td.cal_header_td {
 	padding: 2px 2px;
-	margin: 0 0 0 0;
+	margin: none;
 }
 
 td.cal_cell_1 {
-	margin: 0 0 0 0;
+	margin: none;
 }
 
 .content table tr td {
-     padding: 0 0 0 0;
+     padding: none;
      width: auto;
      text-align: center;
      border: 1px solid #CCC;
@@ -281,7 +289,7 @@ td.cal_cell_1 {
 
 
 .content table tr td {
-     padding: 0 0 0 0;
+     padding: none;
      width: auto;
      text-align: center;
      border: 1px solid #CCC;
@@ -373,6 +381,7 @@ td.cal_hdr{
 	font-size: 20px;
 	color: Yellow;
 	text-align: center;
+	font-stretch: wider;
 	font-style: italic;
 	font-weight: bold;
 }
@@ -870,7 +879,7 @@ img#doot_div_id {
 
 	max-width: 100%;
 	height: auto;
-	width: auto;
+	width: auto\9; /* ie8 */
 
 }
 
@@ -891,11 +900,14 @@ div.doot_img {
 }
 
 div.kin_content_toggle_div{
-	cursor: -webkit-zoom-in;
+	cursor: pointer; 
+	cursor: hand;
+
 }
 
 div.oracle_content_toggle_div {
 	cursor: -webkit-zoom-in;
+	cursor: hand;
 }
 
 
@@ -947,17 +959,35 @@ div.ws_tone_img {
 	margin-bottom: -5px;
 }
 
+.ws_seal_img {
+    max-width: 40px;
+}
 
 
+.ws_tone_img {
+    max-width: 40px;
+}
 
+div.oseal_image {
+	margin: auto;
+    width: 60px;
+}
 
+div.otone_kin_image {
+margin: auto;
+    width: 70px;
+    margin-bottom: -8px;
+}
 
+div.oseal_kin_image {
+margin: auto;
+    width: 70px;
+}
 
-
-
-
-
-
+#oracle_div table {
+    width: 100%;
+    float: left;
+}
 
 
 /*--------------------------------------------------------------

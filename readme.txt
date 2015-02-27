@@ -5,12 +5,12 @@ Donate link: http://anthonyfogleman.com/blog/donations/
 Tags: 13-moon, natural-time, dreamspell, calendar, tzolkin, maya, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, natural-time
 Requires at least: WP 3.2
 Tested up to: WP 4.1.1
-Stable tag: 2.0.9
+Stable tag: 2.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-Natural Time harmonic measurement synchronizes with natural time. List kin, moon & posts. Widget for sidebar or use shortcode [thirteen-moon-calendar] in post or page. Works harmoniously with other Dreamspell plugins, changing each day and when date is decoded. Translations in English to Spanish and Dutch.
+Natural Time harmonic measurement and synchronizing tools include a decoder, 13 month grid, kin, wavespell, oracle, shows posts and affirmations in English, Spanish and Dutch.   Works harmoniously with other Dreamspell plugins, changing each day and when date is decoded. Use the widgets in your sidebars or shortcodes: [show-calendar] [show-kin] [show-oracle] [show-wavespell]
 
 = Contributors Include =
 
@@ -30,6 +30,7 @@ Natural Time harmonic measurement synchronizes with natural time. List kin, moon
 == About the Series ==
 * There are three plugins that synchronize with each day and decoding.  This plugin is the third of a series developed to expand the use of Natural Time.
 * If you like this plugin, you might also like the [__uChing Decoder__](http://wordpress.org/plugins/u-ching-decoder/) and the [__Cosmic History Quotes__](http://wordpress.org/plugins/cosmic-history-quotes/).  Each one synchronizes with the other.
+* We're actively seeking translators to work on Russian, Chinese, and all other languages.  Our versions now include: English, Dutch and Spanish.
 
 = Help Keep Our Plugins Free =
 If you find this plugin useful, please [__make a donation__](http://anthonyfogleman.com/blog/donations/) to help contribute to further development of this and other interesting plugins for development of Natural Time and connections in peaceful ways.  Thanks! - [__Anthony Fogleman__](http://profiles.wordpress.org/tonyray/)
@@ -49,7 +50,7 @@ Blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
 
 = Once installed, how to make it work: =
 1. Got to Widgets, and put a 13-Moon Calendar widget into a sidebar 
-1. Optional: insert shortcode `[thirteen-moon-calendar]` into a post or page 
+1. Optional: insert shortcodes: `[show-calendar]` into a post or page 
 1. Settings are at `Dashboard -> Settings -> 13-Moon Settings` 
 
 == Frequently Asked Questions ==
@@ -64,6 +65,9 @@ Blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
 5. Options panel
 
 == Changelog ==
+
+= 2.1.0 - NS1.27.8.21 - 27.2.2015 =
+* Fixed: Oracle and Wavespell huge in Firefox
 
 = 2.0.9 - NS1.27.8.17 - 23.2.2015 =
 * Added widgets: Kin, Oracle, and Wavespell
@@ -108,6 +112,9 @@ Blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
 * First Release of 13-Moon Synchronometer - Limi Day 27 Self-Existing Moon 4 Kin 14 WHITE MAGNETIC WIZARD
 
 == Upgrade Notice ==
+
+= 2.1.0 =
+* Important upgrade to fix problems encountered only in Firefox
 
 = 2.0.9 =
 * Added so much, don't miss this upgrade!
