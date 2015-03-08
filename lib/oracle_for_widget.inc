@@ -51,13 +51,13 @@ $KN_Tone_Image = '<img src="'.$top_tones_img_dir.'/'.$tone_image.'" alt="This Ki
 $OC_Tone_Image = '<img src="'.$top_tones_img_dir.'/'.$tone_image.'.png" alt="This Kin Tone" title="This Kin Tone">';
 
 // TRIBES OR SEALS
-$KN_Tribe_Image = '<img src="'.$seals_img_dir.'/'.$seal_image.'" alt="This Kin Seal" title="This Kin Seal">';
-$GP_Tribe_Image = '<img src="'.$seals_img_dir.'/'.$Guid_pwr_tribe_num_for_img.'.png" alt="This Kin Seal" title="This Kin Seal">';
+$KN_Tribe_Image = '<img src="'.$seals_img_dir.'/'.$seal_image.'" alt="This Kin Seal" title="'.$KN_Tribe_Name.'" class="this_kin_class">';
+$GP_Tribe_Image = '<img src="'.$seals_img_dir.'/'.$Guid_pwr_tribe_num_for_img.'.png" alt="This Kin Seal" title="'.$GP_Tribe_Name.'">';
 $AP_Tribe_Image = '<img src="'.$seals_img_dir.'/'.$Antipode_tribe_num_for_img.'.png" alt="This Kin Seal" title="This Kin Seal">';
 $AL_Tribe_Image = '<img src="'.$seals_img_dir.'/'.$Analog_tribe_num_for_img.'.png" alt="This Kin Seal" title="This Kin Seal">';
 $OC_Tribe_Image = '<img src="'.$seals_img_dir.'/'.$Occult_tribe_num_for_img.'.png" alt="This Kin Seal" title="This Kin Seal">';
 
-$KN_PKG = '<div class="orkin_tainer">';
+$KN_PKG = '<div class="main_kin_tainer" id="main_kin">';
 $KN_PKG .= '<div class="otone_kin_image">'.$KN_Tone_Image.'</div>';
 $KN_PKG .= '<div class="oseal_kin_image">'.$KN_Tribe_Image.'</div>';
 $KN_PKG .= '<div class="oracle_word">'.$KN_Tribe_Name.'</div>';

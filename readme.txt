@@ -5,7 +5,7 @@ Donate link: http://anthonyfogleman.com/blog/donations/
 Tags: 13-moon, natural-time, dreamspell, calendar, tzolkin, maya, galactic, law-of-time, planet-art-network, space-station-plaza, jose-arguellas, natural-time
 Requires at least: WP 3.2
 Tested up to: WP 4.1.1
-Stable tag: 2.1.0
+Stable tag: 2.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -65,6 +65,10 @@ Blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
 5. Options panel
 
 == Changelog ==
+
+= 2.1.1 - NS1.27.9.2 - 08.3.2015 =
+* Added: Logic to decode date of post type: event
+* Improved CSS to appear better in sidebar
 
 = 2.1.0 - NS1.27.8.21 - 27.2.2015 =
 * Fixed: Oracle and Wavespell huge in Firefox
