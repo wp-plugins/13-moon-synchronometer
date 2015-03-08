@@ -117,6 +117,9 @@ Blessing to you and all our relations with... Aho mitakeoasin, in lak'ech, ahau!
 
 == Upgrade Notice ==
 
+= 2.1.1 =
+* Upgrade to fix problems with sidebar view images resizing problems and to sense post type: event
+
 = 2.1.0 =
 * Important upgrade to fix problems encountered only in Firefox
 
